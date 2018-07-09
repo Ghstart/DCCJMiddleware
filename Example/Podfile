@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DCCJMiddleware_Example' do
+  pod 'DCCJMiddleware', :path => '../'
+
+  target 'DCCJMiddleware_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
