@@ -22,7 +22,6 @@
 		80485F9B28C3326FB4D546986BBC3B7A /* DCCJUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16F886EEB22F13AF1B2775CE93F23A /* DCCJUser.swift */; };
 		8E9A62AC592D7A8F2C2A2E74355A1B04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14E7D06D02A44914BACC1CFC0ADFBF8 /* Foundation.framework */; };
 		931AEBE7409A032B9B329CD71C3C0A92 /* DCCJNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5D667F92B0A0CC63EAA24CCBFD4CC0 /* DCCJNetwork.framework */; };
-		947C57A42C0BBB2038BA3094676AEEE9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4EA0004DE3D3FE8EBF52F51073305 /* ReplaceMe.swift */; };
 		ACC1E1991A548F56E31F8E8F6A6BEFE7 /* DCCJNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7280CD05D1153C190A77047309E312BF /* DCCJNetwork-dummy.m */; };
 		AE6AB4C67FD3822DAFF21D7D33D485FF /* DCCJCashier-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 544B4512443D24656284F216540442B6 /* DCCJCashier-dummy.m */; };
 		B2B7F4D54BC7C3F8F7163FFF582B3FF2 /* DCCJMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38584939E4BDC330475EB6499816025 /* DCCJMiddleware.swift */; };
@@ -128,7 +127,6 @@
 		27AAE721D6F0098BC98D967DE6770977 /* DCCJMiddleware.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJMiddleware.xcconfig; sourceTree = "<group>"; };
 		29DBE64AE041D3FFE7D1A4C5CB4BA3BC /* Pods-DCCJMiddleware_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DCCJMiddleware_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		326A00D62969B12C275CE8C20DD4C71C /* DCCJNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35D4EA0004DE3D3FE8EBF52F51073305 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DCCJMiddleware/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		39E2800215187755438B09F50A65F177 /* DCCJUser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9E4B8F54B111DBB3180E76944794D0 /* DCCJNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJNetwork.swift; path = DCCJNetwork/Classes/DCCJNetwork.swift; sourceTree = "<group>"; };
 		3DACD9FD6DEAFC9B5E1C5C02116DE5CB /* Pods-DCCJMiddleware_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DCCJMiddleware_Example-resources.sh"; sourceTree = "<group>"; };
@@ -348,7 +346,6 @@
 			children = (
 				5B82D241B3FA6341E14915983E858E2D /* DCCJFactory.swift */,
 				B38584939E4BDC330475EB6499816025 /* DCCJMiddleware.swift */,
-				35D4EA0004DE3D3FE8EBF52F51073305 /* ReplaceMe.swift */,
 				3307EAE1599C43506B97861F71E4C49D /* Pod */,
 				B37E756FBF6874AE8D8FB4D46B6477EA /* Support Files */,
 			);
@@ -695,7 +692,6 @@
 				FEDF5BE969A543CCD2177B08DA4629E7 /* DCCJFactory.swift in Sources */,
 				BD9F9B9FBFC64E1F796406D2677E8F28 /* DCCJMiddleware-dummy.m in Sources */,
 				B2B7F4D54BC7C3F8F7163FFF582B3FF2 /* DCCJMiddleware.swift in Sources */,
-				947C57A42C0BBB2038BA3094676AEEE9 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

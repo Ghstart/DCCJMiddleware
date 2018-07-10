@@ -11,8 +11,8 @@ import DCCJUser
 import DCCJCashier
 
 public class DCCJMiddleware: NSObject {
-    private lazy var networkManager = DCCJNetwork.shared
-    private lazy var userManager    = DCCJUser()
+    public lazy var networkManager = DCCJNetwork.shared
+    public lazy var userManager    = DCCJUser()
     
     public override init() {
         super.init()
@@ -36,10 +36,6 @@ extension DCCJMiddleware: DCCJNetworkDelegate, DCCJNetworkDataSource {
 extension DCCJMiddleware {
     public func makeCashier() -> DCCJCashier {
         return DCCJCashier(network: self.networkManager)
-    }
-    
-    public func makeCashier() {
-//        return DCCJCashier(network: self.networkManager)
     }
 }
 
