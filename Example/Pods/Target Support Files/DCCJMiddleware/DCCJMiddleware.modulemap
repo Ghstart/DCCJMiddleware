@@ -1,0 +1,6 @@
+framework module DCCJMiddleware {
+  umbrella header "DCCJMiddleware-umbrella.h"
+
+  export *
+  module * { export * }
+}

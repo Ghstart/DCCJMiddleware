@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6905DD530A0DEDEA20AE7A5A /* Pods_DCCJMiddleware_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30485F9335447F7C0F6C86F0 /* Pods_DCCJMiddleware_Tests.framework */; };
+		C0233F8220F44C9E00BB64BD /* ObjViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0233F8120F44C9E00BB64BD /* ObjViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +43,14 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8E0F2DCA5704EEEFDFB13AB2 /* Pods_DCCJMiddleware_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCCJMiddleware_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E4DCD251F5EC3203E52CF16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9E4DCD251F5EC3203E52CF16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B3B89E011C829F97B6FB7E9E /* Pods-DCCJMiddleware_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCCJMiddleware_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCCJMiddleware_Tests/Pods-DCCJMiddleware_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4B0066E805121C0C7B83FFF /* Pods-DCCJMiddleware_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCCJMiddleware_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCCJMiddleware_Example/Pods-DCCJMiddleware_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DB97A722C092E2FABF6B8F4C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E3F0BDB71067B21EA3E46CA1 /* DCCJMiddleware.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DCCJMiddleware.podspec; path = ../DCCJMiddleware.podspec; sourceTree = "<group>"; };
+		C0233F7F20F44C9E00BB64BD /* DCCJMiddleware_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCCJMiddleware_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0233F8020F44C9E00BB64BD /* ObjViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjViewController.h; sourceTree = "<group>"; };
+		C0233F8120F44C9E00BB64BD /* ObjViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjViewController.m; sourceTree = "<group>"; };
+		DB97A722C092E2FABF6B8F4C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E3F0BDB71067B21EA3E46CA1 /* DCCJMiddleware.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DCCJMiddleware.podspec; path = ../DCCJMiddleware.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +99,13 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				C0233F8020F44C9E00BB64BD /* ObjViewController.h */,
+				C0233F8120F44C9E00BB64BD /* ObjViewController.m */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				C0233F7F20F44C9E00BB64BD /* DCCJMiddleware_Example-Bridging-Header.h */,
 			);
 			name = "Example for DCCJMiddleware";
 			path = DCCJMiddleware;
@@ -207,15 +214,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = 779KCGCYNG;
+						LastSwiftMigration = 0940;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 779KCGCYNG;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -286,11 +295,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DCCJMiddleware_Example/Pods-DCCJMiddleware_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DCCJCashier/DCCJCashier.framework",
 				"${BUILT_PRODUCTS_DIR}/DCCJMiddleware/DCCJMiddleware.framework",
+				"${BUILT_PRODUCTS_DIR}/DCCJNetwork/DCCJNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/DCCJUser/DCCJUser.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJCashier.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJMiddleware.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJUser.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -322,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0233F8220F44C9E00BB64BD /* ObjViewController.m in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -377,12 +393,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -430,12 +448,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -469,11 +489,15 @@
 			baseConfigurationReference = B4B0066E805121C0C7B83FFF /* Pods-DCCJMiddleware_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 779KCGCYNG;
 				INFOPLIST_FILE = DCCJMiddleware/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DCCJMiddleware/DCCJMiddleware_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -484,11 +508,14 @@
 			baseConfigurationReference = 2F767B46094DB19FFAD6FAF8 /* Pods-DCCJMiddleware_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 779KCGCYNG;
 				INFOPLIST_FILE = DCCJMiddleware/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DCCJMiddleware/DCCJMiddleware_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -498,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B3B89E011C829F97B6FB7E9E /* Pods-DCCJMiddleware_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 779KCGCYNG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -520,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0947A6ED164C7B8B149B33B2 /* Pods-DCCJMiddleware_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 779KCGCYNG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

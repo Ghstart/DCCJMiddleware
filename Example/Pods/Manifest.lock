@@ -1,0 +1,33 @@
+PODS:
+  - DCCJCashier (0.1.6):
+    - DCCJNetwork (~> 0.2.4)
+    - DCCJUser (~> 0.1.1)
+  - DCCJMiddleware (0.1.0):
+    - DCCJCashier (~> 0.1.6)
+    - DCCJNetwork (~> 0.2.4)
+    - DCCJUser (~> 0.1.1)
+  - DCCJNetwork (0.2.4)
+  - DCCJUser (0.1.1)
+
+DEPENDENCIES:
+  - DCCJMiddleware (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DCCJCashier
+    - DCCJNetwork
+    - DCCJUser
+
+EXTERNAL SOURCES:
+  DCCJMiddleware:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DCCJCashier: c6db2db0afc7277da42c833bd9631f1e33fca1a0
+  DCCJMiddleware: 8396e568bad9e5a4c3ea13c211612087b7e33bd6
+  DCCJNetwork: cccb45843822ea4f17d8535c27e66caffb52bc4c
+  DCCJUser: 50e6b2b9e0dcbba9e194cd5a61c2ea90794da7aa
+
+PODFILE CHECKSUM: 6b8ae2714bca679ebac4f09469cd2eb9682159a0
+
+COCOAPODS: 1.5.3

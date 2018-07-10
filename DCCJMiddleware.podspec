@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DCCJMiddleware'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DCCJMiddleware.'
+  s.version          = '0.1.1'
+  s.summary          = 'A Middleware Modules can decouple individual business components.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A Middleware Modules can decouple individual business components.
+  Dependent on: Network, Gateway and some base lower modules
+  Used By: Some business components such as Login, cashier...
                        DESC
 
   s.homepage         = 'https://github.com/Ghstart/DCCJMiddleware'
@@ -28,7 +30,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Ghstart/DCCJMiddleware.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'DCCJMiddleware/Classes/**/*'
   
@@ -38,5 +40,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'DCCJNetwork', '~> 0.2.4'
+  s.dependency 'DCCJCashier', '~> 0.1.6'
+  s.dependency 'DCCJUser', '~> 0.1.1'
 end
