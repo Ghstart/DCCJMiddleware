@@ -10,7 +10,7 @@ import DCCJNetwork
 import DCCJUser
 import DCCJCashier
 
-public class DCCJMiddleware: NSObject, CashierFactory {
+public class DCCJMiddleware: NSObject, DCCJNetworkDataSource, DCCJNetworkDelegate, CashierFactory {
     private lazy var networkManager = DCCJNetwork.shared
     private lazy var userManager    = DCCJUser()
     
@@ -20,12 +20,6 @@ public class DCCJMiddleware: NSObject, CashierFactory {
         self.networkManager.dataSource = self
     }
     
-    public func makeCashier() -> DCCJCashier {
-        return DCCJCashier(network: self.networkManager)
-    }
-}
-
-extension DCCJMiddleware: DCCJNetworkDataSource, DCCJNetworkDelegate {
     /*Error Code = 201*/
     public func errorCodeEqualTo201() {
         self.userManager.setToken("", callback: nil)
@@ -34,5 +28,9 @@ extension DCCJMiddleware: DCCJNetworkDataSource, DCCJNetworkDelegate {
     /*Return Header Fields*/
     public func customHttpHeaders() -> Dictionary<String, String> {
         return ["accessToken": self.userManager.getToken()]
+    }
+    
+    public func makeCashier() -> DCCJCashier {
+        return DCCJCashier(network: self.networkManager)
     }
 }
