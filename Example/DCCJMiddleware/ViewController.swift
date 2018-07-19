@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import DCCJMiddleware
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let middle = DCCJMiddleware()
+        print(middle.cashier)
     }
 
     override func didReceiveMemoryWarning() {
