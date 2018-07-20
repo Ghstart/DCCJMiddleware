@@ -17,11 +17,11 @@ public class DCCJMiddleware: NSObject, CashierFactory {
         super.init()
         /*Error Code = 201*/
         self.cashier.errorCodeEqualTo201CallBack = { [weak self] in
-            self?.userManager.setToken("", callback: nil)
+            self?.userManager.token = ""
         }
         /*Return Header Fields*/
         self.cashier.customHttpHeadersCallBack = { [weak self] in
-            if let t = self?.userManager.getToken() { return ["accessToken": t] }
+            if let t = self?.userManager.token { return ["accessToken": t] }
             return ["accessToken": ""]
         }
     }
