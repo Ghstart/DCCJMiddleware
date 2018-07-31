@@ -144,13 +144,21 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/DCCJCashier/DCCJCashier.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DCCJConfig/DCCJConfig.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DCCJLogin/DCCJLogin.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DCCJMessageCenter/DCCJMessageCenter.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DCCJMiddleware/DCCJMiddleware.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DCCJNavigator/DCCJNavigator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DCCJNetwork/DCCJNetwork.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DCCJUser/DCCJUser.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/DCCJCashier/DCCJCashier.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DCCJConfig/DCCJConfig.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DCCJLogin/DCCJLogin.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DCCJMessageCenter/DCCJMessageCenter.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DCCJMiddleware/DCCJMiddleware.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DCCJNavigator/DCCJNavigator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DCCJNetwork/DCCJNetwork.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/DCCJUser/DCCJUser.framework"
 fi

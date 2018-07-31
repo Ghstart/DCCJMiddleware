@@ -8,6 +8,9 @@
 
 import UIKit
 import DCCJMiddleware
+import DCCJMessageCenter
+import DCCJConfig
+import DCCJLogin
 
 class ViewController: UIViewController {
 
@@ -15,7 +18,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let middle = DCCJMiddleware()
-        print(middle.cashier)
+        // 1.
+        _  = middle.makeMessageCenter().send(.sendMessage(type: .login, phone: "120")) { (result: Result<MessageCenterResponse, NSError>) in
+            
+        }
+        
+        // 2.
+        _ = middle.makeMessageCenter().send(.verifyMessage(type: .thirdBind, phone: "110", code: "8899")) { (result: Result<MessageCenterResponse, NSError>) in
+            
+        }
+        
+        // Login request
+        _ = middle.makeLogin().request(LoginRequests.send(type: ObjcLoginRequests.checkLoginPWD, data: [String: Any]())) { (result: Result<DCCJCheckVersionModel, NSError>) in
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {

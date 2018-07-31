@@ -1,11 +1,22 @@
 PODS:
-  - DCCJCashier (0.2.6):
-    - DCCJNetwork (~> 0.2.8)
-  - DCCJMiddleware (0.2.5):
-    - DCCJCashier (~> 0.2.6)
-    - DCCJUser (~> 0.1.2)
-  - DCCJNetwork (0.2.8)
-  - DCCJUser (0.1.2)
+  - DCCJCashier (0.3.3):
+    - DCCJNavigator (~> 0.1.1)
+    - DCCJNetwork (~> 0.3.3)
+  - DCCJConfig (0.1.0)
+  - DCCJLogin (0.1.5):
+    - DCCJNetwork (~> 0.3.3)
+  - DCCJMessageCenter (0.1.7):
+    - DCCJNetwork (~> 0.3.3)
+  - DCCJMiddleware (0.2.6):
+    - DCCJCashier (~> 0.3.3)
+    - DCCJLogin (~> 0.1.5)
+    - DCCJMessageCenter (~> 0.1.7)
+    - DCCJNetwork (~> 0.3.3)
+    - DCCJUser (~> 0.1.3)
+  - DCCJNavigator (0.1.1)
+  - DCCJNetwork (0.3.3):
+    - DCCJConfig (~> 0.1.0)
+  - DCCJUser (0.1.3)
 
 DEPENDENCIES:
   - DCCJMiddleware (from `../`)
@@ -13,6 +24,10 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - DCCJCashier
+    - DCCJConfig
+    - DCCJLogin
+    - DCCJMessageCenter
+    - DCCJNavigator
     - DCCJNetwork
     - DCCJUser
 
@@ -21,10 +36,14 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DCCJCashier: 934ab2cb525e9e1341b575cf6ab8aa828fb2b5b0
-  DCCJMiddleware: 5b7dbf595236b656caf6baf99c4885b39da18e31
-  DCCJNetwork: 187f71aecb84c5ae1705cf6b55754302bb834cfc
-  DCCJUser: e8311eb7452ef1808ee6d861bb16fa76b7909dc7
+  DCCJCashier: 41c69b827e77e999f437bdd5a95b42e9ae4e26b4
+  DCCJConfig: f5406d0f7142f052fab836b329e2e147489999d2
+  DCCJLogin: 6d0eff060e17ba129fc2c41440b613e53796ba89
+  DCCJMessageCenter: 887a7d6b019bb6c319f76a6f4d3465ac508893d2
+  DCCJMiddleware: 57de42e1e8d3395402cff318af79e3098c97daa2
+  DCCJNavigator: 73778325f72cc483f9c43ec09fcdf8fedb98affc
+  DCCJNetwork: 91f06c17d090098f32b6339797f4d67138768b0e
+  DCCJUser: 74338b4a34df383ec8bd7e13a221917ceaaeaf31
 
 PODFILE CHECKSUM: 6b8ae2714bca679ebac4f09469cd2eb9682159a0
 

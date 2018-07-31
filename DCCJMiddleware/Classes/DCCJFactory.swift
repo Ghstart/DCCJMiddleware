@@ -7,7 +7,17 @@
 
 import Foundation
 import DCCJCashier
+import DCCJMessageCenter
+import DCCJLogin
 
 public protocol CashierFactory {
     func makeCashier() -> DCCJCashier
+}
+
+public protocol MessageCenterFactory {
+    func makeMessageCenter() -> DCCJMessageCenter
+}
+
+public protocol LoginFactory {
+    func makeLogin() -> DCCJLogin
 }

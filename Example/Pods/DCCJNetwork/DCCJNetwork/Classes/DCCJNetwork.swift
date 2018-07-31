@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import DCCJConfig
 
 public enum DataManagerError: Error {
     case failedRequest                                  // 请求失败
@@ -81,14 +82,9 @@ public extension Request {
     }
 }
 
-public enum Result<Value, Error: Swift.Error> {
-    case success(Value)
-    case failure(Error)
-}
-
 public protocol Client {
-    func requestBy<C: Codable, T: Request>(_ r: T, completion: @escaping (Result<C, DataManagerError>) -> Void)
-    func requestDataBy<T: Request>(_ r: T, completion: @escaping (Result<Data, DataManagerError>) -> Void)
+    func requestBy<C: Codable, T: Request>(_ r: T, completion: @escaping (Result<C, DataManagerError>) -> Void) -> URLSessionDataTask?
+    func requestDataBy<T: Request>(_ r: T, completion: @escaping (Result<Data, DataManagerError>) -> Void) -> URLSessionDataTask?
 }
 
 public protocol DCCJNetworkDelegate: class {
@@ -105,12 +101,17 @@ public enum NetworkEnvironment: Int {
     case cashier_production
     case production
     case staging
+    case message_production
 }
 
 public final class DCCJNetwork: Client {
     
     public static let shared = DCCJNetwork()
-    private var urlSession: URLSession  = URLSession.shared
+    private var urlSession: URLSession  = {
+        let config = URLSessionConfiguration.default
+        config.timeoutIntervalForRequest = 30
+        return URLSession(configuration: config)
+    }()
     
     public var hostMaps: [NetworkEnvironment: String] = [:]
     
@@ -132,7 +133,7 @@ public final class DCCJNetwork: Client {
         DCCJNetwork.shared.encryptF = encryptMethod
     }
     
-    public func requestBy<C, T>(_ r: T, completion: @escaping (Result<C, DataManagerError>) -> Void) where C : Decodable, C : Encodable, T : Request {
+    public func requestBy<C, T>(_ r: T, completion: @escaping (Result<C, DataManagerError>) -> Void) -> URLSessionDataTask? where C : Decodable, C : Encodable, T : Request {
         var url: URL
         if r.path.hasPrefix("http") || r.path.hasPrefix("https") {
             url = URL(string: r.path)!
@@ -141,9 +142,9 @@ public final class DCCJNetwork: Client {
         } else {
             fatalError("unknow host or path!!!")
         }
-        guard let request = getRequest(type: r.method, initURL: url, httpBody: r.paramters, isSign: true) else { return }
+        guard let request = getRequest(type: r.method, initURL: url, httpBody: r.paramters, isSign: true) else { return nil }
 
-        self.urlSession.dataTask(with: request) { (data, response, error) in
+        let sessionData = self.urlSession.dataTask(with: request) { (data, response, error) in
             if let e = error {
                 completion(.failure(.customError(message: e.localizedDescription, errCode: (e as NSError).code)))
             } else if let data = data,  let response = response as? HTTPURLResponse {
@@ -154,9 +155,11 @@ public final class DCCJNetwork: Client {
                             if self.isErrorCodeEqual201(returnDic).is201 {
                                 if let callbackErrorCode201 = self.delegate?.errorCodeEqualTo201 { callbackErrorCode201() }
                                 completion(.failure(.customError(message: self.isErrorCodeEqual201(returnDic).errMsg, errCode: -9999)))
-                            } else {
+                            } else if self.isSuccess(returnDic) {
                                 let json = try JSONDecoder().decode(C.self, from: data)
                                 completion(.success(json))
+                            } else {
+                                completion(.failure(.unknow))
                             }
                         } else {
                             completion(.failure(.unknow))
@@ -171,10 +174,12 @@ public final class DCCJNetwork: Client {
             } else {
                 completion(.failure(.unknow))
             }
-        }.resume()
+        }
+        sessionData.resume()
+        return sessionData
     }
     
-    public func requestDataBy<T>(_ r: T, completion: @escaping (Result<Data, DataManagerError>) -> Void) where T : Request {
+    public func requestDataBy<T>(_ r: T, completion: @escaping (Result<Data, DataManagerError>) -> Void) -> URLSessionDataTask? where T : Request {
         var url: URL
         if r.path.hasPrefix("http") || r.path.hasPrefix("https") {
             url = URL(string: r.path)!
@@ -183,9 +188,9 @@ public final class DCCJNetwork: Client {
         } else {
             fatalError("unknow host or path!!!")
         }
-        guard let request = getRequest(type: r.method, initURL: url, httpBody: r.paramters, isSign: true) else { return }
+        guard let request = getRequest(type: r.method, initURL: url, httpBody: r.paramters, isSign: true) else { return nil }
         
-        self.urlSession.dataTask(with: request) { (data, response, error) in
+        let sessionData = self.urlSession.dataTask(with: request) { (data, response, error) in
             if let e = error {
                 completion(.failure(.customError(message: e.localizedDescription, errCode: (e as NSError).code)))
             } else if let data = data,  let response = response as? HTTPURLResponse {
@@ -196,8 +201,10 @@ public final class DCCJNetwork: Client {
                             if self.isErrorCodeEqual201(returnDic).is201 {
                                 if let callbackErrorCode201 = self.delegate?.errorCodeEqualTo201 { callbackErrorCode201() }
                                 completion(.failure(.customError(message: self.isErrorCodeEqual201(returnDic).errMsg, errCode: -9999)))
-                            } else {
+                            } else if self.isSuccess(returnDic) {
                                 completion(.success(data))
+                            } else {
+                                completion(.failure(.unknow))
                             }
                         } else {
                             completion(.failure(.unknow))
@@ -212,7 +219,16 @@ public final class DCCJNetwork: Client {
             } else {
                 completion(.failure(.unknow))
             }
-            }.resume()
+        }
+        sessionData.resume()
+        return sessionData
+    }
+    
+    private func isSuccess(_ d: [String: Any]) -> Bool {
+        if let b = d["success"] as? Bool, b == true {
+            return true
+        }
+        return false;
     }
     
     private func isErrorCodeEqual201(_ d: [String: Any]) -> (is201: Bool, errMsg: String) {
