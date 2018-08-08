@@ -16,22 +16,48 @@ public final class DCCJLogin {
     
     public init() {}
     
-//    public func request(type t: ObjcLoginRequests,
-//                        with d: Dictionary<String, Any> = [:],
-//                        callBack: @escaping (Any?, NSError?) -> Void) {
-//        self._request(q: LoginRequests.send(type: t, data: d), callBack: callBack)
+    public func request(with r: LoginRequests) -> (data: Future<Data>, task: URLSessionDataTask?) {
+        return self.network.request(with: r)
+    }
+    
+    public func request<Value: Codable>(with r: LoginRequests) -> (data: Future<Value>, task: URLSessionDataTask?) {
+        let (d, t) = self.network.request(with: r)
+        
+        let unboxdata: Future<Value> = d.unboxed()
+        
+        return (data: unboxdata, task: t)
+    }
+    
+//    public func request<D: Codable>(_ r: LoginRequests, handler: @escaping (Result<D, NSError>) -> Void) -> URLSessionDataTask? {
+//        return self.network.requestBy(r, completion: { (result: Result<D, DataManagerError>) in
+//            switch result {
+//            case .success(let v):
+//                handler(.success(v))
+//            case .failure(let e as NSError):
+//                handler(.failure(e))
+//            }
+//        })
 //    }
     
-    public func request<D: Codable>(_ r: LoginRequests, handler: @escaping (Result<D, NSError>) -> Void) -> URLSessionDataTask? {
-        return self.network.requestBy(r, completion: { (result: Result<D, DataManagerError>) in
-            switch result {
-            case .success(let v):
-                handler(.success(v))
-            case .failure(let e as NSError):
-                handler(.failure(e))
-            }
-        })
-    }
+//    public func request<Value>(with r: LoginRequests) -> (data: Future<Value>, task: URLSessionDataTask?) {
+    
+//        let (data: d, task: t) = self.network.request(with: r)
+//        if Value.self == Data.Type.self {
+//
+//            return (data: d, task: t) as (data: Future<Data>, task: URLSessionDataTask?) as! (data: Future<Value>, task: URLSessionDataTask?)
+//        } else {
+//
+//            return (data: self.network.request(with: r).data.unboxed(), task: t) as! (data: Future<DCCJAdInfoModel>, task: URLSessionDataTask?)
+        
+//        let (d, t) = self.network.request(with: r)
+//        if (returnTypeIsData) {
+//            return (data: d, task: t)
+//        } else {
+//            let unboxData: Future<Value> = d.unboxed()
+//            return (data: unboxData, task: t)
+//        }
+        
+//    }
 
 //    private func _request(q: LoginRequests, callBack: @escaping (Codable?, NSError?) -> Void) {
 //        switch q {

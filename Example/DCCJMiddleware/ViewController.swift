@@ -19,17 +19,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let middle = DCCJMiddleware()
         // 1.
-        _  = middle.makeMessageCenter().send(.sendMessage(type: .login, phone: "120")) { (result: Result<MessageCenterResponse, NSError>) in
+        middle.makeMessageCenter().send(with: MessageCenterRequest.sendMessage(type: .login, phone: "120")).data.observe { (result: Result<MessageCenterResponse>) in
             
         }
         
         // 2.
-        _ = middle.makeMessageCenter().send(.verifyMessage(type: .thirdBind, phone: "110", code: "8899")) { (result: Result<MessageCenterResponse, NSError>) in
+        middle.makeMessageCenter().send(with: MessageCenterRequest.verifyMessage(type: .thirdBind, phone: "110", code: "8899")).data.observe { (result: Result<MessageCenterResponse>) in
             
         }
-        
+   
         // Login request
-        _ = middle.makeLogin().request(LoginRequests.send(type: ObjcLoginRequests.checkLoginPWD, data: [String: Any]())) { (result: Result<DCCJCheckVersionModel, NSError>) in
+        middle.makeLogin().request(with: LoginRequests.send(type: .checkPayPWD, data: [String: Any]())).data.observe { (result: Result<DCCJCheckVersionModel>) in
             
         }
     }

@@ -300,7 +300,6 @@
 				"${BUILT_PRODUCTS_DIR}/DCCJLogin/DCCJLogin.framework",
 				"${BUILT_PRODUCTS_DIR}/DCCJMessageCenter/DCCJMessageCenter.framework",
 				"${BUILT_PRODUCTS_DIR}/DCCJMiddleware/DCCJMiddleware.framework",
-				"${BUILT_PRODUCTS_DIR}/DCCJNavigator/DCCJNavigator.framework",
 				"${BUILT_PRODUCTS_DIR}/DCCJNetwork/DCCJNetwork.framework",
 				"${BUILT_PRODUCTS_DIR}/DCCJUser/DCCJUser.framework",
 			);
@@ -311,7 +310,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJLogin.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJMessageCenter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJMiddleware.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJNavigator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJNetwork.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJUser.framework",
 			);

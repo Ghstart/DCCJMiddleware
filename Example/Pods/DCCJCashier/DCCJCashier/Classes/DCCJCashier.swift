@@ -13,30 +13,37 @@ import DCCJConfig
 public final class DCCJCashier: NSObject {
     
     public let network: DCCJNetwork = DCCJNetwork.shared
-    private lazy var cashierUI: DCCJCashierUIManager = DCCJCashierUIManager()
     
     public override init() {
         super.init()
     }
     
-    public func navigator(page: CashierPages, on nav: UINavigationController? = nil) {
-        return self.cashierUI.uiManagerNavigator(page: page, on: nav)
-    }
-    
-    public func present(page: CashierPages, on vc: UIViewController) {
-        self.cashierUI.uiManagerPresent(page: page, on: vc)
+    public func request<Value: Codable>(with r: CashierRequests) -> (data: Future<Value>, task: URLSessionDataTask?) {
+        let (d, t) = self.network.request(with: r)
+        
+        let unboxData: Future<Value> = d.unboxed()
+        
+        return (data: unboxData, task: t)
+        }
     }
 
-    public func request<D: Codable>(_ r: CashierRequests, handler: @escaping (Result<D, NSError>) -> Void) -> URLSessionDataTask? {
-        return self.network.requestBy(r, completion: { (result: Result<D, DataManagerError>) in
-            switch result {
-            case .success(let v):
-                handler(.success(v))
-            case .failure(let e as NSError):
-                handler(.failure(e))
-            }
-        })
-    }
+//    public func request<D: Codable>(_ r: CashierRequests, handler: @escaping (Result<D>) -> Void) -> URLSessionDataTask? {
+//        let (data, task) = self.network.request(with: r)
+//
+//        data.unboxed().observe { (result: Result<D>) in
+//
+//        }
+//
+//        return task
+//        return self.network.requestBy(r, completion: { (result: Result<D, DataManagerError>) in
+//            switch result {
+//            case .success(let v):
+//                handler(.success(v))
+//            case .failure(let e as NSError):
+//                handler(.failure(e))
+//            }
+//        })
+//    }
     /*
     public func request<Value: Codable>(_ r: CashierRequests, handler: @escaping (Value?, DataManagerError?) -> Void) {
         
@@ -156,7 +163,7 @@ public final class DCCJCashier: NSObject {
         }
     }
     */
-}
+
 
 public enum CashierRequests {
     case send(type: CashierRequestTypes, data: [String: Any])
