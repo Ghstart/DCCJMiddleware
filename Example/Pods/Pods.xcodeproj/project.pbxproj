@@ -13,6 +13,7 @@
 		050DE09F1BBA07B990EC2AEB4D5C8081 /* DCCJConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D9C460F9E235EF6F2F1926EEAE2512 /* DCCJConfig.framework */; };
 		0867597F3FE6A46CED133A184440709A /* DCCJMiddleware-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B8C21BE7D3280DCACC31A50DA2AB36 /* DCCJMiddleware-dummy.m */; };
 		0919E6DEAC2DFBA7EC0C2EB6825E025C /* DCCJNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7231AB7CD7E4F6DC4F2385CBBE879347 /* DCCJNetwork.framework */; };
+		0BC7725604DA70FD726EB68E16486396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7361005815E17973E4C9DA4EE38F5148 /* Foundation.framework */; };
 		12904BF635085AA280E2F851F99BDAA3 /* ResendVerifyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102CF3B8F8E348B1670034FF5C9A98BF /* ResendVerifyCode.swift */; };
 		153E4AFBFDAEA3D5F8CDF8DFF0DC0298 /* ConfirmBindCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BDCB1DE352D0DFDBD7909E19CBB81A /* ConfirmBindCard.swift */; };
 		196517F273E39E554B0DB0D018268CE9 /* CashierSettingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2543EFD3E971DA5FB8D67BD5DFA9FEDB /* CashierSettingConfig.swift */; };
@@ -24,9 +25,9 @@
 		3508C2414CA6A873914167A560A1BE92 /* Pods-DCCJMiddleware_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7008F8A4684ECDEBD3CBD5BE84B5DD /* Pods-DCCJMiddleware_Example-dummy.m */; };
 		35D3E040BF3ABB1670AFECC955F9C77B /* DCCJUser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C79EDAFC6FA94D5DF6F6E6F2AEA3C6AC /* DCCJUser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36416C5A8D3E381E6DA83255772B223B /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C4C104B780215B9B7DB6F036CAAB6A /* UserInfo.swift */; };
-		36B85227CFCE09164AE61F9B89780BB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7361005815E17973E4C9DA4EE38F5148 /* Foundation.framework */; };
 		37C602D0749D408158F6496A1B78FC91 /* DCCJLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5507759DA0F5FD1A237088618121AA73 /* DCCJLogin-dummy.m */; };
 		39E0ED6AEAFBCDD45F9446C0C8C4F15B /* DCCJMessageCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A74CA865229E46BEAED7B08BE96B1FE6 /* DCCJMessageCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42780A441330ECAF6BEC3AE0A484465A /* DCCJConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D9C460F9E235EF6F2F1926EEAE2512 /* DCCJConfig.framework */; };
 		42F2E12D5164C7238BF4F18C30D2985A /* DataManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE7D7AA50257B520EA2A728110A99D /* DataManagerError.swift */; };
 		431E2E23709494E786674842CE0C8BE9 /* CheckCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE9F7FE04A7A5514EAE71E230427ACB /* CheckCard.swift */; };
 		46519873BECD0A53E9F8E7C12447EDA4 /* DCCJNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A92789B13189FA06F80E02E879BAB329 /* DCCJNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -114,6 +115,13 @@
 			remoteInfo = DCCJUser;
 		};
 		4052322A5EC567752F3C7BD9553DEC50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C240F13A6FD7DB4983BA49EA8CBAAD2;
+			remoteInfo = DCCJConfig;
+		};
+		46F97F9A41A6AC61B2733768518D4932 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -341,6 +349,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		15A7812606A8FFFB31DBBDE45FBD3CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42780A441330ECAF6BEC3AE0A484465A /* DCCJConfig.framework in Frameworks */,
+				0BC7725604DA70FD726EB68E16486396 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3222E6210E2835269ACDD0190C4A0175 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,14 +414,6 @@
 				54F2B72727EC2F16B0A4E42567D59013 /* DCCJConfig.framework in Frameworks */,
 				B51DCDB7F01226A2A5289B671DC97A5B /* DCCJNetwork.framework in Frameworks */,
 				D3FF58579CA22050304FC2F7C6496DA9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C725FC4593E652FF3674759D3E4CFC82 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				36B85227CFCE09164AE61F9B89780BB0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -983,12 +992,13 @@
 			buildConfigurationList = 3103A4E75485B4EDBF36AB6DF59F6617 /* Build configuration list for PBXNativeTarget "DCCJUser" */;
 			buildPhases = (
 				97D660066C2C2D7D8A80149AD84E7416 /* Sources */,
-				C725FC4593E652FF3674759D3E4CFC82 /* Frameworks */,
+				15A7812606A8FFFB31DBBDE45FBD3CC0 /* Frameworks */,
 				ACD465A16C47F5BD58C9237437AB7ED1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				957C7B6B62BCC90A8C5A3494BAFA8BE4 /* PBXTargetDependency */,
 			);
 			name = DCCJUser;
 			productName = DCCJUser;
@@ -1222,6 +1232,12 @@
 			name = DCCJUser;
 			target = 77CDB0CC95C65D1E3B64736EA7DE9EFB /* DCCJUser */;
 			targetProxy = A2139E7F2D06B5279EAE71C7FAE6804C /* PBXContainerItemProxy */;
+		};
+		957C7B6B62BCC90A8C5A3494BAFA8BE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DCCJConfig;
+			target = 2C240F13A6FD7DB4983BA49EA8CBAAD2 /* DCCJConfig */;
+			targetProxy = 46F97F9A41A6AC61B2733768518D4932 /* PBXContainerItemProxy */;
 		};
 		A27062ADF11A575ED84B5F73A5585D54 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
