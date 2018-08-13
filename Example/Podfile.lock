@@ -10,15 +10,15 @@ PODS:
     - DCCJNetwork (~> 0.3.6)
   - DCCJMessageCenter (0.1.9):
     - DCCJNetwork (~> 0.3.6)
-  - DCCJMiddleware (0.2.8):
+  - DCCJMiddleware (0.3.0):
     - DCCJCashier (~> 0.3.7)
     - DCCJLogin (~> 0.1.7)
     - DCCJMessageCenter (~> 0.1.9)
     - DCCJNetwork (~> 0.3.6)
-    - DCCJUser (~> 0.1.4)
+    - DCCJUser (~> 0.1.5)
   - DCCJNetwork (0.3.6):
     - DCCJConfig (~> 0.1.8)
-  - DCCJUser (0.1.4):
+  - DCCJUser (0.1.5):
     - DCCJConfig (~> 0.1.8)
 
 DEPENDENCIES:
@@ -42,9 +42,9 @@ SPEC CHECKSUMS:
   DCCJConfig: a3dd6b8edf21e9a79d45bd0bee5287fa9b2473dc
   DCCJLogin: 88fbefc0a57e1332c6cfa95277a4dd93bf96a0f5
   DCCJMessageCenter: d02b276f570ebfffa773a00796e5e62448302352
-  DCCJMiddleware: 1b9890a0b95145b4a5bcdd91e2e5fc9d3559ba5f
+  DCCJMiddleware: 0fad280bf3f960bc708bd326f8b014de23a1dc12
   DCCJNetwork: c0001405e93c14f0ad5f8af911641496796ee9cc
-  DCCJUser: 71cfc12512545407e4366046a7ca151dc3a3047e
+  DCCJUser: a1ad1ac5cbf02c25ad0c5e6d91d05e77e6fd7b93
 
 PODFILE CHECKSUM: 6b8ae2714bca679ebac4f09469cd2eb9682159a0
 
