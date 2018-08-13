@@ -1,6 +1,6 @@
 PODS:
-  - DCCJCashier (0.3.7):
-    - DCCJNetwork (~> 0.3.5)
+  - DCCJCashier (0.3.8):
+    - DCCJNetwork (~> 0.3.7)
   - DCCJConfig (0.1.8):
     - DCCJConfig/DataManagerError (= 0.1.8)
     - DCCJConfig/Result (= 0.1.8)
@@ -10,16 +10,18 @@ PODS:
     - DCCJNetwork (~> 0.3.6)
   - DCCJMessageCenter (0.1.9):
     - DCCJNetwork (~> 0.3.6)
-  - DCCJMiddleware (0.3.0):
-    - DCCJCashier (~> 0.3.7)
+  - DCCJMiddleware (0.3.1):
+    - DCCJCashier (~> 0.3.8)
     - DCCJLogin (~> 0.1.7)
     - DCCJMessageCenter (~> 0.1.9)
-    - DCCJNetwork (~> 0.3.6)
+    - DCCJNetwork (~> 0.3.7)
     - DCCJUser (~> 0.1.5)
-  - DCCJNetwork (0.3.6):
+  - DCCJNetwork (0.3.7):
     - DCCJConfig (~> 0.1.8)
+    - SwiftyBeaver
   - DCCJUser (0.1.5):
     - DCCJConfig (~> 0.1.8)
+  - SwiftyBeaver (1.6.0)
 
 DEPENDENCIES:
   - DCCJMiddleware (from `../`)
@@ -32,19 +34,21 @@ SPEC REPOS:
     - DCCJMessageCenter
     - DCCJNetwork
     - DCCJUser
+    - SwiftyBeaver
 
 EXTERNAL SOURCES:
   DCCJMiddleware:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DCCJCashier: dfda56d14bfdc4519d5fc8c4a62a673449f051e7
+  DCCJCashier: 631440bec81b8300344ff4aa6aaa8b57b96a58b7
   DCCJConfig: a3dd6b8edf21e9a79d45bd0bee5287fa9b2473dc
   DCCJLogin: 88fbefc0a57e1332c6cfa95277a4dd93bf96a0f5
   DCCJMessageCenter: d02b276f570ebfffa773a00796e5e62448302352
-  DCCJMiddleware: 0fad280bf3f960bc708bd326f8b014de23a1dc12
-  DCCJNetwork: c0001405e93c14f0ad5f8af911641496796ee9cc
+  DCCJMiddleware: 5df43565965ea66072fc37cb2d7bfffd93aff4ff
+  DCCJNetwork: 1e26928bb34af6709be6f39bc985bdaf7935ce47
   DCCJUser: a1ad1ac5cbf02c25ad0c5e6d91d05e77e6fd7b93
+  SwiftyBeaver: e45759613e50b522b0e6f53b1f0f14389b45ca34
 
 PODFILE CHECKSUM: 6b8ae2714bca679ebac4f09469cd2eb9682159a0
 

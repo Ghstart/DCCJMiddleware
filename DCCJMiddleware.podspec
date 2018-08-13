@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DCCJMiddleware'
-  s.version          = '0.3.0'
+  s.version          = '0.3.1'
   s.summary          = 'A Middleware Modules can decouple individual business components.'
 
 # This description is used to generate tags and improve search results.
@@ -40,9 +40,9 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'DCCJCashier', '~> 0.3.7'
+  s.dependency 'DCCJCashier', '~> 0.3.8'
   s.dependency 'DCCJUser', '~> 0.1.5'
   s.dependency 'DCCJMessageCenter', '~> 0.1.9'
-  s.dependency 'DCCJNetwork', '~> 0.3.6'
+  s.dependency 'DCCJNetwork', '~> 0.3.7'
   s.dependency 'DCCJLogin', '~> 0.1.7'
 end
