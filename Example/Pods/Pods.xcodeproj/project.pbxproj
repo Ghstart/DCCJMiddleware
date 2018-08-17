@@ -7,101 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0012F15942936ACAFDF97830F1E6AC20 /* StartToPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0326C1404CF686A0408AE3FB9EB19716 /* StartToPay.swift */; };
-		00429E1C1ED6E759876F89CD15E41D86 /* DCCJLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EF28449B1F5EBF72399ACA2C41A423B /* DCCJLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		02CA4C25B7B74DD074B0E0E8756E9AB5 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA06CE42072A5DD26509896FEFED81 /* UserInfo.swift */; };
+		00429E1C1ED6E759876F89CD15E41D86 /* DCCJLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6D4DA31E46BE578965B74DC5F6FD02 /* DCCJLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00F1D79CA906EA52D44EEF24C1AB7CA1 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DD462A76EE74D9B06749BB5F1FBFA2 /* SwiftyBeaver.framework */; };
+		05562F72FB3E897A36E3EE2302C07BC5 /* CheckCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F547139C69DAC620466841B0D0505DD3 /* CheckCard.swift */; };
 		073BEB84B53B775E00305C51B6F0E5F7 /* Pods-DCCJMiddleware_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C29D1071A8FA87B69009A56B53A4CA5A /* Pods-DCCJMiddleware_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B271B490FDAB78B2D768FD5E77A184D /* DCCJConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7F213F2E60E1C8862D10A6DE81E2C /* DCCJConfig.framework */; };
-		0D2AA8DDCEE7A2BD253D0F4DCD52A90F /* DCCJMessageCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CC57887031C22B8FDFE42FD4C0B35D /* DCCJMessageCenter-dummy.m */; };
-		104D38DD4BAE2F1C88F175ECE7E56A7E /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BE5B256A4D5F970D446E70537D171C /* SwiftyBeaver.swift */; };
-		10BA8FA27D6074318997808CBF8676DF /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D02CF0C6D0275E8891497211AB791C3 /* AES256CBC.swift */; };
-		12A30C04FCC816DB9B3E83BBEF53F7DC /* DCCJBasicResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11BE3C17115E6D59ADFC6E84638C480 /* DCCJBasicResponseModel.swift */; };
-		13AEC74FF77555F85C33CE0B5DEA8C82 /* ResendVerifyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505A3F0C40B1B467EC430A3615734A7 /* ResendVerifyCode.swift */; };
-		14FF5381DF02D6080B6DA3AF6CF3C1F2 /* DCCJConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7F213F2E60E1C8862D10A6DE81E2C /* DCCJConfig.framework */; };
-		17E890337B788C9936D56D03FE2C5AD3 /* DCCJAdInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451D299D30A82E9A7E2864458D8ED7A /* DCCJAdInfoModel.swift */; };
-		1B533CD465CAE1E328B7BD47554F302C /* SwiftyBeaver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3EE56588BC679BCB4188A56946D16F5 /* SwiftyBeaver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A440EE1878D690D7B69CCCE43862A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */; };
+		0D2AA8DDCEE7A2BD253D0F4DCD52A90F /* DCCJMessageCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BB96C4D298C2C84A8C1A10616C3B97 /* DCCJMessageCenter-dummy.m */; };
+		0EA13DD4F84E8002A9D9E3B0C8BC3B3A /* DCCJMiddleware-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7308B3BD6EF217BB621582410413DAF /* DCCJMiddleware-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12A30C04FCC816DB9B3E83BBEF53F7DC /* DCCJBasicResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2847FA1F0B5C49E2F9F3F1C7DC8AC8E0 /* DCCJBasicResponseModel.swift */; };
+		17E890337B788C9936D56D03FE2C5AD3 /* DCCJAdInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919802AC4AFB0CE955159CADC3A2201B /* DCCJAdInfoModel.swift */; };
 		1BD30B68A2E2899EB530B1D0B6E23338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */; };
-		1C254D010CFD3DEEC704AECB2D9DD287 /* SwiftyBeaver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C354E7EB418E312B370A4DC55A1DC02 /* SwiftyBeaver-dummy.m */; };
-		1E02AFA629290957130D60EC2AA01D7B /* DCCJUserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2059E3F679E4774089570EC0DA45B0D /* DCCJUserInfoModel.swift */; };
+		1D946D46C792CD21802057E389BE46F2 /* DCCJCashier-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E39DB90BFBBBE2671FA2F97B38D34EF7 /* DCCJCashier-dummy.m */; };
+		1E02AFA629290957130D60EC2AA01D7B /* DCCJUserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C8271C934FA9217D83E60531EBBE5 /* DCCJUserInfoModel.swift */; };
 		21A3BD895962CE27632F7FBCEAFC9D5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */; };
-		21BE21644A6FA557CE73C2FA83E34939 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A00BF39E64C4CBDFA8AD41A3477B53 /* Result.swift */; };
-		224A13CEB666020690CE185C4E30ABB3 /* DCCJUser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD45417F12F66140715B17B474A83B1 /* DCCJUser-dummy.m */; };
-		2669FFF86D68C66981432CD05A37A9E7 /* MessageCenterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD490FD599476C6C7D1DBFCD27F0FD6 /* MessageCenterResponse.swift */; };
-		2AC75F5E0EF3A0AAC8B9B3FDB9227809 /* DCCJUser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED9700A6FF6CCD255BCDB2FC029B36C /* DCCJUser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AC7A4427C46F0410A166C946782B149 /* DCCJNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD58895BA7DB759826ED2BA521AA295 /* DCCJNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CD94032D334CFC355604ED8EF3FB38B /* CashierSupportBankCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5AA8D13FEF7CBA93F54664A705189E /* CashierSupportBankCards.swift */; };
-		308466B5B3F739773027FD19521E9D4D /* DCCJMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60BA14F65F0D8EB1BFE714A57D66786 /* DCCJMiddleware.swift */; };
-		30DAFD93B9BF3650BB3F186CED4C7812 /* GoogleCloudDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F396535CAB099CC7933E48DD94634A17 /* GoogleCloudDestination.swift */; };
+		22045ED3668F61B08B37B355936EFF94 /* DCCJCashier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB744F795749F224A3D68176570AF8EC /* DCCJCashier.swift */; };
+		2669FFF86D68C66981432CD05A37A9E7 /* MessageCenterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F4B38CDC9487B7B371334DBC0BF46F /* MessageCenterResponse.swift */; };
+		29B99F447958B558CBE43B5359DA3798 /* DataManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026B1948C62A4BC7F3FEA24655EEEAB /* DataManagerError.swift */; };
+		3106BAB3937D041D6BC5CF22DAABA5BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */; };
+		369D5DEAACC540ACCB41B4C37D905232 /* DCCJConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7F213F2E60E1C8862D10A6DE81E2C /* DCCJConfig.framework */; };
 		39D0CBE64A50D46997D4047B4E9CE7A9 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DD462A76EE74D9B06749BB5F1FBFA2 /* SwiftyBeaver.framework */; };
-		3DFBBAE19DEB0621DD5A1B74C22BAE16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */; };
-		3E61736292C005B8B522785F2FE13CC8 /* DCCJCashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8486FFA1D1B76DF43A6ECF12CA2C5437 /* DCCJCashier.framework */; };
-		511893FA7B57EAA99869B3AD37C4AFDC /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4497FFD6CAB90860593F4313A22456 /* Filter.swift */; };
-		547D014334BBF2E4E67707E07F4F32EB /* DCCJConfig-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B00FA8B6F44B2367A1760F62960791CE /* DCCJConfig-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64282F4D7238897435F8FBB45A1B3DAD /* DCCJLoginRegistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EA99E6AFCC87B2165633DFFFFD9EF2 /* DCCJLoginRegistModel.swift */; };
-		6635628140680D3AB4FAF3983307E00A /* DCCJCheckVersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF1811202D52349FD5BF9912D957704 /* DCCJCheckVersionModel.swift */; };
+		3A7D870582D984B83BD115D996BAD89D /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDAD6F1C8C706CE88B5B6824114A8F /* ConsoleDestination.swift */; };
+		3F4800478802F93FCFE9C4C4A94F212E /* ConfirmBindCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B73BC1B2C9572125D811029742F15 /* ConfirmBindCard.swift */; };
+		4246F19948813ABF97A069B343A0D381 /* CashierSettingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77D8B8024C0167ACB11BAA6F712246D /* CashierSettingConfig.swift */; };
+		436DC8A5742CD070EC5C05BE284A8325 /* DCCJLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9650609A0AE53A546D219EB55F42B3BD /* DCCJLogin.framework */; };
+		4628CEC6ABDEFF43AF0AF970D99B85C3 /* InitCashierResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49A05EAB7650FE6E82DB78AF6D53A79 /* InitCashierResponse.swift */; };
+		494A79AC945F6F22D3BAA00E2711174A /* CashierSupportBankCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9528799ADDD9FF78E44D8224217CCB6 /* CashierSupportBankCards.swift */; };
+		517E024D8B2E1A57C5D8E760399F6D5D /* DCCJMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB9646E45BE12B7BFD266E17B28B1E /* DCCJMiddleware.swift */; };
+		5AF177D2AC242C42BE9FE72493C8F635 /* DCCJNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00858CD8CD8546412D48549713842DA6 /* DCCJNetwork.framework */; };
+		5D81F289A2349D2D9295B01526F152F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */; };
+		5FCC4D17218B081B390A90A25D2F60A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693024ABBCE3A7BFA283FAA1B33CB93D /* UIKit.framework */; };
+		61146F9B16AB698405680A4795229B81 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE88A2D75048327306954CDC1FB27C5 /* UserInfo.swift */; };
+		61C70824DB80472B0CB84BA997B30020 /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490B08AF13632691CE2BCE8E427CDF8F /* SwiftyBeaver.swift */; };
+		6247039C7F019A5826DA1409722FD427 /* DCCJUser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D392BAA1C0DFD9EADA3DCB9DD6EFDD9 /* DCCJUser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63C316F77F678EEF3F07611023CC1DF1 /* CheckPayPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9326686B688B32BDE6DD5E31FB0246ED /* CheckPayPassword.swift */; };
+		64282F4D7238897435F8FBB45A1B3DAD /* DCCJLoginRegistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9725FF458F457E76C04F86002CBACD96 /* DCCJLoginRegistModel.swift */; };
+		6635628140680D3AB4FAF3983307E00A /* DCCJCheckVersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA34EA6B045C995CECF0656E4EFEDB1 /* DCCJCheckVersionModel.swift */; };
+		67032B6537892BD5D9644D827612BE18 /* DCCJUser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B65AFA41F8B002D5FD0BE0F357C0C91 /* DCCJUser-dummy.m */; };
+		68FE50D78B336228672585AF39F12B8A /* SwiftyBeaver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF83932DC7CFB65E61C8974F323CD855 /* SwiftyBeaver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6942EBE92647BD5661462C96743D4D73 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DD462A76EE74D9B06749BB5F1FBFA2 /* SwiftyBeaver.framework */; };
+		6F3C7F59F63A12E3E1C5E2FE013D262C /* SwiftyBeaver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B043E1A602D59DDCC0017E73D1CDC778 /* SwiftyBeaver-dummy.m */; };
 		7015F284AC24128EF49EE36439B57EEB /* Pods-DCCJMiddleware_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BC2CD98A873A066300A8723A7C11EA /* Pods-DCCJMiddleware_Tests-dummy.m */; };
-		7399D3E6E597BF175869628D3BA5A35D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */; };
-		7909CE504FB307BF5431473DA029885C /* DCCJLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9650609A0AE53A546D219EB55F42B3BD /* DCCJLogin.framework */; };
-		853210912EEF22389501EAC0426EDCFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693024ABBCE3A7BFA283FAA1B33CB93D /* UIKit.framework */; };
-		8A5F79B0C21D1DE2A5F327158462E0C2 /* CashierSettingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F027762A815C1C3BAFC8702651F49C /* CashierSettingConfig.swift */; };
-		8CA3EB8F3FB1EA6DAAD5194A944F8760 /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412CCE4A1987C65FFB5A96ECF3EBC37C /* BaseDestination.swift */; };
-		8DAACAA87E08218FAF866273AEC9709A /* DataManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712A57412E61DCC26BA91EEA02EE4872 /* DataManagerError.swift */; };
-		8EFD16516BF4AC5247D1E3314F7AC32C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */; };
-		8FD9C0B17B48C794A2190C823123B5C6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83AD75DA9D360239749BCD27B833191 /* Extensions.swift */; };
-		90F492A9F4E489BF11A12D91A38AB8A0 /* DCCJMessageCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94460800CE5C440E9EE7327CD69DD73A /* DCCJMessageCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		914B127DB4D523E8CCDF2DD7ED6FABAF /* InitCashierBankCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0370E14C2CD81C4E5DB7B2C23928637 /* InitCashierBankCards.swift */; };
+		7284A24C00ADFA1CF5C9E76D15C3CA42 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C997034266BDE296F8314F3E72168C73 /* Extensions.swift */; };
+		735AC448E063E8DD934C5F3524E7FE6E /* DCCJNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5971B2A8E363E71870C30CF31FE5DE8 /* DCCJNetwork-dummy.m */; };
+		75DBFC7C8A5AE3FDE93074551498678C /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D7B6A44D2B3342A13B4EEE72E16DB3 /* BaseDestination.swift */; };
+		763197DDF4845DF6EA49FBA4CD60F023 /* DCCJConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7F213F2E60E1C8862D10A6DE81E2C /* DCCJConfig.framework */; };
+		7CF66C0C2001443D5AB069BF689CF522 /* StartToPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71614AD890C493A98BEFA49071D20B52 /* StartToPay.swift */; };
+		8037F5E65A7433086843B6B8072F6E2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */; };
+		87653C19E9345C8715BA51B63F8D1756 /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36118ADF24364BD8E5D721B1B0B58EBF /* AES256CBC.swift */; };
+		87CA282E238684D4A249FE53AA0B0999 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE7EA874BFB3AB42EF19130026BA6C8 /* Result.swift */; };
+		8918A295C2F556AF05FD8532FE655B08 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAAAA3803EC8536EA36C9BF8CAE25FF /* Filter.swift */; };
+		8952E1F6840CA0EC9720A1CD5FAC1D57 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DD462A76EE74D9B06749BB5F1FBFA2 /* SwiftyBeaver.framework */; };
+		8BF324E937E800617B4428E5FAA69207 /* ResendVerifyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B22C54F31799A83EF81094383A60E0 /* ResendVerifyCode.swift */; };
+		90F492A9F4E489BF11A12D91A38AB8A0 /* DCCJMessageCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 871382A993469DBC0943BC50F28249F4 /* DCCJMessageCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		920C605FB85B24A2323693F5B5E291C3 /* DCCJNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00858CD8CD8546412D48549713842DA6 /* DCCJNetwork.framework */; };
 		93D7BABFB3C9DCD8A0ABE95197E803BB /* DCCJConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7F213F2E60E1C8862D10A6DE81E2C /* DCCJConfig.framework */; };
-		9EAD5A5A05D7E259B5768DCFB3689429 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DD462A76EE74D9B06749BB5F1FBFA2 /* SwiftyBeaver.framework */; };
-		9FFA418A51FBA414038FB9565C5AEDC0 /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E282C4BD8FBC56C9AD46789CD94534 /* ConsoleDestination.swift */; };
-		A460DAA2BE3D1695AB0181890E7DB533 /* DCCJConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7F213F2E60E1C8862D10A6DE81E2C /* DCCJConfig.framework */; };
+		982CD696F205195B94F7052AFA0E9148 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */; };
+		9A14063F55CD54C583EDC7728F195EC1 /* DCCJConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C980E00D4C6918F6B19ADDC702C651A0 /* DCCJConfig-dummy.m */; };
+		9C2FE17DBC633AE5830E5AAB40CF1FAD /* DCCJConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7F213F2E60E1C8862D10A6DE81E2C /* DCCJConfig.framework */; };
+		9D02E5B8E9AA650EDFE5A237C44BE76B /* DCCJCashier-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64FA82C4DEFEBAF3B407DA52F32FCF06 /* DCCJCashier-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E3A4A9D1B38ECEB96E339493CEE2CDF /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DD462A76EE74D9B06749BB5F1FBFA2 /* SwiftyBeaver.framework */; };
+		A602B3A10CEB7DA7953CE5A7B15F2729 /* DCCJCashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8486FFA1D1B76DF43A6ECF12CA2C5437 /* DCCJCashier.framework */; };
 		A792AC4C66ADBD943FCCDAB2706727C2 /* DCCJNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00858CD8CD8546412D48549713842DA6 /* DCCJNetwork.framework */; };
 		A9E3120C64BF94F3CECF0F2CEED0CF17 /* Pods-DCCJMiddleware_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7008F8A4684ECDEBD3CBD5BE84B5DD /* Pods-DCCJMiddleware_Example-dummy.m */; };
-		AC20DFBBCE8E0E99C1AD2739C36FFF47 /* RequestBindCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E519432AAC9DAD6C8ACC19B8A6209B /* RequestBindCard.swift */; };
-		B32A4146934B2FD1FEE774073BE19137 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EEDDE6C704FFD65BEE95B233B0060F /* Base64.swift */; };
+		ADF1F44C0D1645BFC60FC1827550611D /* DCCJConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7F213F2E60E1C8862D10A6DE81E2C /* DCCJConfig.framework */; };
+		AF18F59303F38295B97654D445D69C3A /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6359CBF67F0B0F0374FE26FBC7A1BAF /* Base64.swift */; };
 		B4EF5FE3AA29E1C57231CB4872FC8E97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */; };
-		B64F24AAFCA08632BCE9ABEB891D1D47 /* DCCJLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30FABFD87403A041E586996B75FD65A /* DCCJLogin.swift */; };
-		B71923EE3FDCCA8AF38E84C56D0B6E04 /* DCCJCashier-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 527D52B69DFE70882D1C59FA7FEF62D7 /* DCCJCashier-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B64F24AAFCA08632BCE9ABEB891D1D47 /* DCCJLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765E8540E75EBA787810FBFC245E84CD /* DCCJLogin.swift */; };
 		B801ABA14B04257F8486CE17D6C7E59D /* Pods-DCCJMiddleware_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B62A2128A3B8CD8F2C7A24DF885A73BF /* Pods-DCCJMiddleware_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAE17F3974624048321DEB5883F4EEA3 /* BankInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91004503FCCA085DCF8DBE7FF1C6EEF0 /* BankInfo.swift */; };
-		C0748457AB6363949B1958B6FC21EA8A /* DCCJUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297F300C25BE72D5DC571543C5083672 /* DCCJUser.framework */; };
-		C19002DE3F67A0F8772218D0D6AC4372 /* CheckPayPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72CCDE56C0B53A883B2626F3C6B285A /* CheckPayPassword.swift */; };
-		C24A39553A472592288FC5E691AC29FA /* DCCJFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E52AB1DE14D6E0B72E7F4C80B198205 /* DCCJFactory.swift */; };
-		C5C3B8CF1CC9444CC6AA948E791689EF /* DCCJNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00858CD8CD8546412D48549713842DA6 /* DCCJNetwork.framework */; };
-		CD7C267B625EB5E8DF95E500B1B6D6AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */; };
-		D1DE2436896720EE02E11F077681DE05 /* DCCJNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00858CD8CD8546412D48549713842DA6 /* DCCJNetwork.framework */; };
-		D20106814B916F1FB4AA691AC8B58BE6 /* CheckCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C9D7BD7FCC671E36F5B2C1C5E571C7 /* CheckCard.swift */; };
-		D370CB2C2C1560D697A8C8B7F3C46B33 /* DCCJNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE61D2EF78F9E2946C3241B70A3F57 /* DCCJNetwork.swift */; };
-		D3A236633BC8D9BA4040E8594E7FBEF3 /* SBPlatformDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA38EC1060E46848A7E57C8BF40954A /* SBPlatformDestination.swift */; };
-		D691B84D66FFA4D1A5BA369BC174557A /* DCCJCashier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2670EBC3AE9DA86501A07603645DDF /* DCCJCashier.swift */; };
+		B8E929914037F9E9D09C8E6FCB6E5BBC /* SBPlatformDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0FC37A3D86A6C476FF9B07656AA66 /* SBPlatformDestination.swift */; };
+		BDEC997658F7199D61AD7E7739A7F4AF /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74247E778B0BA9206F5C8E0BA590E966 /* FileDestination.swift */; };
+		BE4EF8FEBD9FA354F27C6C4E33C81D57 /* DCCJMiddleware-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE2D8ECF7AE50B79226398320B41E28 /* DCCJMiddleware-dummy.m */; };
+		BF6DBDCE5676AC08A9C9776D83A7AF60 /* DCCJUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297F300C25BE72D5DC571543C5083672 /* DCCJUser.framework */; };
+		C0594D738D0D619805D46BD965D9B7F5 /* DCCJUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3180D9B39C52D765B19A477C85CAE8FD /* DCCJUser.swift */; };
+		C2F2643099D6F3793E18A44C1A7237B4 /* GoogleCloudDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C35B154C4AEF1CABDE1B8AA388B9A1F /* GoogleCloudDestination.swift */; };
+		CD0E4890E83C7E8A133DEBED66D4C371 /* InitCashierBankCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9485936FC6247DE73AF2E592726BA9 /* InitCashierBankCards.swift */; };
+		CFA711343636DD8ED6EBD7415F9CF451 /* DCCJConfig-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC64DEBF1C65C9E647854C749C538DE /* DCCJConfig-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1D35A7F102AF3092A422BF756C8D7B1 /* DCCJNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CF794DE898E340548BF60CFFE0BC01 /* DCCJNetwork.swift */; };
 		D83C4DB4948412CFB42CFA486FBBBF80 /* DCCJConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7F213F2E60E1C8862D10A6DE81E2C /* DCCJConfig.framework */; };
-		D8BECFBBC5CEBA0AE34B6A938377B7D5 /* DCCJMessageCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE1FF472A5DE19F8FEB96009ACBF4B3 /* DCCJMessageCenter.swift */; };
-		DCD31AA76E4772D5ACFEF1CF60EF0770 /* SureToPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199B447EC0A1B1CC5D0BCF0989F75D96 /* SureToPay.swift */; };
-		DCF5B1C405A1551B8503A7FC35BED0AD /* DCCJMiddleware-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C500D445365C4C41C74F2C29EF6B1F /* DCCJMiddleware-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEF96A56035BA4D8F3F5EBCDB31A6A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */; };
-		E0AB902448FF56D18F956C32E131FF14 /* DCCJUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FAEA92D156BBC6AA8825B3F2B47A82 /* DCCJUser.swift */; };
-		E0F4BAC6ED77D959257E9921A35BD4C3 /* DCCJMiddleware-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B8C21BE7D3280DCACC31A50DA2AB36 /* DCCJMiddleware-dummy.m */; };
-		E1D0FCB814832D151CDAFEFF9AFCDFD1 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DD462A76EE74D9B06749BB5F1FBFA2 /* SwiftyBeaver.framework */; };
-		E2D26CCA56A036711672426C77119BFA /* DCCJLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0939FBFF440B2A77985306DB556D7 /* DCCJLogin-dummy.m */; };
-		EAF4AE4B23541093508E0D9FFEF1EF44 /* ConfirmBindCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D98873D893BC03232DBDC6E49E62C9 /* ConfirmBindCard.swift */; };
-		EB56F7907761843E50C7A2814F591671 /* DCCJConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F15FC551231EC654C993A653A62F0439 /* DCCJConfig-dummy.m */; };
-		ECE8846838DC291C28CB8F65AECDA087 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DD462A76EE74D9B06749BB5F1FBFA2 /* SwiftyBeaver.framework */; };
-		EDEB68E7A5540E1ED3BA1DAA81A41110 /* DCCJCashier-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED3FE7CC872AF52D69B301ECD346453 /* DCCJCashier-dummy.m */; };
+		D8BECFBBC5CEBA0AE34B6A938377B7D5 /* DCCJMessageCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A38C2EC4421DA45B8AF743B2BE81D /* DCCJMessageCenter.swift */; };
+		DA49CC2A361F6B5DF2953F978DD32BFE /* SureToPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC8543C09CB6ECD3D6F2A466C3DC842 /* SureToPay.swift */; };
+		DE98D9295F2841F4360FC0FA6248EC2B /* DCCJNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB723E19DB4DC1A55F814A6505A7137E /* DCCJNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0B0121F6C80D5738E2B609AF6BE3F14 /* DCCJNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00858CD8CD8546412D48549713842DA6 /* DCCJNetwork.framework */; };
+		E1EEAA7D6CBF65C2D4D524ED1D9ED0EE /* BankInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A281F48D3934F4CCB550CFD15A217A /* BankInfo.swift */; };
+		E2D26CCA56A036711672426C77119BFA /* DCCJLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B667A7D29626A0E53B384A03BB9658BF /* DCCJLogin-dummy.m */; };
 		EEA9EA20794CA1DEDE4F5C4BEA2CDA10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */; };
-		F0AE3509D9C99E2958B76A2942B6F282 /* DCCJNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF266AA0B0548C2999F562B0EB697095 /* DCCJNetwork-dummy.m */; };
-		F6357C47809AE59F3AAF55DAFE072E59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */; };
-		FCD5C39711AFDBEE55313DDD03798450 /* DCCJMessageCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE2F3C673FF7AFD0A9CAE37915B0279 /* DCCJMessageCenter.framework */; };
-		FD1144D34488316D99584B5A456CE7EB /* DCCJConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC7F213F2E60E1C8862D10A6DE81E2C /* DCCJConfig.framework */; };
-		FD6F1807DE30D23DE557594DF6E4327C /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B24DD95858A72A1D5DF12816935771 /* FileDestination.swift */; };
+		F97555AC02D0C72C85E43CD14DFF7981 /* DCCJMessageCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE2F3C673FF7AFD0A9CAE37915B0279 /* DCCJMessageCenter.framework */; };
+		FA673C1768E82D668AF2B86E2B26B216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */; };
+		FB5B290B3AE41A8D0786D5F234225346 /* RequestBindCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A2F6BFCF6AC58F6FCE0247FAA81A77 /* RequestBindCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		02CBB13285E3180BC2D98B428DE59051 /* PBXContainerItemProxy */ = {
+		03CED1CC8D92F8ECF1F073751A09A49C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 16398E04D6166D1D711FC7035618464A;
+			remoteGlobalIDString = 1104FBC8A289E8A8C683E61D07481FF1;
 			remoteInfo = DCCJConfig;
 		};
 		06F280BB6F9CDBB616B4A93E5293EBFD /* PBXContainerItemProxy */ = {
@@ -111,60 +111,53 @@
 			remoteGlobalIDString = EEA07A39861AAFA0A8DEE768B3A6CFE5;
 			remoteInfo = "Pods-DCCJMiddleware_Example";
 		};
+		0BE3B8B1A4A1CF581502C41799A017C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70C1A645656362C941EE115759272ED9;
+			remoteInfo = DCCJUser;
+		};
 		11EC81B907A1371C923E184815345670 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7D135AC8969C10ECC365637CB4BB4D21;
+			remoteGlobalIDString = C028AB5543A544B7CC9AA7039CED7B27;
 			remoteInfo = DCCJCashier;
 		};
-		12071CF8A3832FE414B2B525997DE0C9 /* PBXContainerItemProxy */ = {
+		1B03DE198FD20A1771D97D24620A1208 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 26CCF814C84E4AD98DEC97F6071E3AA4;
-			remoteInfo = DCCJNetwork;
-		};
-		1FA1CCD9F5EC99D8201E366FF5CD4349 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 58C4790EC04031AD7E849CEB12F45806;
-			remoteInfo = SwiftyBeaver;
+			remoteGlobalIDString = 1104FBC8A289E8A8C683E61D07481FF1;
+			remoteInfo = DCCJConfig;
 		};
 		20D71BCF37BA3CAAD6DFAA96D0F4DA99 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 16398E04D6166D1D711FC7035618464A;
+			remoteGlobalIDString = 1104FBC8A289E8A8C683E61D07481FF1;
 			remoteInfo = DCCJConfig;
 		};
 		2826C84A64AA59F897E502D21530C51F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 26CCF814C84E4AD98DEC97F6071E3AA4;
+			remoteGlobalIDString = 50F1B5066DF6AD377251C1C0C4CD611C;
 			remoteInfo = DCCJNetwork;
 		};
-		2FFD3CE81ED165DC5BF0D742AC0655B0 /* PBXContainerItemProxy */ = {
+		32CCF64687715FCCFF8D5348DF9239DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 16398E04D6166D1D711FC7035618464A;
-			remoteInfo = DCCJConfig;
-		};
-		311B32D8D450F7D05DD074AF6E39200F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 16398E04D6166D1D711FC7035618464A;
-			remoteInfo = DCCJConfig;
+			remoteGlobalIDString = 48486D2B033DF7D1BD8F7F8E4BED0971;
+			remoteInfo = SwiftyBeaver;
 		};
 		3D6CD668E4412AEE085C7F15BCE8975E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8580366DC1CE4DEC34102BC89BA74725;
+			remoteGlobalIDString = 70C1A645656362C941EE115759272ED9;
 			remoteInfo = DCCJUser;
 		};
 		40B0880851BC7C024BD779BFACC698A0 /* PBXContainerItemProxy */ = {
@@ -178,36 +171,43 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 16398E04D6166D1D711FC7035618464A;
+			remoteGlobalIDString = 1104FBC8A289E8A8C683E61D07481FF1;
 			remoteInfo = DCCJConfig;
+		};
+		4F0BB7E1100A3DA15DCBD88961F00004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C028AB5543A544B7CC9AA7039CED7B27;
+			remoteInfo = DCCJCashier;
 		};
 		54C536B989AA2AE9E8C834B0D719A337 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 58C4790EC04031AD7E849CEB12F45806;
+			remoteGlobalIDString = 48486D2B033DF7D1BD8F7F8E4BED0971;
 			remoteInfo = SwiftyBeaver;
 		};
 		5593DC9511C59E880C23FEEF61BD940B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 26CCF814C84E4AD98DEC97F6071E3AA4;
+			remoteGlobalIDString = 50F1B5066DF6AD377251C1C0C4CD611C;
 			remoteInfo = DCCJNetwork;
 		};
-		55BAB729783C2AE0379B9FE9AB12E7A4 /* PBXContainerItemProxy */ = {
+		5D12010ED5DD06FCADBC7AC29EAB2084 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 428106461FAC0CCD28A0AAEACD0AA02A;
-			remoteInfo = DCCJLogin;
+			remoteGlobalIDString = 1104FBC8A289E8A8C683E61D07481FF1;
+			remoteInfo = DCCJConfig;
 		};
-		60C6FA73EAB8D550B07BD72D1812A947 /* PBXContainerItemProxy */ = {
+		713F713C01D16605BA748A074AC46B25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8580366DC1CE4DEC34102BC89BA74725;
-			remoteInfo = DCCJUser;
+			remoteGlobalIDString = D375F2CADE53C6CD6C328DB780E06FAA;
+			remoteInfo = DCCJMessageCenter;
 		};
 		7C0C9EEC0D7AB43E5C696215568356D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -216,229 +216,226 @@
 			remoteGlobalIDString = 428106461FAC0CCD28A0AAEACD0AA02A;
 			remoteInfo = DCCJLogin;
 		};
-		7DFCFC880BE82BC47575E9C76950C454 /* PBXContainerItemProxy */ = {
+		88F31F8282DF03A417220E1E3AD8ABF2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7D135AC8969C10ECC365637CB4BB4D21;
-			remoteInfo = DCCJCashier;
+			remoteGlobalIDString = 50F1B5066DF6AD377251C1C0C4CD611C;
+			remoteInfo = DCCJNetwork;
+		};
+		A41BDD717CCC71CD18CA960E9EBE1468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F1B5066DF6AD377251C1C0C4CD611C;
+			remoteInfo = DCCJNetwork;
 		};
 		B9BF4B84DC50DC19A77F79C8F64B1BFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 58C4790EC04031AD7E849CEB12F45806;
+			remoteGlobalIDString = 48486D2B033DF7D1BD8F7F8E4BED0971;
 			remoteInfo = SwiftyBeaver;
-		};
-		C1A4B8A2C0129823DB2D6EB476DBBE8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 26CCF814C84E4AD98DEC97F6071E3AA4;
-			remoteInfo = DCCJNetwork;
 		};
 		C4F72667D2CF1F1DB23AE5B5FB0214FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 06A481CD5DBD9DBEB1ED617DE942F9E9;
+			remoteGlobalIDString = 3FAD2ADEC28187B8E1F1254AEE2FEE11;
 			remoteInfo = DCCJMiddleware;
 		};
 		D415493E56611F8AB680FDC8A618A3C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 26CCF814C84E4AD98DEC97F6071E3AA4;
+			remoteGlobalIDString = 50F1B5066DF6AD377251C1C0C4CD611C;
 			remoteInfo = DCCJNetwork;
+		};
+		D7CEED0A2FCC90062939D20199D6557C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48486D2B033DF7D1BD8F7F8E4BED0971;
+			remoteInfo = SwiftyBeaver;
 		};
 		DABA8B1E181C29BFB61994CF5FE2336C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 16398E04D6166D1D711FC7035618464A;
+			remoteGlobalIDString = 1104FBC8A289E8A8C683E61D07481FF1;
 			remoteInfo = DCCJConfig;
 		};
 		DB84E2FFA47ABB85885EF9FBEED45C5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 58C4790EC04031AD7E849CEB12F45806;
+			remoteGlobalIDString = 48486D2B033DF7D1BD8F7F8E4BED0971;
 			remoteInfo = SwiftyBeaver;
 		};
-		DD7C0F83A100A244FD867850A88150A9 /* PBXContainerItemProxy */ = {
+		DBDE4A85DEFBB9087D31574C0AE06035 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 58C4790EC04031AD7E849CEB12F45806;
+			remoteGlobalIDString = 48486D2B033DF7D1BD8F7F8E4BED0971;
 			remoteInfo = SwiftyBeaver;
 		};
-		E32FD451DC16B9BA00A6791CDE00B5ED /* PBXContainerItemProxy */ = {
+		E1CFA5B89D45371F880BF9AAD8505806 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D375F2CADE53C6CD6C328DB780E06FAA;
-			remoteInfo = DCCJMessageCenter;
+			remoteGlobalIDString = 428106461FAC0CCD28A0AAEACD0AA02A;
+			remoteInfo = DCCJLogin;
 		};
-		EF7DB5B1B8E44B0B7ADABE11DBFA9B4A /* PBXContainerItemProxy */ = {
+		FA8E5CD644C139E419F6DEAEC70ECC1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 58C4790EC04031AD7E849CEB12F45806;
-			remoteInfo = SwiftyBeaver;
-		};
-		FBC465096304BD883A47845212AF90AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 16398E04D6166D1D711FC7035618464A;
+			remoteGlobalIDString = 1104FBC8A289E8A8C683E61D07481FF1;
 			remoteInfo = DCCJConfig;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00858CD8CD8546412D48549713842DA6 /* DCCJNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		00A00BF39E64C4CBDFA8AD41A3477B53 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = DCCJConfig/Classes/Result/Result.swift; sourceTree = "<group>"; };
-		0326C1404CF686A0408AE3FB9EB19716 /* StartToPay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StartToPay.swift; path = DCCJCashier/Classes/CashierModels/StartToPay.swift; sourceTree = "<group>"; };
-		0451D299D30A82E9A7E2864458D8ED7A /* DCCJAdInfoModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJAdInfoModel.swift; path = DCCJLogin/Classes/DCCJAdInfoModel.swift; sourceTree = "<group>"; };
-		05B8C21BE7D3280DCACC31A50DA2AB36 /* DCCJMiddleware-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJMiddleware-dummy.m"; sourceTree = "<group>"; };
-		05C500D445365C4C41C74F2C29EF6B1F /* DCCJMiddleware-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJMiddleware-umbrella.h"; sourceTree = "<group>"; };
-		0BD45417F12F66140715B17B474A83B1 /* DCCJUser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJUser-dummy.m"; sourceTree = "<group>"; };
-		0BF1811202D52349FD5BF9912D957704 /* DCCJCheckVersionModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJCheckVersionModel.swift; path = DCCJLogin/Classes/DCCJCheckVersionModel.swift; sourceTree = "<group>"; };
-		0EF28449B1F5EBF72399ACA2C41A423B /* DCCJLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJLogin-umbrella.h"; sourceTree = "<group>"; };
-		10382DC6F180A4D38AC2169AE9EE51C3 /* DCCJUser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJUser.modulemap; sourceTree = "<group>"; };
-		15E2467D9F181F61B1D085832ED90D9F /* DCCJUser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJUser.xcconfig; sourceTree = "<group>"; };
-		18428D01BD43DF3E6A879BE9590FDDA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		199B447EC0A1B1CC5D0BCF0989F75D96 /* SureToPay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SureToPay.swift; path = DCCJCashier/Classes/CashierModels/SureToPay.swift; sourceTree = "<group>"; };
+		00C0717A679591B3403640DBAC5C19D0 /* DCCJMiddleware-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJMiddleware-prefix.pch"; sourceTree = "<group>"; };
+		01BB97E2523793E900F1415ADF8D1856 /* DCCJCashier.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJCashier.modulemap; sourceTree = "<group>"; };
+		085D21981A60FB8D4CC0CC033E109C66 /* DCCJConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJConfig.xcconfig; sourceTree = "<group>"; };
+		0991221004493DF87778B118E7A9929C /* DCCJUser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJUser-prefix.pch"; sourceTree = "<group>"; };
+		105B73BC1B2C9572125D811029742F15 /* ConfirmBindCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmBindCard.swift; path = DCCJCashier/Classes/CashierModels/ConfirmBindCard.swift; sourceTree = "<group>"; };
+		1076D376CF2B7BB8ADDD90B2E8FE9EE6 /* DCCJNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJNetwork.xcconfig; sourceTree = "<group>"; };
 		1A026472853B07AB52ED46873F8BDA86 /* Pods-DCCJMiddleware_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DCCJMiddleware_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1B65AFA41F8B002D5FD0BE0F357C0C91 /* DCCJUser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJUser-dummy.m"; sourceTree = "<group>"; };
 		1D401758C79A73EBA964995DB5D678B8 /* Pods-DCCJMiddleware_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCCJMiddleware_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		231E960538DDDA55D57890BF7FF58079 /* DCCJCashier.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJCashier.modulemap; sourceTree = "<group>"; };
-		25EEDDE6C704FFD65BEE95B233B0060F /* Base64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base64.swift; path = Sources/Base64.swift; sourceTree = "<group>"; };
+		1DCEA023EBB16D254ADBB7E2D5FBE47E /* DCCJUser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJUser.modulemap; sourceTree = "<group>"; };
+		23370B3C3109F0CB4D365C08A864E295 /* DCCJMessageCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJMessageCenter-prefix.pch"; sourceTree = "<group>"; };
+		24F4B2965ECD419B8CDE441FE80E8A55 /* DCCJNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJNetwork-prefix.pch"; sourceTree = "<group>"; };
 		261402CBB22EBE01CBD1357E26E82BF9 /* DCCJConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26E519432AAC9DAD6C8ACC19B8A6209B /* RequestBindCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestBindCard.swift; path = DCCJCashier/Classes/CashierModels/RequestBindCard.swift; sourceTree = "<group>"; };
+		27B82FB46525B4645004F4C1B3DE881E /* SwiftyBeaver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBeaver.xcconfig; sourceTree = "<group>"; };
+		2847FA1F0B5C49E2F9F3F1C7DC8AC8E0 /* DCCJBasicResponseModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJBasicResponseModel.swift; path = DCCJLogin/Classes/DCCJBasicResponseModel.swift; sourceTree = "<group>"; };
 		297F300C25BE72D5DC571543C5083672 /* DCCJUser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29DBE64AE041D3FFE7D1A4C5CB4BA3BC /* Pods-DCCJMiddleware_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DCCJMiddleware_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2DD477F2DD79B48E2A1A61F7825CB783 /* DCCJMessageCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJMessageCenter-prefix.pch"; sourceTree = "<group>"; };
-		2E52AB1DE14D6E0B72E7F4C80B198205 /* DCCJFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJFactory.swift; path = DCCJMiddleware/Classes/DCCJFactory.swift; sourceTree = "<group>"; };
-		2ED9700A6FF6CCD255BCDB2FC029B36C /* DCCJUser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJUser-umbrella.h"; sourceTree = "<group>"; };
+		2B6C8271C934FA9217D83E60531EBBE5 /* DCCJUserInfoModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJUserInfoModel.swift; path = DCCJLogin/Classes/DCCJUserInfoModel.swift; sourceTree = "<group>"; };
+		2C30AAF9364B6B420C1E37E2B9DDB4AF /* DCCJLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJLogin-prefix.pch"; sourceTree = "<group>"; };
+		2D392BAA1C0DFD9EADA3DCB9DD6EFDD9 /* DCCJUser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJUser-umbrella.h"; sourceTree = "<group>"; };
 		2F26D1A7597FAA6647D82B18133AFFAB /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		315FB33A266CB55789FE005C14ACDAE8 /* Pods_DCCJMiddleware_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCCJMiddleware_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3180D9B39C52D765B19A477C85CAE8FD /* DCCJUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJUser.swift; path = DCCJUser/Classes/DCCJUser.swift; sourceTree = "<group>"; };
 		31DD462A76EE74D9B06749BB5F1FBFA2 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35D456BDE5DABE053F9005EFB3B7307A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		36118ADF24364BD8E5D721B1B0B58EBF /* AES256CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES256CBC.swift; path = Sources/AES256CBC.swift; sourceTree = "<group>"; };
 		3AE2F3C673FF7AFD0A9CAE37915B0279 /* DCCJMessageCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJMessageCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D84EC57CC964F4D283870B54AD9C47B /* DCCJMiddleware-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJMiddleware-prefix.pch"; sourceTree = "<group>"; };
+		3CC64DEBF1C65C9E647854C749C538DE /* DCCJConfig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJConfig-umbrella.h"; sourceTree = "<group>"; };
 		3DACD9FD6DEAFC9B5E1C5C02116DE5CB /* Pods-DCCJMiddleware_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DCCJMiddleware_Example-resources.sh"; sourceTree = "<group>"; };
+		3DF3A871F28BCA5026F88DE8EF4A8D37 /* DCCJMessageCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJMessageCenter.modulemap; sourceTree = "<group>"; };
 		3E09212507460A30685F6D8E46C2D485 /* Pods-DCCJMiddleware_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DCCJMiddleware_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		40FB4FE459D96055DE9104C1D099357E /* DCCJLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJLogin-prefix.pch"; sourceTree = "<group>"; };
-		412CCE4A1987C65FFB5A96ECF3EBC37C /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseDestination.swift; path = Sources/BaseDestination.swift; sourceTree = "<group>"; };
-		46AC6641A979D97EA40979C41D1C86D4 /* DCCJCashier.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJCashier.xcconfig; sourceTree = "<group>"; };
-		49CC57887031C22B8FDFE42FD4C0B35D /* DCCJMessageCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJMessageCenter-dummy.m"; sourceTree = "<group>"; };
+		3FF0FC37A3D86A6C476FF9B07656AA66 /* SBPlatformDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBPlatformDestination.swift; path = Sources/SBPlatformDestination.swift; sourceTree = "<group>"; };
+		41FD5839C3F8A4BCE0A2BA167D65458E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449F28C4C8C0F5E9C64DB66353D68E72 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		47A281F48D3934F4CCB550CFD15A217A /* BankInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BankInfo.swift; path = DCCJCashier/Classes/CashierModels/BankInfo.swift; sourceTree = "<group>"; };
+		490B08AF13632691CE2BCE8E427CDF8F /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBeaver.swift; path = Sources/SwiftyBeaver.swift; sourceTree = "<group>"; };
+		49BB9646E45BE12B7BFD266E17B28B1E /* DCCJMiddleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJMiddleware.swift; path = DCCJMiddleware/Classes/DCCJMiddleware.swift; sourceTree = "<group>"; };
 		4B7008F8A4684ECDEBD3CBD5BE84B5DD /* Pods-DCCJMiddleware_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DCCJMiddleware_Example-dummy.m"; sourceTree = "<group>"; };
-		4FB1DE7919D8E4C604B94F080A25870D /* SwiftyBeaver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-prefix.pch"; sourceTree = "<group>"; };
-		527D52B69DFE70882D1C59FA7FEF62D7 /* DCCJCashier-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJCashier-umbrella.h"; sourceTree = "<group>"; };
 		55646E3E42431A78C8D45F319D1B2605 /* Pods-DCCJMiddleware_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DCCJMiddleware_Tests.modulemap"; sourceTree = "<group>"; };
 		56E752E9246084C5EF41EAA9E518C6B7 /* DCCJCashier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJCashier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B280D8F8ABEE369191B22D708035C73 /* DCCJUser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJUser-prefix.pch"; sourceTree = "<group>"; };
-		5D02CF0C6D0275E8891497211AB791C3 /* AES256CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES256CBC.swift; path = Sources/AES256CBC.swift; sourceTree = "<group>"; };
+		5A1C02904FA64E5E1EF93E95BE116CC1 /* DCCJCashier-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJCashier-prefix.pch"; sourceTree = "<group>"; };
+		5B97F8B903251B84D464CAC2EA0B3E90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B98892C398E80E4D61E9685B295EE17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5BE7EA874BFB3AB42EF19130026BA6C8 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = DCCJConfig/Classes/Result/Result.swift; sourceTree = "<group>"; };
+		5C0D0E48A7055F92EFBE3A0A9A4681D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6D4DA31E46BE578965B74DC5F6FD02 /* DCCJLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJLogin-umbrella.h"; sourceTree = "<group>"; };
 		605992A0EF7ACDE1439253D70D08F884 /* Pods-DCCJMiddleware_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCCJMiddleware_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		64FA82C4DEFEBAF3B407DA52F32FCF06 /* DCCJCashier-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJCashier-umbrella.h"; sourceTree = "<group>"; };
 		686472F18827F24EF72B2FF71909E45F /* Pods-DCCJMiddleware_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DCCJMiddleware_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		68CF794DE898E340548BF60CFFE0BC01 /* DCCJNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJNetwork.swift; path = DCCJNetwork/Classes/DCCJNetwork.swift; sourceTree = "<group>"; };
 		693024ABBCE3A7BFA283FAA1B33CB93D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		6AE1FF472A5DE19F8FEB96009ACBF4B3 /* DCCJMessageCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJMessageCenter.swift; path = DCCJMessageCenter/Classes/DCCJMessageCenter.swift; sourceTree = "<group>"; };
+		69E3E85EEAC937CCD93ED252E8E747DF /* DCCJMiddleware.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJMiddleware.modulemap; sourceTree = "<group>"; };
 		6C480B760BDDE8B1640A711ED28076E8 /* DCCJLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		712A57412E61DCC26BA91EEA02EE4872 /* DataManagerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataManagerError.swift; path = DCCJConfig/Classes/DataManagerError/DataManagerError.swift; sourceTree = "<group>"; };
-		71F666E30B130F4B1134C077B9AA7D80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7305671C9CD0F5721B2D8681529BB0D6 /* DCCJMiddleware.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJMiddleware.xcconfig; sourceTree = "<group>"; };
+		71614AD890C493A98BEFA49071D20B52 /* StartToPay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StartToPay.swift; path = DCCJCashier/Classes/CashierModels/StartToPay.swift; sourceTree = "<group>"; };
+		733DE58E3CA89D99C817CE658C97FD0D /* DCCJConfig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJConfig.modulemap; sourceTree = "<group>"; };
+		74247E778B0BA9206F5C8E0BA590E966 /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileDestination.swift; path = Sources/FileDestination.swift; sourceTree = "<group>"; };
+		765E8540E75EBA787810FBFC245E84CD /* DCCJLogin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJLogin.swift; path = DCCJLogin/Classes/DCCJLogin.swift; sourceTree = "<group>"; };
+		79F4B38CDC9487B7B371334DBC0BF46F /* MessageCenterResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageCenterResponse.swift; path = DCCJMessageCenter/Classes/MessageCenterResponse.swift; sourceTree = "<group>"; };
+		7B20C6B109D33DB617C6A004D42A604D /* DCCJNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJNetwork.modulemap; sourceTree = "<group>"; };
 		7CE176BAC8467123FEB5DED8D63D1453 /* DCCJUser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7ED3FE7CC872AF52D69B301ECD346453 /* DCCJCashier-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJCashier-dummy.m"; sourceTree = "<group>"; };
-		7FB707679623DA7C0C67C3AE1C1C36C2 /* DCCJNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJNetwork-prefix.pch"; sourceTree = "<group>"; };
-		83BE61D2EF78F9E2946C3241B70A3F57 /* DCCJNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJNetwork.swift; path = DCCJNetwork/Classes/DCCJNetwork.swift; sourceTree = "<group>"; };
+		7DC8543C09CB6ECD3D6F2A466C3DC842 /* SureToPay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SureToPay.swift; path = DCCJCashier/Classes/CashierModels/SureToPay.swift; sourceTree = "<group>"; };
 		84648FCDA5473578821360533A7045D4 /* DCCJMessageCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJMessageCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8486FFA1D1B76DF43A6ECF12CA2C5437 /* DCCJCashier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJCashier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		84FAEA92D156BBC6AA8825B3F2B47A82 /* DCCJUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJUser.swift; path = DCCJUser/Classes/DCCJUser.swift; sourceTree = "<group>"; };
-		87B24DD95858A72A1D5DF12816935771 /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileDestination.swift; path = Sources/FileDestination.swift; sourceTree = "<group>"; };
-		8AB603396B3FE1BC764D3A6B1D0A1018 /* DCCJNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJNetwork.modulemap; sourceTree = "<group>"; };
-		8BBA06CE42072A5DD26509896FEFED81 /* UserInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserInfo.swift; path = DCCJUser/Classes/UserInfo.swift; sourceTree = "<group>"; };
-		8F26547AA7E14050AA2B7944374905CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8F2670EBC3AE9DA86501A07603645DDF /* DCCJCashier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJCashier.swift; path = DCCJCashier/Classes/DCCJCashier.swift; sourceTree = "<group>"; };
-		91004503FCCA085DCF8DBE7FF1C6EEF0 /* BankInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BankInfo.swift; path = DCCJCashier/Classes/CashierModels/BankInfo.swift; sourceTree = "<group>"; };
-		9399A8D4ED369889E960AAC7461C099E /* DCCJMiddleware.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJMiddleware.modulemap; sourceTree = "<group>"; };
+		871382A993469DBC0943BC50F28249F4 /* DCCJMessageCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJMessageCenter-umbrella.h"; sourceTree = "<group>"; };
+		872A9D0868F30DE8196D49DD7D66BF4C /* DCCJMiddleware.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJMiddleware.xcconfig; sourceTree = "<group>"; };
+		8C30782B1B01CCB29158E795E1F749DA /* DCCJConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJConfig-prefix.pch"; sourceTree = "<group>"; };
+		8C35B154C4AEF1CABDE1B8AA388B9A1F /* GoogleCloudDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleCloudDestination.swift; path = Sources/GoogleCloudDestination.swift; sourceTree = "<group>"; };
+		919802AC4AFB0CE955159CADC3A2201B /* DCCJAdInfoModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJAdInfoModel.swift; path = DCCJLogin/Classes/DCCJAdInfoModel.swift; sourceTree = "<group>"; };
+		9326686B688B32BDE6DD5E31FB0246ED /* CheckPayPassword.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckPayPassword.swift; path = DCCJCashier/Classes/CashierModels/CheckPayPassword.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94460800CE5C440E9EE7327CD69DD73A /* DCCJMessageCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJMessageCenter-umbrella.h"; sourceTree = "<group>"; };
-		95153F331873692C2CB25E8635B7277D /* DCCJMessageCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJMessageCenter.modulemap; sourceTree = "<group>"; };
+		95CA616EE6C6A7759ECC99A6139C0510 /* DCCJLogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJLogin.xcconfig; sourceTree = "<group>"; };
 		9650609A0AE53A546D219EB55F42B3BD /* DCCJLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9725FF458F457E76C04F86002CBACD96 /* DCCJLoginRegistModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJLoginRegistModel.swift; path = DCCJLogin/Classes/DCCJLoginRegistModel.swift; sourceTree = "<group>"; };
+		98A2F6BFCF6AC58F6FCE0247FAA81A77 /* RequestBindCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestBindCard.swift; path = DCCJCashier/Classes/CashierModels/RequestBindCard.swift; sourceTree = "<group>"; };
 		9A290ED2A8086E992DC505C07AA20B11 /* Pods-DCCJMiddleware_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DCCJMiddleware_Tests-resources.sh"; sourceTree = "<group>"; };
-		9AA0939FBFF440B2A77985306DB556D7 /* DCCJLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJLogin-dummy.m"; sourceTree = "<group>"; };
-		9B4497FFD6CAB90860593F4313A22456 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
-		9C354E7EB418E312B370A4DC55A1DC02 /* SwiftyBeaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyBeaver-dummy.m"; sourceTree = "<group>"; };
+		9AEF5CD11978E5EF23A8DD3CC52CD7A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DD9739D3F165E07810FA99D4D59CCD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2059E3F679E4774089570EC0DA45B0D /* DCCJUserInfoModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJUserInfoModel.swift; path = DCCJLogin/Classes/DCCJUserInfoModel.swift; sourceTree = "<group>"; };
-		A30FABFD87403A041E586996B75FD65A /* DCCJLogin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJLogin.swift; path = DCCJLogin/Classes/DCCJLogin.swift; sourceTree = "<group>"; };
-		A32BA6843A44B0C47614B73709303B11 /* DCCJMiddleware.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DCCJMiddleware.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A60BA14F65F0D8EB1BFE714A57D66786 /* DCCJMiddleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJMiddleware.swift; path = DCCJMiddleware/Classes/DCCJMiddleware.swift; sourceTree = "<group>"; };
-		A6E3ADC81264D295F8A4DACBDBF50B23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A72CCDE56C0B53A883B2626F3C6B285A /* CheckPayPassword.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckPayPassword.swift; path = DCCJCashier/Classes/CashierModels/CheckPayPassword.swift; sourceTree = "<group>"; };
-		A8D601300D1336034EA6BBBF3643B272 /* DCCJMessageCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJMessageCenter.xcconfig; sourceTree = "<group>"; };
-		A8D98873D893BC03232DBDC6E49E62C9 /* ConfirmBindCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmBindCard.swift; path = DCCJCashier/Classes/CashierModels/ConfirmBindCard.swift; sourceTree = "<group>"; };
-		A8F3ECDCA4D3E9C1F1A622807E2F9DE2 /* DCCJCashier-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJCashier-prefix.pch"; sourceTree = "<group>"; };
+		9F2728CD20EBB0607584855A90652A25 /* SwiftyBeaver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyBeaver.modulemap; sourceTree = "<group>"; };
+		9F6A38C2EC4421DA45B8AF743B2BE81D /* DCCJMessageCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJMessageCenter.swift; path = DCCJMessageCenter/Classes/DCCJMessageCenter.swift; sourceTree = "<group>"; };
+		A0BB96C4D298C2C84A8C1A10616C3B97 /* DCCJMessageCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJMessageCenter-dummy.m"; sourceTree = "<group>"; };
+		A49A05EAB7650FE6E82DB78AF6D53A79 /* InitCashierResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InitCashierResponse.swift; path = DCCJCashier/Classes/CashierModels/InitCashierResponse.swift; sourceTree = "<group>"; };
+		A56C574C3D50B4D79C57F2CC88E406F8 /* SwiftyBeaver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-prefix.pch"; sourceTree = "<group>"; };
+		A7308B3BD6EF217BB621582410413DAF /* DCCJMiddleware-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJMiddleware-umbrella.h"; sourceTree = "<group>"; };
 		A9BC2CD98A873A066300A8723A7C11EA /* Pods-DCCJMiddleware_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DCCJMiddleware_Tests-dummy.m"; sourceTree = "<group>"; };
-		AB5AA8D13FEF7CBA93F54664A705189E /* CashierSupportBankCards.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CashierSupportBankCards.swift; path = DCCJCashier/Classes/CashierModels/CashierSupportBankCards.swift; sourceTree = "<group>"; };
-		AC1E9851153387F865F975DAEAF1EB82 /* DCCJConfig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJConfig.modulemap; sourceTree = "<group>"; };
 		AD09C577BAEDE4D43BE2ED12336F8489 /* Pods-DCCJMiddleware_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCCJMiddleware_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B00FA8B6F44B2367A1760F62960791CE /* DCCJConfig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJConfig-umbrella.h"; sourceTree = "<group>"; };
+		ADA34EA6B045C995CECF0656E4EFEDB1 /* DCCJCheckVersionModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJCheckVersionModel.swift; path = DCCJLogin/Classes/DCCJCheckVersionModel.swift; sourceTree = "<group>"; };
+		AF83932DC7CFB65E61C8974F323CD855 /* SwiftyBeaver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-umbrella.h"; sourceTree = "<group>"; };
+		B043E1A602D59DDCC0017E73D1CDC778 /* SwiftyBeaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyBeaver-dummy.m"; sourceTree = "<group>"; };
 		B62A2128A3B8CD8F2C7A24DF885A73BF /* Pods-DCCJMiddleware_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DCCJMiddleware_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BCD490FD599476C6C7D1DBFCD27F0FD6 /* MessageCenterResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageCenterResponse.swift; path = DCCJMessageCenter/Classes/MessageCenterResponse.swift; sourceTree = "<group>"; };
+		B667A7D29626A0E53B384A03BB9658BF /* DCCJLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJLogin-dummy.m"; sourceTree = "<group>"; };
+		BB744F795749F224A3D68176570AF8EC /* DCCJCashier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJCashier.swift; path = DCCJCashier/Classes/DCCJCashier.swift; sourceTree = "<group>"; };
+		BD9485936FC6247DE73AF2E592726BA9 /* InitCashierBankCards.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InitCashierBankCards.swift; path = DCCJCashier/Classes/CashierModels/InitCashierBankCards.swift; sourceTree = "<group>"; };
+		BDE2D8ECF7AE50B79226398320B41E28 /* DCCJMiddleware-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJMiddleware-dummy.m"; sourceTree = "<group>"; };
+		BDE88A2D75048327306954CDC1FB27C5 /* UserInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserInfo.swift; path = DCCJUser/Classes/UserInfo.swift; sourceTree = "<group>"; };
 		BF310F2E26C3BBD0B76929CE2130E433 /* Pods-DCCJMiddleware_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DCCJMiddleware_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		C0370E14C2CD81C4E5DB7B2C23928637 /* InitCashierBankCards.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InitCashierBankCards.swift; path = DCCJCashier/Classes/CashierModels/InitCashierBankCards.swift; sourceTree = "<group>"; };
+		BF635A5E6EE15789424556E5DE6E6540 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C250068E7DF1B2A5766983AE6918D624 /* DCCJLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJLogin.modulemap; sourceTree = "<group>"; };
 		C29D1071A8FA87B69009A56B53A4CA5A /* Pods-DCCJMiddleware_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DCCJMiddleware_Example-umbrella.h"; sourceTree = "<group>"; };
-		C3E282C4BD8FBC56C9AD46789CD94534 /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleDestination.swift; path = Sources/ConsoleDestination.swift; sourceTree = "<group>"; };
-		C3EE56588BC679BCB4188A56946D16F5 /* SwiftyBeaver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-umbrella.h"; sourceTree = "<group>"; };
 		C47DE2BABF666B2DF5C1B2AD067E03D2 /* DCCJMiddleware.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJMiddleware.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C505A3F0C40B1B467EC430A3615734A7 /* ResendVerifyCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResendVerifyCode.swift; path = DCCJCashier/Classes/CashierModels/ResendVerifyCode.swift; sourceTree = "<group>"; };
-		C6D9068893F16CCEA2AE754E774F5782 /* DCCJConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJConfig-prefix.pch"; sourceTree = "<group>"; };
 		C760208B056AFC6D2DED2DADE8E19347 /* Pods-DCCJMiddleware_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DCCJMiddleware_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C83AD75DA9D360239749BCD27B833191 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
-		CBD58895BA7DB759826ED2BA521AA295 /* DCCJNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJNetwork-umbrella.h"; sourceTree = "<group>"; };
-		CD069D45D097A16A010C7690CC27DF1F /* DCCJConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJConfig.xcconfig; sourceTree = "<group>"; };
-		CF68B8629670061BAD84D91F76A3A8DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1C9D7BD7FCC671E36F5B2C1C5E571C7 /* CheckCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckCard.swift; path = DCCJCashier/Classes/CashierModels/CheckCard.swift; sourceTree = "<group>"; };
-		D283CEEF810ED9E142A1BE1610CB34E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C980E00D4C6918F6B19ADDC702C651A0 /* DCCJConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJConfig-dummy.m"; sourceTree = "<group>"; };
+		C997034266BDE296F8314F3E72168C73 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		C9EFBCD4963035CCE59A0B22FF0FDBBB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB723E19DB4DC1A55F814A6505A7137E /* DCCJNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DCCJNetwork-umbrella.h"; sourceTree = "<group>"; };
+		CBC301EB260936A3D6ACCD6DA9CC4873 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33C4CF886EDD2CBDAFDED4926CEF7CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4B6D6F9DE715175808E844982A50592 /* Pods_DCCJMiddleware_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCCJMiddleware_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D54ADEFF8D153B145BD168670381D877 /* DCCJLogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJLogin.xcconfig; sourceTree = "<group>"; };
-		D9EA99E6AFCC87B2165633DFFFFD9EF2 /* DCCJLoginRegistModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJLoginRegistModel.swift; path = DCCJLogin/Classes/DCCJLoginRegistModel.swift; sourceTree = "<group>"; };
+		D5C9C58FB8DE3D8D42A6C8CD56B923CD /* DCCJMiddleware.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DCCJMiddleware.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D5D7B6A44D2B3342A13B4EEE72E16DB3 /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseDestination.swift; path = Sources/BaseDestination.swift; sourceTree = "<group>"; };
+		D6359CBF67F0B0F0374FE26FBC7A1BAF /* Base64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base64.swift; path = Sources/Base64.swift; sourceTree = "<group>"; };
 		DAA5031AAD0625AAA139514B3D266E2D /* Pods-DCCJMiddleware_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DCCJMiddleware_Example.modulemap"; sourceTree = "<group>"; };
+		DBAAAA3803EC8536EA36C9BF8CAE25FF /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		E2B22C54F31799A83EF81094383A60E0 /* ResendVerifyCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResendVerifyCode.swift; path = DCCJCashier/Classes/CashierModels/ResendVerifyCode.swift; sourceTree = "<group>"; };
 		E2BADF1BEF293408AFC3942425848ABC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E3150C8F14B070842FCE4BBB9F72515F /* DCCJMessageCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJMessageCenter.xcconfig; sourceTree = "<group>"; };
+		E39DB90BFBBBE2671FA2F97B38D34EF7 /* DCCJCashier-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJCashier-dummy.m"; sourceTree = "<group>"; };
+		E5971B2A8E363E71870C30CF31FE5DE8 /* DCCJNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJNetwork-dummy.m"; sourceTree = "<group>"; };
 		E5BF7C5A4F2DD8501AD38EC7148BA597 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E69CC8C148DE39D72A3DD27B4EE64DC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6BE5B256A4D5F970D446E70537D171C /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBeaver.swift; path = Sources/SwiftyBeaver.swift; sourceTree = "<group>"; };
-		E9F027762A815C1C3BAFC8702651F49C /* CashierSettingConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CashierSettingConfig.swift; path = DCCJCashier/Classes/CashierSettingConfig.swift; sourceTree = "<group>"; };
-		ECA38EC1060E46848A7E57C8BF40954A /* SBPlatformDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBPlatformDestination.swift; path = Sources/SBPlatformDestination.swift; sourceTree = "<group>"; };
-		EE243326379C23BBB1B5DFD9A900039E /* DCCJNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJNetwork.xcconfig; sourceTree = "<group>"; };
-		EF266AA0B0548C2999F562B0EB697095 /* DCCJNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJNetwork-dummy.m"; sourceTree = "<group>"; };
-		F0720075D6979DC948229F366CD38FE6 /* DCCJLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DCCJLogin.modulemap; sourceTree = "<group>"; };
-		F11BE3C17115E6D59ADFC6E84638C480 /* DCCJBasicResponseModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DCCJBasicResponseModel.swift; path = DCCJLogin/Classes/DCCJBasicResponseModel.swift; sourceTree = "<group>"; };
-		F15FC551231EC654C993A653A62F0439 /* DCCJConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DCCJConfig-dummy.m"; sourceTree = "<group>"; };
-		F396535CAB099CC7933E48DD94634A17 /* GoogleCloudDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleCloudDestination.swift; path = Sources/GoogleCloudDestination.swift; sourceTree = "<group>"; };
-		F604E1A0283AB9E1E2A046406452ED69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6F9EDB4BAA387A90F139DA5DC850527 /* SwiftyBeaver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyBeaver.modulemap; sourceTree = "<group>"; };
-		F731E71FEEEC46E36BE5F04EF3CA31FF /* SwiftyBeaver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBeaver.xcconfig; sourceTree = "<group>"; };
+		E77D8B8024C0167ACB11BAA6F712246D /* CashierSettingConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CashierSettingConfig.swift; path = DCCJCashier/Classes/CashierSettingConfig.swift; sourceTree = "<group>"; };
+		E90FB6DE32395888CAB54692F264F74B /* DCCJUser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJUser.xcconfig; sourceTree = "<group>"; };
+		E9528799ADDD9FF78E44D8224217CCB6 /* CashierSupportBankCards.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CashierSupportBankCards.swift; path = DCCJCashier/Classes/CashierModels/CashierSupportBankCards.swift; sourceTree = "<group>"; };
+		ED35D2999BFD59BC7A54F929F7F3989F /* DCCJCashier.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DCCJCashier.xcconfig; sourceTree = "<group>"; };
+		F026B1948C62A4BC7F3FEA24655EEEAB /* DataManagerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataManagerError.swift; path = DCCJConfig/Classes/DataManagerError/DataManagerError.swift; sourceTree = "<group>"; };
+		F547139C69DAC620466841B0D0505DD3 /* CheckCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckCard.swift; path = DCCJCashier/Classes/CashierModels/CheckCard.swift; sourceTree = "<group>"; };
 		F83DD7823041B8CA45C7FC69D9C2ACA0 /* Pods-DCCJMiddleware_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DCCJMiddleware_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FAFDAD6F1C8C706CE88B5B6824114A8F /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleDestination.swift; path = Sources/ConsoleDestination.swift; sourceTree = "<group>"; };
 		FBC7F213F2E60E1C8862D10A6DE81E2C /* DCCJConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC60CFAF34C673842770F5C70C09642E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDF45EEC07D18CA92D50732FB0CB2415 /* DCCJNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCCJNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		015229845F288CE9E302A1594DB2AF55 /* Frameworks */ = {
+		037CA7874899DC0C4C436B2122FD6775 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E61736292C005B8B522785F2FE13CC8 /* DCCJCashier.framework in Frameworks */,
-				14FF5381DF02D6080B6DA3AF6CF3C1F2 /* DCCJConfig.framework in Frameworks */,
-				7909CE504FB307BF5431473DA029885C /* DCCJLogin.framework in Frameworks */,
-				FCD5C39711AFDBEE55313DDD03798450 /* DCCJMessageCenter.framework in Frameworks */,
-				D1DE2436896720EE02E11F077681DE05 /* DCCJNetwork.framework in Frameworks */,
-				C0748457AB6363949B1958B6FC21EA8A /* DCCJUser.framework in Frameworks */,
-				F6357C47809AE59F3AAF55DAFE072E59 /* Foundation.framework in Frameworks */,
-				ECE8846838DC291C28CB8F65AECDA087 /* SwiftyBeaver.framework in Frameworks */,
+				763197DDF4845DF6EA49FBA4CD60F023 /* DCCJConfig.framework in Frameworks */,
+				5AF177D2AC242C42BE9FE72493C8F635 /* DCCJNetwork.framework in Frameworks */,
+				3106BAB3937D041D6BC5CF22DAABA5BB /* Foundation.framework in Frameworks */,
+				8952E1F6840CA0EC9720A1CD5FAC1D57 /* SwiftyBeaver.framework in Frameworks */,
+				5FCC4D17218B081B390A90A25D2F60A2 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,22 +458,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4248B74C371F955D22DB7CC5B6D7453D /* Frameworks */ = {
+		70D40B2D9819600883D15CBE382E9488 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD1144D34488316D99584B5A456CE7EB /* DCCJConfig.framework in Frameworks */,
-				3DFBBAE19DEB0621DD5A1B74C22BAE16 /* Foundation.framework in Frameworks */,
-				9EAD5A5A05D7E259B5768DCFB3689429 /* SwiftyBeaver.framework in Frameworks */,
+				5D81F289A2349D2D9295B01526F152F1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CB07A83604ACB408E8143628298DFBA /* Frameworks */ = {
+		76CBE23EE666E672308C79BDCED9F4AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A460DAA2BE3D1695AB0181890E7DB533 /* DCCJConfig.framework in Frameworks */,
-				8EFD16516BF4AC5247D1E3314F7AC32C /* Foundation.framework in Frameworks */,
+				ADF1F44C0D1645BFC60FC1827550611D /* DCCJConfig.framework in Frameworks */,
+				8037F5E65A7433086843B6B8072F6E2D /* Foundation.framework in Frameworks */,
+				00F1D79CA906EA52D44EEF24C1AB7CA1 /* SwiftyBeaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF673513ED59C230DFB07557CD1ED55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A602B3A10CEB7DA7953CE5A7B15F2729 /* DCCJCashier.framework in Frameworks */,
+				369D5DEAACC540ACCB41B4C37D905232 /* DCCJConfig.framework in Frameworks */,
+				436DC8A5742CD070EC5C05BE284A8325 /* DCCJLogin.framework in Frameworks */,
+				F97555AC02D0C72C85E43CD14DFF7981 /* DCCJMessageCenter.framework in Frameworks */,
+				E0B0121F6C80D5738E2B609AF6BE3F14 /* DCCJNetwork.framework in Frameworks */,
+				BF6DBDCE5676AC08A9C9776D83A7AF60 /* DCCJUser.framework in Frameworks */,
+				982CD696F205195B94F7052AFA0E9148 /* Foundation.framework in Frameworks */,
+				9E3A4A9D1B38ECEB96E339493CEE2CDF /* SwiftyBeaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,31 +499,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D11D6138CFFE7FF021124896CE6E9EF7 /* Frameworks */ = {
+		EBFC9A795F44013738F336F202D721FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD7C267B625EB5E8DF95E500B1B6D6AC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD8BA306C6BDD05D18FDC5465604514F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7399D3E6E597BF175869628D3BA5A35D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7814D800FCDF0129CC2E4B642C971D5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B271B490FDAB78B2D768FD5E77A184D /* DCCJConfig.framework in Frameworks */,
-				C5C3B8CF1CC9444CC6AA948E791689EF /* DCCJNetwork.framework in Frameworks */,
-				DEF96A56035BA4D8F3F5EBCDB31A6A2A /* Foundation.framework in Frameworks */,
-				E1D0FCB814832D151CDAFEFF9AFCDFD1 /* SwiftyBeaver.framework in Frameworks */,
-				853210912EEF22389501EAC0426EDCFA /* UIKit.framework in Frameworks */,
+				9C2FE17DBC633AE5830E5AAB40CF1FAD /* DCCJConfig.framework in Frameworks */,
+				FA673C1768E82D668AF2B86E2B26B216 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,9 +519,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDFB24658D5549C4610A05CBB9EFA800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A440EE1878D690D7B69CCCE43862A25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		012EF1D2DD4AD7F4657B9EEE9BB31906 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4EEFA536EB9E56211FF62C0ADD33381 /* DCCJMiddleware */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		07B46110AE90E37CDA0FE68D11A9BC27 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				733DE58E3CA89D99C817CE658C97FD0D /* DCCJConfig.modulemap */,
+				085D21981A60FB8D4CC0CC033E109C66 /* DCCJConfig.xcconfig */,
+				C980E00D4C6918F6B19ADDC702C651A0 /* DCCJConfig-dummy.m */,
+				8C30782B1B01CCB29158E795E1F749DA /* DCCJConfig-prefix.pch */,
+				3CC64DEBF1C65C9E647854C749C538DE /* DCCJConfig-umbrella.h */,
+				C9EFBCD4963035CCE59A0B22FF0FDBBB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DCCJConfig";
+			sourceTree = "<group>";
+		};
 		0ABF993226CF64061AAC96315910059C /* Pods-DCCJMiddleware_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -548,48 +570,50 @@
 			path = "Target Support Files/Pods-DCCJMiddleware_Example";
 			sourceTree = "<group>";
 		};
-		127E4E45FDBDE3383567DD05A0EE2DFE /* Development Pods */ = {
+		1801403E79A82BD47F7AA54A27A03D95 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				55555697B806759751AA8F2DE0F8F26B /* DCCJMiddleware */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		13D31DFF3BA7ECD5EABD6BDBFA50F65E /* DataManagerError */ = {
-			isa = PBXGroup;
-			children = (
-				712A57412E61DCC26BA91EEA02EE4872 /* DataManagerError.swift */,
-			);
-			name = DataManagerError;
-			sourceTree = "<group>";
-		};
-		1C999E9FC207D9FE6D97CBAAC16A6BCD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AC1E9851153387F865F975DAEAF1EB82 /* DCCJConfig.modulemap */,
-				CD069D45D097A16A010C7690CC27DF1F /* DCCJConfig.xcconfig */,
-				F15FC551231EC654C993A653A62F0439 /* DCCJConfig-dummy.m */,
-				C6D9068893F16CCEA2AE754E774F5782 /* DCCJConfig-prefix.pch */,
-				B00FA8B6F44B2367A1760F62960791CE /* DCCJConfig-umbrella.h */,
-				CF68B8629670061BAD84D91F76A3A8DD /* Info.plist */,
+				3DF3A871F28BCA5026F88DE8EF4A8D37 /* DCCJMessageCenter.modulemap */,
+				E3150C8F14B070842FCE4BBB9F72515F /* DCCJMessageCenter.xcconfig */,
+				A0BB96C4D298C2C84A8C1A10616C3B97 /* DCCJMessageCenter-dummy.m */,
+				23370B3C3109F0CB4D365C08A864E295 /* DCCJMessageCenter-prefix.pch */,
+				871382A993469DBC0943BC50F28249F4 /* DCCJMessageCenter-umbrella.h */,
+				41FD5839C3F8A4BCE0A2BA167D65458E /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/DCCJConfig";
+			path = "../Target Support Files/DCCJMessageCenter";
 			sourceTree = "<group>";
 		};
-		43BCECF57E0E187A5E910293C5F48DD4 /* Pods */ = {
+		449DD5062855979B43BEC94FE2B3825C /* SwiftyBeaver */ = {
 			isa = PBXGroup;
 			children = (
-				FE29B9A83A14CFF87A7B0E9AA0110DA1 /* DCCJCashier */,
-				A7AF07E6719B3A7E869892CC42F48895 /* DCCJConfig */,
-				C7E0C17C1580FB4EEC9B6ADC5CCE04C8 /* DCCJLogin */,
-				970C6A776A2007B3443F51A7F8011610 /* DCCJMessageCenter */,
-				4F6B278B3F288F7968F5D5E0E6C53ED0 /* DCCJNetwork */,
-				530AE81B058D1145E63EFF012BC42E83 /* DCCJUser */,
-				572F4092ADC5D2CBA6C962B89012B647 /* SwiftyBeaver */,
+				36118ADF24364BD8E5D721B1B0B58EBF /* AES256CBC.swift */,
+				D6359CBF67F0B0F0374FE26FBC7A1BAF /* Base64.swift */,
+				D5D7B6A44D2B3342A13B4EEE72E16DB3 /* BaseDestination.swift */,
+				FAFDAD6F1C8C706CE88B5B6824114A8F /* ConsoleDestination.swift */,
+				C997034266BDE296F8314F3E72168C73 /* Extensions.swift */,
+				74247E778B0BA9206F5C8E0BA590E966 /* FileDestination.swift */,
+				DBAAAA3803EC8536EA36C9BF8CAE25FF /* Filter.swift */,
+				8C35B154C4AEF1CABDE1B8AA388B9A1F /* GoogleCloudDestination.swift */,
+				3FF0FC37A3D86A6C476FF9B07656AA66 /* SBPlatformDestination.swift */,
+				490B08AF13632691CE2BCE8E427CDF8F /* SwiftyBeaver.swift */,
+				4CAE6F071F5B7C24C40799AF85FF41AC /* Support Files */,
 			);
-			name = Pods;
+			path = SwiftyBeaver;
+			sourceTree = "<group>";
+		};
+		45DB461370BDD9174CD5FAF47FA1D50A /* DCCJLogin */ = {
+			isa = PBXGroup;
+			children = (
+				919802AC4AFB0CE955159CADC3A2201B /* DCCJAdInfoModel.swift */,
+				2847FA1F0B5C49E2F9F3F1C7DC8AC8E0 /* DCCJBasicResponseModel.swift */,
+				ADA34EA6B045C995CECF0656E4EFEDB1 /* DCCJCheckVersionModel.swift */,
+				765E8540E75EBA787810FBFC245E84CD /* DCCJLogin.swift */,
+				9725FF458F457E76C04F86002CBACD96 /* DCCJLoginRegistModel.swift */,
+				2B6C8271C934FA9217D83E60531EBBE5 /* DCCJUserInfoModel.swift */,
+				BFA9A5D11B146898B7661CEA1964FDD8 /* Support Files */,
+			);
+			path = DCCJLogin;
 			sourceTree = "<group>";
 		};
 		4A196ACCC44BE7814E3FA29087E90434 /* Pods-DCCJMiddleware_Tests */ = {
@@ -610,215 +634,177 @@
 			path = "Target Support Files/Pods-DCCJMiddleware_Tests";
 			sourceTree = "<group>";
 		};
-		4F6B278B3F288F7968F5D5E0E6C53ED0 /* DCCJNetwork */ = {
+		4CAE6F071F5B7C24C40799AF85FF41AC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				83BE61D2EF78F9E2946C3241B70A3F57 /* DCCJNetwork.swift */,
-				B2A7F4D7D2E9936E89E5CD95368B118C /* Support Files */,
+				9AEF5CD11978E5EF23A8DD3CC52CD7A4 /* Info.plist */,
+				9F2728CD20EBB0607584855A90652A25 /* SwiftyBeaver.modulemap */,
+				27B82FB46525B4645004F4C1B3DE881E /* SwiftyBeaver.xcconfig */,
+				B043E1A602D59DDCC0017E73D1CDC778 /* SwiftyBeaver-dummy.m */,
+				A56C574C3D50B4D79C57F2CC88E406F8 /* SwiftyBeaver-prefix.pch */,
+				AF83932DC7CFB65E61C8974F323CD855 /* SwiftyBeaver-umbrella.h */,
 			);
-			path = DCCJNetwork;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyBeaver";
 			sourceTree = "<group>";
 		};
-		50020616902D1F71F18D5A0404B5ADAE /* Pod */ = {
+		624E495166DCE14DC797595883D04EC8 /* DataManagerError */ = {
 			isa = PBXGroup;
 			children = (
-				A32BA6843A44B0C47614B73709303B11 /* DCCJMiddleware.podspec */,
-				35D456BDE5DABE053F9005EFB3B7307A /* LICENSE */,
-				8F26547AA7E14050AA2B7944374905CC /* README.md */,
+				F026B1948C62A4BC7F3FEA24655EEEAB /* DataManagerError.swift */,
 			);
-			name = Pod;
+			name = DataManagerError;
 			sourceTree = "<group>";
 		};
-		530AE81B058D1145E63EFF012BC42E83 /* DCCJUser */ = {
+		66FA898F48B3DFDF96EC8EB25AAC3F99 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				84FAEA92D156BBC6AA8825B3F2B47A82 /* DCCJUser.swift */,
-				8BBA06CE42072A5DD26509896FEFED81 /* UserInfo.swift */,
-				DB9A96E8C2F22255F93B1FFD57E1AB85 /* Support Files */,
+				01BB97E2523793E900F1415ADF8D1856 /* DCCJCashier.modulemap */,
+				ED35D2999BFD59BC7A54F929F7F3989F /* DCCJCashier.xcconfig */,
+				E39DB90BFBBBE2671FA2F97B38D34EF7 /* DCCJCashier-dummy.m */,
+				5A1C02904FA64E5E1EF93E95BE116CC1 /* DCCJCashier-prefix.pch */,
+				64FA82C4DEFEBAF3B407DA52F32FCF06 /* DCCJCashier-umbrella.h */,
+				D33C4CF886EDD2CBDAFDED4926CEF7CB /* Info.plist */,
 			);
-			path = DCCJUser;
-			sourceTree = "<group>";
-		};
-		55555697B806759751AA8F2DE0F8F26B /* DCCJMiddleware */ = {
-			isa = PBXGroup;
-			children = (
-				2E52AB1DE14D6E0B72E7F4C80B198205 /* DCCJFactory.swift */,
-				A60BA14F65F0D8EB1BFE714A57D66786 /* DCCJMiddleware.swift */,
-				50020616902D1F71F18D5A0404B5ADAE /* Pod */,
-				C956B74F34730D93A0EAB86506567318 /* Support Files */,
-			);
-			name = DCCJMiddleware;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		572F4092ADC5D2CBA6C962B89012B647 /* SwiftyBeaver */ = {
-			isa = PBXGroup;
-			children = (
-				5D02CF0C6D0275E8891497211AB791C3 /* AES256CBC.swift */,
-				25EEDDE6C704FFD65BEE95B233B0060F /* Base64.swift */,
-				412CCE4A1987C65FFB5A96ECF3EBC37C /* BaseDestination.swift */,
-				C3E282C4BD8FBC56C9AD46789CD94534 /* ConsoleDestination.swift */,
-				C83AD75DA9D360239749BCD27B833191 /* Extensions.swift */,
-				87B24DD95858A72A1D5DF12816935771 /* FileDestination.swift */,
-				9B4497FFD6CAB90860593F4313A22456 /* Filter.swift */,
-				F396535CAB099CC7933E48DD94634A17 /* GoogleCloudDestination.swift */,
-				ECA38EC1060E46848A7E57C8BF40954A /* SBPlatformDestination.swift */,
-				E6BE5B256A4D5F970D446E70537D171C /* SwiftyBeaver.swift */,
-				B1EB0AA0EE2627C9D2EA9C67C89BD4CB /* Support Files */,
-			);
-			path = SwiftyBeaver;
+			name = "Support Files";
+			path = "../Target Support Files/DCCJCashier";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				127E4E45FDBDE3383567DD05A0EE2DFE /* Development Pods */,
+				012EF1D2DD4AD7F4657B9EEE9BB31906 /* Development Pods */,
 				FE75EF13AB42B3DA23B5D605E8DCAD34 /* Frameworks */,
-				43BCECF57E0E187A5E910293C5F48DD4 /* Pods */,
+				85295C5AE0DCF3202C1EA5AEC9C49DBF /* Pods */,
 				E07995C58C0384D36981EDFC4EBD3B8F /* Products */,
 				F7CF13CFE1D75FB9F604ABC8B7CE31B2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		970C6A776A2007B3443F51A7F8011610 /* DCCJMessageCenter */ = {
+		7E6EAF1F44072EF5EF4E8280EEA57EBA /* DCCJCashier */ = {
 			isa = PBXGroup;
 			children = (
-				6AE1FF472A5DE19F8FEB96009ACBF4B3 /* DCCJMessageCenter.swift */,
-				BCD490FD599476C6C7D1DBFCD27F0FD6 /* MessageCenterResponse.swift */,
-				CECF1C41EFAF258FBEAB8456098C6725 /* Support Files */,
+				47A281F48D3934F4CCB550CFD15A217A /* BankInfo.swift */,
+				E77D8B8024C0167ACB11BAA6F712246D /* CashierSettingConfig.swift */,
+				E9528799ADDD9FF78E44D8224217CCB6 /* CashierSupportBankCards.swift */,
+				F547139C69DAC620466841B0D0505DD3 /* CheckCard.swift */,
+				9326686B688B32BDE6DD5E31FB0246ED /* CheckPayPassword.swift */,
+				105B73BC1B2C9572125D811029742F15 /* ConfirmBindCard.swift */,
+				BB744F795749F224A3D68176570AF8EC /* DCCJCashier.swift */,
+				BD9485936FC6247DE73AF2E592726BA9 /* InitCashierBankCards.swift */,
+				A49A05EAB7650FE6E82DB78AF6D53A79 /* InitCashierResponse.swift */,
+				98A2F6BFCF6AC58F6FCE0247FAA81A77 /* RequestBindCard.swift */,
+				E2B22C54F31799A83EF81094383A60E0 /* ResendVerifyCode.swift */,
+				71614AD890C493A98BEFA49071D20B52 /* StartToPay.swift */,
+				7DC8543C09CB6ECD3D6F2A466C3DC842 /* SureToPay.swift */,
+				66FA898F48B3DFDF96EC8EB25AAC3F99 /* Support Files */,
 			);
-			path = DCCJMessageCenter;
+			path = DCCJCashier;
 			sourceTree = "<group>";
 		};
-		A7AF07E6719B3A7E869892CC42F48895 /* DCCJConfig */ = {
+		8410D2CE7FA626A8CB5E7775F7707F91 /* DCCJNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				13D31DFF3BA7ECD5EABD6BDBFA50F65E /* DataManagerError */,
-				C85E8FD8E0DC6FDCD9104930F73D1684 /* Result */,
-				1C999E9FC207D9FE6D97CBAAC16A6BCD /* Support Files */,
+				68CF794DE898E340548BF60CFFE0BC01 /* DCCJNetwork.swift */,
+				E40C2BB2E0E7EA1E6CB5B744849ABFA2 /* Support Files */,
+			);
+			path = DCCJNetwork;
+			sourceTree = "<group>";
+		};
+		85295C5AE0DCF3202C1EA5AEC9C49DBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E6EAF1F44072EF5EF4E8280EEA57EBA /* DCCJCashier */,
+				9CB40B52EA73173E81CDEEFDBD500029 /* DCCJConfig */,
+				45DB461370BDD9174CD5FAF47FA1D50A /* DCCJLogin */,
+				EF133C1B98EB8C3741DFDBCC23DA1E05 /* DCCJMessageCenter */,
+				8410D2CE7FA626A8CB5E7775F7707F91 /* DCCJNetwork */,
+				A2138F4B545CA41BF0170CA91B4603D0 /* DCCJUser */,
+				449DD5062855979B43BEC94FE2B3825C /* SwiftyBeaver */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CB40B52EA73173E81CDEEFDBD500029 /* DCCJConfig */ = {
+			isa = PBXGroup;
+			children = (
+				624E495166DCE14DC797595883D04EC8 /* DataManagerError */,
+				DC64BAA0958185A85A75A6C04B8307D3 /* Result */,
+				07B46110AE90E37CDA0FE68D11A9BC27 /* Support Files */,
 			);
 			path = DCCJConfig;
 			sourceTree = "<group>";
 		};
-		B1A511E025A3A362EC10AC438C8DCF68 /* Support Files */ = {
+		A136A22F03AEF26FE6AD1F412EE6949D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F0720075D6979DC948229F366CD38FE6 /* DCCJLogin.modulemap */,
-				D54ADEFF8D153B145BD168670381D877 /* DCCJLogin.xcconfig */,
-				9AA0939FBFF440B2A77985306DB556D7 /* DCCJLogin-dummy.m */,
-				40FB4FE459D96055DE9104C1D099357E /* DCCJLogin-prefix.pch */,
-				0EF28449B1F5EBF72399ACA2C41A423B /* DCCJLogin-umbrella.h */,
-				71F666E30B130F4B1134C077B9AA7D80 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DCCJLogin";
-			sourceTree = "<group>";
-		};
-		B1EB0AA0EE2627C9D2EA9C67C89BD4CB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				18428D01BD43DF3E6A879BE9590FDDA4 /* Info.plist */,
-				F6F9EDB4BAA387A90F139DA5DC850527 /* SwiftyBeaver.modulemap */,
-				F731E71FEEEC46E36BE5F04EF3CA31FF /* SwiftyBeaver.xcconfig */,
-				9C354E7EB418E312B370A4DC55A1DC02 /* SwiftyBeaver-dummy.m */,
-				4FB1DE7919D8E4C604B94F080A25870D /* SwiftyBeaver-prefix.pch */,
-				C3EE56588BC679BCB4188A56946D16F5 /* SwiftyBeaver-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyBeaver";
-			sourceTree = "<group>";
-		};
-		B2A7F4D7D2E9936E89E5CD95368B118C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8AB603396B3FE1BC764D3A6B1D0A1018 /* DCCJNetwork.modulemap */,
-				EE243326379C23BBB1B5DFD9A900039E /* DCCJNetwork.xcconfig */,
-				EF266AA0B0548C2999F562B0EB697095 /* DCCJNetwork-dummy.m */,
-				7FB707679623DA7C0C67C3AE1C1C36C2 /* DCCJNetwork-prefix.pch */,
-				CBD58895BA7DB759826ED2BA521AA295 /* DCCJNetwork-umbrella.h */,
-				F604E1A0283AB9E1E2A046406452ED69 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DCCJNetwork";
-			sourceTree = "<group>";
-		};
-		C7E0C17C1580FB4EEC9B6ADC5CCE04C8 /* DCCJLogin */ = {
-			isa = PBXGroup;
-			children = (
-				0451D299D30A82E9A7E2864458D8ED7A /* DCCJAdInfoModel.swift */,
-				F11BE3C17115E6D59ADFC6E84638C480 /* DCCJBasicResponseModel.swift */,
-				0BF1811202D52349FD5BF9912D957704 /* DCCJCheckVersionModel.swift */,
-				A30FABFD87403A041E586996B75FD65A /* DCCJLogin.swift */,
-				D9EA99E6AFCC87B2165633DFFFFD9EF2 /* DCCJLoginRegistModel.swift */,
-				A2059E3F679E4774089570EC0DA45B0D /* DCCJUserInfoModel.swift */,
-				B1A511E025A3A362EC10AC438C8DCF68 /* Support Files */,
-			);
-			path = DCCJLogin;
-			sourceTree = "<group>";
-		};
-		C85E8FD8E0DC6FDCD9104930F73D1684 /* Result */ = {
-			isa = PBXGroup;
-			children = (
-				00A00BF39E64C4CBDFA8AD41A3477B53 /* Result.swift */,
-			);
-			name = Result;
-			sourceTree = "<group>";
-		};
-		C956B74F34730D93A0EAB86506567318 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9399A8D4ED369889E960AAC7461C099E /* DCCJMiddleware.modulemap */,
-				7305671C9CD0F5721B2D8681529BB0D6 /* DCCJMiddleware.xcconfig */,
-				05B8C21BE7D3280DCACC31A50DA2AB36 /* DCCJMiddleware-dummy.m */,
-				3D84EC57CC964F4D283870B54AD9C47B /* DCCJMiddleware-prefix.pch */,
-				05C500D445365C4C41C74F2C29EF6B1F /* DCCJMiddleware-umbrella.h */,
-				E69CC8C148DE39D72A3DD27B4EE64DC0 /* Info.plist */,
+				69E3E85EEAC937CCD93ED252E8E747DF /* DCCJMiddleware.modulemap */,
+				872A9D0868F30DE8196D49DD7D66BF4C /* DCCJMiddleware.xcconfig */,
+				BDE2D8ECF7AE50B79226398320B41E28 /* DCCJMiddleware-dummy.m */,
+				00C0717A679591B3403640DBAC5C19D0 /* DCCJMiddleware-prefix.pch */,
+				A7308B3BD6EF217BB621582410413DAF /* DCCJMiddleware-umbrella.h */,
+				5C0D0E48A7055F92EFBE3A0A9A4681D5 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/DCCJMiddleware";
 			sourceTree = "<group>";
 		};
-		CECF1C41EFAF258FBEAB8456098C6725 /* Support Files */ = {
+		A2138F4B545CA41BF0170CA91B4603D0 /* DCCJUser */ = {
 			isa = PBXGroup;
 			children = (
-				95153F331873692C2CB25E8635B7277D /* DCCJMessageCenter.modulemap */,
-				A8D601300D1336034EA6BBBF3643B272 /* DCCJMessageCenter.xcconfig */,
-				49CC57887031C22B8FDFE42FD4C0B35D /* DCCJMessageCenter-dummy.m */,
-				2DD477F2DD79B48E2A1A61F7825CB783 /* DCCJMessageCenter-prefix.pch */,
-				94460800CE5C440E9EE7327CD69DD73A /* DCCJMessageCenter-umbrella.h */,
-				A6E3ADC81264D295F8A4DACBDBF50B23 /* Info.plist */,
+				3180D9B39C52D765B19A477C85CAE8FD /* DCCJUser.swift */,
+				BDE88A2D75048327306954CDC1FB27C5 /* UserInfo.swift */,
+				A4446E11773CB121EB8E03E03CC73807 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DCCJMessageCenter";
+			path = DCCJUser;
 			sourceTree = "<group>";
 		};
-		DB9A96E8C2F22255F93B1FFD57E1AB85 /* Support Files */ = {
+		A4446E11773CB121EB8E03E03CC73807 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				10382DC6F180A4D38AC2169AE9EE51C3 /* DCCJUser.modulemap */,
-				15E2467D9F181F61B1D085832ED90D9F /* DCCJUser.xcconfig */,
-				0BD45417F12F66140715B17B474A83B1 /* DCCJUser-dummy.m */,
-				5B280D8F8ABEE369191B22D708035C73 /* DCCJUser-prefix.pch */,
-				2ED9700A6FF6CCD255BCDB2FC029B36C /* DCCJUser-umbrella.h */,
-				FC60CFAF34C673842770F5C70C09642E /* Info.plist */,
+				1DCEA023EBB16D254ADBB7E2D5FBE47E /* DCCJUser.modulemap */,
+				E90FB6DE32395888CAB54692F264F74B /* DCCJUser.xcconfig */,
+				1B65AFA41F8B002D5FD0BE0F357C0C91 /* DCCJUser-dummy.m */,
+				0991221004493DF87778B118E7A9929C /* DCCJUser-prefix.pch */,
+				2D392BAA1C0DFD9EADA3DCB9DD6EFDD9 /* DCCJUser-umbrella.h */,
+				BF635A5E6EE15789424556E5DE6E6540 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/DCCJUser";
 			sourceTree = "<group>";
 		};
-		DED2B51B4861095A11C53A899536160B /* Support Files */ = {
+		BFA9A5D11B146898B7661CEA1964FDD8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				231E960538DDDA55D57890BF7FF58079 /* DCCJCashier.modulemap */,
-				46AC6641A979D97EA40979C41D1C86D4 /* DCCJCashier.xcconfig */,
-				7ED3FE7CC872AF52D69B301ECD346453 /* DCCJCashier-dummy.m */,
-				A8F3ECDCA4D3E9C1F1A622807E2F9DE2 /* DCCJCashier-prefix.pch */,
-				527D52B69DFE70882D1C59FA7FEF62D7 /* DCCJCashier-umbrella.h */,
-				D283CEEF810ED9E142A1BE1610CB34E6 /* Info.plist */,
+				C250068E7DF1B2A5766983AE6918D624 /* DCCJLogin.modulemap */,
+				95CA616EE6C6A7759ECC99A6139C0510 /* DCCJLogin.xcconfig */,
+				B667A7D29626A0E53B384A03BB9658BF /* DCCJLogin-dummy.m */,
+				2C30AAF9364B6B420C1E37E2B9DDB4AF /* DCCJLogin-prefix.pch */,
+				5C6D4DA31E46BE578965B74DC5F6FD02 /* DCCJLogin-umbrella.h */,
+				5B97F8B903251B84D464CAC2EA0B3E90 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/DCCJCashier";
+			path = "../Target Support Files/DCCJLogin";
+			sourceTree = "<group>";
+		};
+		C4EEFA536EB9E56211FF62C0ADD33381 /* DCCJMiddleware */ = {
+			isa = PBXGroup;
+			children = (
+				49BB9646E45BE12B7BFD266E17B28B1E /* DCCJMiddleware.swift */,
+				F4CF41B3C26367BE3C404AA1D8007FF3 /* Pod */,
+				A136A22F03AEF26FE6AD1F412EE6949D /* Support Files */,
+			);
+			name = DCCJMiddleware;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DC64BAA0958185A85A75A6C04B8307D3 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				5BE7EA874BFB3AB42EF19130026BA6C8 /* Result.swift */,
+			);
+			name = Result;
 			sourceTree = "<group>";
 		};
 		E07995C58C0384D36981EDFC4EBD3B8F /* Products */ = {
@@ -838,6 +824,40 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E40C2BB2E0E7EA1E6CB5B744849ABFA2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B20C6B109D33DB617C6A004D42A604D /* DCCJNetwork.modulemap */,
+				1076D376CF2B7BB8ADDD90B2E8FE9EE6 /* DCCJNetwork.xcconfig */,
+				E5971B2A8E363E71870C30CF31FE5DE8 /* DCCJNetwork-dummy.m */,
+				24F4B2965ECD419B8CDE441FE80E8A55 /* DCCJNetwork-prefix.pch */,
+				CB723E19DB4DC1A55F814A6505A7137E /* DCCJNetwork-umbrella.h */,
+				CBC301EB260936A3D6ACCD6DA9CC4873 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DCCJNetwork";
+			sourceTree = "<group>";
+		};
+		EF133C1B98EB8C3741DFDBCC23DA1E05 /* DCCJMessageCenter */ = {
+			isa = PBXGroup;
+			children = (
+				9F6A38C2EC4421DA45B8AF743B2BE81D /* DCCJMessageCenter.swift */,
+				79F4B38CDC9487B7B371334DBC0BF46F /* MessageCenterResponse.swift */,
+				1801403E79A82BD47F7AA54A27A03D95 /* Support Files */,
+			);
+			path = DCCJMessageCenter;
+			sourceTree = "<group>";
+		};
+		F4CF41B3C26367BE3C404AA1D8007FF3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D5C9C58FB8DE3D8D42A6C8CD56B923CD /* DCCJMiddleware.podspec */,
+				449F28C4C8C0F5E9C64DB66353D68E72 /* LICENSE */,
+				5B98892C398E80E4D61E9685B295EE17 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		F7CF13CFE1D75FB9F604ABC8B7CE31B2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -854,26 +874,6 @@
 				693024ABBCE3A7BFA283FAA1B33CB93D /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		FE29B9A83A14CFF87A7B0E9AA0110DA1 /* DCCJCashier */ = {
-			isa = PBXGroup;
-			children = (
-				91004503FCCA085DCF8DBE7FF1C6EEF0 /* BankInfo.swift */,
-				E9F027762A815C1C3BAFC8702651F49C /* CashierSettingConfig.swift */,
-				AB5AA8D13FEF7CBA93F54664A705189E /* CashierSupportBankCards.swift */,
-				D1C9D7BD7FCC671E36F5B2C1C5E571C7 /* CheckCard.swift */,
-				A72CCDE56C0B53A883B2626F3C6B285A /* CheckPayPassword.swift */,
-				A8D98873D893BC03232DBDC6E49E62C9 /* ConfirmBindCard.swift */,
-				8F2670EBC3AE9DA86501A07603645DDF /* DCCJCashier.swift */,
-				C0370E14C2CD81C4E5DB7B2C23928637 /* InitCashierBankCards.swift */,
-				26E519432AAC9DAD6C8ACC19B8A6209B /* RequestBindCard.swift */,
-				C505A3F0C40B1B467EC430A3615734A7 /* ResendVerifyCode.swift */,
-				0326C1404CF686A0408AE3FB9EB19716 /* StartToPay.swift */,
-				199B447EC0A1B1CC5D0BCF0989F75D96 /* SureToPay.swift */,
-				DED2B51B4861095A11C53A899536160B /* Support Files */,
-			);
-			path = DCCJCashier;
 			sourceTree = "<group>";
 		};
 		FE75EF13AB42B3DA23B5D605E8DCAD34 /* Frameworks */ = {
@@ -902,51 +902,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		153C3FEC3DCC55316DAF1B992ED46014 /* Headers */ = {
+		7C5BA6E1903976F581023835DF8352D7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				547D014334BBF2E4E67707E07F4F32EB /* DCCJConfig-umbrella.h in Headers */,
+				9D02E5B8E9AA650EDFE5A237C44BE76B /* DCCJCashier-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2902132CDEDD9256630A8224A84FA088 /* Headers */ = {
+		845DB55A64710061F79AA9900C49C4F8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCF5B1C405A1551B8503A7FC35BED0AD /* DCCJMiddleware-umbrella.h in Headers */,
+				DE98D9295F2841F4360FC0FA6248EC2B /* DCCJNetwork-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A308A0017A1AD69028F78536137265F /* Headers */ = {
+		868BF018F1682AF4FA49638EFB1A8F6F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B71923EE3FDCCA8AF38E84C56D0B6E04 /* DCCJCashier-umbrella.h in Headers */,
+				0EA13DD4F84E8002A9D9E3B0C8BC3B3A /* DCCJMiddleware-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A6695929F357D73F0337C6923322F1B /* Headers */ = {
+		8F02C2418186979B1916FBD15F5D790F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B533CD465CAE1E328B7BD47554F302C /* SwiftyBeaver-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62A1ABB5DD4061F26D009CC9F499DD4A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AC75F5E0EF3A0AAC8B9B3FDB9227809 /* DCCJUser-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE6471E7C6A3F8D425C16E5F96929176 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AC7A4427C46F0410A166C946782B149 /* DCCJNetwork-umbrella.h in Headers */,
+				6247039C7F019A5826DA1409722FD427 /* DCCJUser-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -966,11 +950,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C90AA0DF976594203A7685408386B965 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA711343636DD8ED6EBD7415F9CF451 /* DCCJConfig-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D693C7C1F053415B6409E451BF9DDB3A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				073BEB84B53B775E00305C51B6F0E5F7 /* Pods-DCCJMiddleware_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EAA86D15BE144C0879642C3A0E46B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FE50D78B336228672585AF39F12B8A /* SwiftyBeaver-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -995,37 +995,13 @@
 			productReference = D4B6D6F9DE715175808E844982A50592 /* Pods_DCCJMiddleware_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		06A481CD5DBD9DBEB1ED617DE942F9E9 /* DCCJMiddleware */ = {
+		1104FBC8A289E8A8C683E61D07481FF1 /* DCCJConfig */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A617118199F0D9C0799FA7762BF956F /* Build configuration list for PBXNativeTarget "DCCJMiddleware" */;
+			buildConfigurationList = D14938D9155455A507B5F3E84ED119C9 /* Build configuration list for PBXNativeTarget "DCCJConfig" */;
 			buildPhases = (
-				BF5996B9F8D14BCC84824518370EF855 /* Sources */,
-				015229845F288CE9E302A1594DB2AF55 /* Frameworks */,
-				2902132CDEDD9256630A8224A84FA088 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7F832B3AD48BBD00733891EE876A8060 /* PBXTargetDependency */,
-				D151DCBDF418EEAA3DCEC937B7C26271 /* PBXTargetDependency */,
-				DB89AA9DC7C1A92253D3E8A68A417338 /* PBXTargetDependency */,
-				3C8CEC48BF347FC39D27D277069A70E9 /* PBXTargetDependency */,
-				E2143A189439CB4846452E6C4D0EF9BC /* PBXTargetDependency */,
-				691AB39655E7B9F16BA8B9C3AA791C7C /* PBXTargetDependency */,
-				63E9158BAC3EA10AC02693324FE7455D /* PBXTargetDependency */,
-			);
-			name = DCCJMiddleware;
-			productName = DCCJMiddleware;
-			productReference = C47DE2BABF666B2DF5C1B2AD067E03D2 /* DCCJMiddleware.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		16398E04D6166D1D711FC7035618464A /* DCCJConfig */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ED5DF619EA6765862AB3BC2D9F9A9CA0 /* Build configuration list for PBXNativeTarget "DCCJConfig" */;
-			buildPhases = (
-				0E56C7E3519AC86AF3EAAFE30166827D /* Sources */,
-				D11D6138CFFE7FF021124896CE6E9EF7 /* Frameworks */,
-				153C3FEC3DCC55316DAF1B992ED46014 /* Headers */,
+				61601F59496B552F522891040E0F02C2 /* Sources */,
+				FDFB24658D5549C4610A05CBB9EFA800 /* Frameworks */,
+				C90AA0DF976594203A7685408386B965 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1036,23 +1012,28 @@
 			productReference = 261402CBB22EBE01CBD1357E26E82BF9 /* DCCJConfig.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		26CCF814C84E4AD98DEC97F6071E3AA4 /* DCCJNetwork */ = {
+		3FAD2ADEC28187B8E1F1254AEE2FEE11 /* DCCJMiddleware */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03A6585FDEA3AAB0A50288CC2E4FE267 /* Build configuration list for PBXNativeTarget "DCCJNetwork" */;
+			buildConfigurationList = 6337D087A8D39CEE0148DB105698CA8E /* Build configuration list for PBXNativeTarget "DCCJMiddleware" */;
 			buildPhases = (
-				B6E4D7E02DB3B7D276D57C6C091BF500 /* Sources */,
-				4248B74C371F955D22DB7CC5B6D7453D /* Frameworks */,
-				BE6471E7C6A3F8D425C16E5F96929176 /* Headers */,
+				70AC7A1ED6E2A0B50ADDCD9A106C23F1 /* Sources */,
+				7BF673513ED59C230DFB07557CD1ED55 /* Frameworks */,
+				868BF018F1682AF4FA49638EFB1A8F6F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9A288878711035D760F6667D9DE36FD1 /* PBXTargetDependency */,
-				7D593B3DC65480F6A0AD483F7EF6B394 /* PBXTargetDependency */,
+				159BFFB982908271D53CA3E368E5C062 /* PBXTargetDependency */,
+				8B90472BAB9565FF6EAD516FCB576555 /* PBXTargetDependency */,
+				8CBCCAB8473B3713B988EAE05E0B58CD /* PBXTargetDependency */,
+				A7D2D80FB792578A8BB826991AC79FD0 /* PBXTargetDependency */,
+				D5AEBFB00B31742244148D054C141300 /* PBXTargetDependency */,
+				64A0371A6049097033BEC75AA8047BC7 /* PBXTargetDependency */,
+				97890BD7D0A533CF6D38F724B537F5E2 /* PBXTargetDependency */,
 			);
-			name = DCCJNetwork;
-			productName = DCCJNetwork;
-			productReference = FDF45EEC07D18CA92D50732FB0CB2415 /* DCCJNetwork.framework */;
+			name = DCCJMiddleware;
+			productName = DCCJMiddleware;
+			productReference = C47DE2BABF666B2DF5C1B2AD067E03D2 /* DCCJMiddleware.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		428106461FAC0CCD28A0AAEACD0AA02A /* DCCJLogin */ = {
@@ -1075,13 +1056,13 @@
 			productReference = 6C480B760BDDE8B1640A711ED28076E8 /* DCCJLogin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		58C4790EC04031AD7E849CEB12F45806 /* SwiftyBeaver */ = {
+		48486D2B033DF7D1BD8F7F8E4BED0971 /* SwiftyBeaver */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C68E13FC61A39B9B941191366E20792A /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */;
+			buildConfigurationList = 9AA95FE1E976E2DF36B97C221AEFF523 /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */;
 			buildPhases = (
-				174E825CA6450438626D169928AFEDD3 /* Sources */,
-				DD8BA306C6BDD05D18FDC5465604514F /* Frameworks */,
-				5A6695929F357D73F0337C6923322F1B /* Headers */,
+				A5B1D762DC183169E685464B171E7F5A /* Sources */,
+				70D40B2D9819600883D15CBE382E9488 /* Frameworks */,
+				E6EAA86D15BE144C0879642C3A0E46B4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1092,42 +1073,61 @@
 			productReference = 2F26D1A7597FAA6647D82B18133AFFAB /* SwiftyBeaver.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7D135AC8969C10ECC365637CB4BB4D21 /* DCCJCashier */ = {
+		50F1B5066DF6AD377251C1C0C4CD611C /* DCCJNetwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C9F7C9E4E2628F036B929287228228A /* Build configuration list for PBXNativeTarget "DCCJCashier" */;
+			buildConfigurationList = 035D271E51FC35676370F0B8F9E76D17 /* Build configuration list for PBXNativeTarget "DCCJNetwork" */;
 			buildPhases = (
-				AA1A6E484C64DFB52273BC4D3E4F0ECB /* Sources */,
-				F7814D800FCDF0129CC2E4B642C971D5 /* Frameworks */,
-				2A308A0017A1AD69028F78536137265F /* Headers */,
+				6385E2E4705395153F4D6DB5BFE34931 /* Sources */,
+				76CBE23EE666E672308C79BDCED9F4AC /* Frameworks */,
+				845DB55A64710061F79AA9900C49C4F8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D431BC759C378F617EA5CFBBD7E493A7 /* PBXTargetDependency */,
-				FC0EA7EFE0AB8986734D7BA336E4E2E2 /* PBXTargetDependency */,
-				AFCEB283CBACD2FE5EBE963DD097291E /* PBXTargetDependency */,
+				DD58043F0A16646C2B33E92D0EF3BDC9 /* PBXTargetDependency */,
+				A70827D564C610216A4C7047568F689B /* PBXTargetDependency */,
 			);
-			name = DCCJCashier;
-			productName = DCCJCashier;
-			productReference = 56E752E9246084C5EF41EAA9E518C6B7 /* DCCJCashier.framework */;
+			name = DCCJNetwork;
+			productName = DCCJNetwork;
+			productReference = FDF45EEC07D18CA92D50732FB0CB2415 /* DCCJNetwork.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8580366DC1CE4DEC34102BC89BA74725 /* DCCJUser */ = {
+		70C1A645656362C941EE115759272ED9 /* DCCJUser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEF349F4D5659BEC9F5EBCA890C679CE /* Build configuration list for PBXNativeTarget "DCCJUser" */;
+			buildConfigurationList = 709DE37C6FC39BC6874D208433033BA1 /* Build configuration list for PBXNativeTarget "DCCJUser" */;
 			buildPhases = (
-				80C474151B0912FC5C02BD70059E5974 /* Sources */,
-				8CB07A83604ACB408E8143628298DFBA /* Frameworks */,
-				62A1ABB5DD4061F26D009CC9F499DD4A /* Headers */,
+				12D9B9140E634042E89E4E93BA00DAD2 /* Sources */,
+				EBFC9A795F44013738F336F202D721FC /* Frameworks */,
+				8F02C2418186979B1916FBD15F5D790F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BA1E2659C4E1814116DFAB8E2E125C7F /* PBXTargetDependency */,
+				4195F884AC4450DBAA09E5FB2885E0F8 /* PBXTargetDependency */,
 			);
 			name = DCCJUser;
 			productName = DCCJUser;
 			productReference = 7CE176BAC8467123FEB5DED8D63D1453 /* DCCJUser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C028AB5543A544B7CC9AA7039CED7B27 /* DCCJCashier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9F5A4942C6D9ED19C4069D0E4AC30F /* Build configuration list for PBXNativeTarget "DCCJCashier" */;
+			buildPhases = (
+				91A94D86886A33683786CF99ECCF0911 /* Sources */,
+				037CA7874899DC0C4C436B2122FD6775 /* Frameworks */,
+				7C5BA6E1903976F581023835DF8352D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1717F99AFEDD87907173FD1DCE4D8F93 /* PBXTargetDependency */,
+				23424E9F1BE09C040D00934A9E0EFD9D /* PBXTargetDependency */,
+				7B1E48E46747F814A0B91617DA6FCF97 /* PBXTargetDependency */,
+			);
+			name = DCCJCashier;
+			productName = DCCJCashier;
+			productReference = 56E752E9246084C5EF41EAA9E518C6B7 /* DCCJCashier.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D375F2CADE53C6CD6C328DB780E06FAA /* DCCJMessageCenter */ = {
@@ -1196,16 +1196,16 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7D135AC8969C10ECC365637CB4BB4D21 /* DCCJCashier */,
-				16398E04D6166D1D711FC7035618464A /* DCCJConfig */,
+				C028AB5543A544B7CC9AA7039CED7B27 /* DCCJCashier */,
+				1104FBC8A289E8A8C683E61D07481FF1 /* DCCJConfig */,
 				428106461FAC0CCD28A0AAEACD0AA02A /* DCCJLogin */,
 				D375F2CADE53C6CD6C328DB780E06FAA /* DCCJMessageCenter */,
-				06A481CD5DBD9DBEB1ED617DE942F9E9 /* DCCJMiddleware */,
-				26CCF814C84E4AD98DEC97F6071E3AA4 /* DCCJNetwork */,
-				8580366DC1CE4DEC34102BC89BA74725 /* DCCJUser */,
+				3FAD2ADEC28187B8E1F1254AEE2FEE11 /* DCCJMiddleware */,
+				50F1B5066DF6AD377251C1C0C4CD611C /* DCCJNetwork */,
+				70C1A645656362C941EE115759272ED9 /* DCCJUser */,
 				EEA07A39861AAFA0A8DEE768B3A6CFE5 /* Pods-DCCJMiddleware_Example */,
 				0685109F512FFB655D94864783FAA506 /* Pods-DCCJMiddleware_Tests */,
-				58C4790EC04031AD7E849CEB12F45806 /* SwiftyBeaver */,
+				48486D2B033DF7D1BD8F7F8E4BED0971 /* SwiftyBeaver */,
 			);
 		};
 /* End PBXProject section */
@@ -1219,31 +1219,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0E56C7E3519AC86AF3EAAFE30166827D /* Sources */ = {
+		12D9B9140E634042E89E4E93BA00DAD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DAACAA87E08218FAF866273AEC9709A /* DataManagerError.swift in Sources */,
-				EB56F7907761843E50C7A2814F591671 /* DCCJConfig-dummy.m in Sources */,
-				21BE21644A6FA557CE73C2FA83E34939 /* Result.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		174E825CA6450438626D169928AFEDD3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10BA8FA27D6074318997808CBF8676DF /* AES256CBC.swift in Sources */,
-				B32A4146934B2FD1FEE774073BE19137 /* Base64.swift in Sources */,
-				8CA3EB8F3FB1EA6DAAD5194A944F8760 /* BaseDestination.swift in Sources */,
-				9FFA418A51FBA414038FB9565C5AEDC0 /* ConsoleDestination.swift in Sources */,
-				8FD9C0B17B48C794A2190C823123B5C6 /* Extensions.swift in Sources */,
-				FD6F1807DE30D23DE557594DF6E4327C /* FileDestination.swift in Sources */,
-				511893FA7B57EAA99869B3AD37C4AFDC /* Filter.swift in Sources */,
-				30DAFD93B9BF3650BB3F186CED4C7812 /* GoogleCloudDestination.swift in Sources */,
-				D3A236633BC8D9BA4040E8594E7FBEF3 /* SBPlatformDestination.swift in Sources */,
-				1C254D010CFD3DEEC704AECB2D9DD287 /* SwiftyBeaver-dummy.m in Sources */,
-				104D38DD4BAE2F1C88F175ECE7E56A7E /* SwiftyBeaver.swift in Sources */,
+				67032B6537892BD5D9644D827612BE18 /* DCCJUser-dummy.m in Sources */,
+				C0594D738D0D619805D46BD965D9B7F5 /* DCCJUser.swift in Sources */,
+				61146F9B16AB698405680A4795229B81 /* UserInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1261,6 +1243,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		61601F59496B552F522891040E0F02C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B99F447958B558CBE43B5359DA3798 /* DataManagerError.swift in Sources */,
+				9A14063F55CD54C583EDC7728F195EC1 /* DCCJConfig-dummy.m in Sources */,
+				87CA282E238684D4A249FE53AA0B0999 /* Result.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6385E2E4705395153F4D6DB5BFE34931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735AC448E063E8DD934C5F3524E7FE6E /* DCCJNetwork-dummy.m in Sources */,
+				D1D35A7F102AF3092A422BF756C8D7B1 /* DCCJNetwork.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AC7A1ED6E2A0B50ADDCD9A106C23F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4EF8FEBD9FA354F27C6C4E33C81D57 /* DCCJMiddleware-dummy.m in Sources */,
+				517E024D8B2E1A57C5D8E760399F6D5D /* DCCJMiddleware.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AC50D78247F599475FD33FFFCCFE9CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1271,52 +1281,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80C474151B0912FC5C02BD70059E5974 /* Sources */ = {
+		91A94D86886A33683786CF99ECCF0911 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224A13CEB666020690CE185C4E30ABB3 /* DCCJUser-dummy.m in Sources */,
-				E0AB902448FF56D18F956C32E131FF14 /* DCCJUser.swift in Sources */,
-				02CA4C25B7B74DD074B0E0E8756E9AB5 /* UserInfo.swift in Sources */,
+				E1EEAA7D6CBF65C2D4D524ED1D9ED0EE /* BankInfo.swift in Sources */,
+				4246F19948813ABF97A069B343A0D381 /* CashierSettingConfig.swift in Sources */,
+				494A79AC945F6F22D3BAA00E2711174A /* CashierSupportBankCards.swift in Sources */,
+				05562F72FB3E897A36E3EE2302C07BC5 /* CheckCard.swift in Sources */,
+				63C316F77F678EEF3F07611023CC1DF1 /* CheckPayPassword.swift in Sources */,
+				3F4800478802F93FCFE9C4C4A94F212E /* ConfirmBindCard.swift in Sources */,
+				1D946D46C792CD21802057E389BE46F2 /* DCCJCashier-dummy.m in Sources */,
+				22045ED3668F61B08B37B355936EFF94 /* DCCJCashier.swift in Sources */,
+				CD0E4890E83C7E8A133DEBED66D4C371 /* InitCashierBankCards.swift in Sources */,
+				4628CEC6ABDEFF43AF0AF970D99B85C3 /* InitCashierResponse.swift in Sources */,
+				FB5B290B3AE41A8D0786D5F234225346 /* RequestBindCard.swift in Sources */,
+				8BF324E937E800617B4428E5FAA69207 /* ResendVerifyCode.swift in Sources */,
+				7CF66C0C2001443D5AB069BF689CF522 /* StartToPay.swift in Sources */,
+				DA49CC2A361F6B5DF2953F978DD32BFE /* SureToPay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA1A6E484C64DFB52273BC4D3E4F0ECB /* Sources */ = {
+		A5B1D762DC183169E685464B171E7F5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAE17F3974624048321DEB5883F4EEA3 /* BankInfo.swift in Sources */,
-				8A5F79B0C21D1DE2A5F327158462E0C2 /* CashierSettingConfig.swift in Sources */,
-				2CD94032D334CFC355604ED8EF3FB38B /* CashierSupportBankCards.swift in Sources */,
-				D20106814B916F1FB4AA691AC8B58BE6 /* CheckCard.swift in Sources */,
-				C19002DE3F67A0F8772218D0D6AC4372 /* CheckPayPassword.swift in Sources */,
-				EAF4AE4B23541093508E0D9FFEF1EF44 /* ConfirmBindCard.swift in Sources */,
-				EDEB68E7A5540E1ED3BA1DAA81A41110 /* DCCJCashier-dummy.m in Sources */,
-				D691B84D66FFA4D1A5BA369BC174557A /* DCCJCashier.swift in Sources */,
-				914B127DB4D523E8CCDF2DD7ED6FABAF /* InitCashierBankCards.swift in Sources */,
-				AC20DFBBCE8E0E99C1AD2739C36FFF47 /* RequestBindCard.swift in Sources */,
-				13AEC74FF77555F85C33CE0B5DEA8C82 /* ResendVerifyCode.swift in Sources */,
-				0012F15942936ACAFDF97830F1E6AC20 /* StartToPay.swift in Sources */,
-				DCD31AA76E4772D5ACFEF1CF60EF0770 /* SureToPay.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6E4D7E02DB3B7D276D57C6C091BF500 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0AE3509D9C99E2958B76A2942B6F282 /* DCCJNetwork-dummy.m in Sources */,
-				D370CB2C2C1560D697A8C8B7F3C46B33 /* DCCJNetwork.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF5996B9F8D14BCC84824518370EF855 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C24A39553A472592288FC5E691AC29FA /* DCCJFactory.swift in Sources */,
-				E0F4BAC6ED77D959257E9921A35BD4C3 /* DCCJMiddleware-dummy.m in Sources */,
-				308466B5B3F739773027FD19521E9D4D /* DCCJMiddleware.swift in Sources */,
+				87653C19E9345C8715BA51B63F8D1756 /* AES256CBC.swift in Sources */,
+				AF18F59303F38295B97654D445D69C3A /* Base64.swift in Sources */,
+				75DBFC7C8A5AE3FDE93074551498678C /* BaseDestination.swift in Sources */,
+				3A7D870582D984B83BD115D996BAD89D /* ConsoleDestination.swift in Sources */,
+				7284A24C00ADFA1CF5C9E76D15C3CA42 /* Extensions.swift in Sources */,
+				BDEC997658F7199D61AD7E7739A7F4AF /* FileDestination.swift in Sources */,
+				8918A295C2F556AF05FD8532FE655B08 /* Filter.swift in Sources */,
+				C2F2643099D6F3793E18A44C1A7237B4 /* GoogleCloudDestination.swift in Sources */,
+				B8E929914037F9E9D09C8E6FCB6E5BBC /* SBPlatformDestination.swift in Sources */,
+				6F3C7F59F63A12E3E1C5E2FE013D262C /* SwiftyBeaver-dummy.m in Sources */,
+				61C70824DB80472B0CB84BA997B30020 /* SwiftyBeaver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1334,7 +1334,7 @@
 		03864EF0D00A3A9A4ED62A23B0560307 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyBeaver;
-			target = 58C4790EC04031AD7E849CEB12F45806 /* SwiftyBeaver */;
+			target = 48486D2B033DF7D1BD8F7F8E4BED0971 /* SwiftyBeaver */;
 			targetProxy = B9BF4B84DC50DC19A77F79C8F64B1BFD /* PBXContainerItemProxy */;
 		};
 		08371FE2AE8B6D6FA983C8EF8AF35C53 /* PBXTargetDependency */ = {
@@ -1346,31 +1346,49 @@
 		0D20D68BAADB43E3CAEBC777E22CE336 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DCCJNetwork;
-			target = 26CCF814C84E4AD98DEC97F6071E3AA4 /* DCCJNetwork */;
+			target = 50F1B5066DF6AD377251C1C0C4CD611C /* DCCJNetwork */;
 			targetProxy = 2826C84A64AA59F897E502D21530C51F /* PBXContainerItemProxy */;
 		};
 		12B11A1F6BD6D003469901541EAAD9FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DCCJNetwork;
-			target = 26CCF814C84E4AD98DEC97F6071E3AA4 /* DCCJNetwork */;
+			target = 50F1B5066DF6AD377251C1C0C4CD611C /* DCCJNetwork */;
 			targetProxy = 5593DC9511C59E880C23FEEF61BD940B /* PBXContainerItemProxy */;
+		};
+		159BFFB982908271D53CA3E368E5C062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DCCJCashier;
+			target = C028AB5543A544B7CC9AA7039CED7B27 /* DCCJCashier */;
+			targetProxy = 4F0BB7E1100A3DA15DCBD88961F00004 /* PBXContainerItemProxy */;
+		};
+		1717F99AFEDD87907173FD1DCE4D8F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DCCJConfig;
+			target = 1104FBC8A289E8A8C683E61D07481FF1 /* DCCJConfig */;
+			targetProxy = 5D12010ED5DD06FCADBC7AC29EAB2084 /* PBXContainerItemProxy */;
+		};
+		23424E9F1BE09C040D00934A9E0EFD9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DCCJNetwork;
+			target = 50F1B5066DF6AD377251C1C0C4CD611C /* DCCJNetwork */;
+			targetProxy = 88F31F8282DF03A417220E1E3AD8ABF2 /* PBXContainerItemProxy */;
 		};
 		23B9EF1715ACE855B7087D089F7BBDC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DCCJNetwork;
-			target = 26CCF814C84E4AD98DEC97F6071E3AA4 /* DCCJNetwork */;
+			target = 50F1B5066DF6AD377251C1C0C4CD611C /* DCCJNetwork */;
 			targetProxy = D415493E56611F8AB680FDC8A618A3C9 /* PBXContainerItemProxy */;
 		};
 		2A606C41D1DD23CF5543BD74F8B4C793 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DCCJMiddleware;
-			target = 06A481CD5DBD9DBEB1ED617DE942F9E9 /* DCCJMiddleware */;
+			target = 3FAD2ADEC28187B8E1F1254AEE2FEE11 /* DCCJMiddleware */;
 			targetProxy = C4F72667D2CF1F1DB23AE5B5FB0214FD /* PBXContainerItemProxy */;
 		};
 		2E32392489B3F213786EDE53C8DF2497 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyBeaver;
-			target = 58C4790EC04031AD7E849CEB12F45806 /* SwiftyBeaver */;
+			target = 48486D2B033DF7D1BD8F7F8E4BED0971 /* SwiftyBeaver */;
 			targetProxy = DB84E2FFA47ABB85885EF9FBEED45C5C /* PBXContainerItemProxy */;
 		};
 		30FA181AA539AEFF2A4886D3936D9316 /* PBXTargetDependency */ = {
@@ -1379,65 +1397,77 @@
 			target = 428106461FAC0CCD28A0AAEACD0AA02A /* DCCJLogin */;
 			targetProxy = 7C0C9EEC0D7AB43E5C696215568356D9 /* PBXContainerItemProxy */;
 		};
-		3C8CEC48BF347FC39D27D277069A70E9 /* PBXTargetDependency */ = {
+		4195F884AC4450DBAA09E5FB2885E0F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DCCJMessageCenter;
-			target = D375F2CADE53C6CD6C328DB780E06FAA /* DCCJMessageCenter */;
-			targetProxy = E32FD451DC16B9BA00A6791CDE00B5ED /* PBXContainerItemProxy */;
+			name = DCCJConfig;
+			target = 1104FBC8A289E8A8C683E61D07481FF1 /* DCCJConfig */;
+			targetProxy = 1B03DE198FD20A1771D97D24620A1208 /* PBXContainerItemProxy */;
 		};
 		56F33444743CB7EA686E94C9BAF013E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyBeaver;
-			target = 58C4790EC04031AD7E849CEB12F45806 /* SwiftyBeaver */;
+			target = 48486D2B033DF7D1BD8F7F8E4BED0971 /* SwiftyBeaver */;
 			targetProxy = 54C536B989AA2AE9E8C834B0D719A337 /* PBXContainerItemProxy */;
 		};
 		5DCDFB4D4D9352D80BC684E29023CC19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DCCJUser;
-			target = 8580366DC1CE4DEC34102BC89BA74725 /* DCCJUser */;
+			target = 70C1A645656362C941EE115759272ED9 /* DCCJUser */;
 			targetProxy = 3D6CD668E4412AEE085C7F15BCE8975E /* PBXContainerItemProxy */;
 		};
-		63E9158BAC3EA10AC02693324FE7455D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyBeaver;
-			target = 58C4790EC04031AD7E849CEB12F45806 /* SwiftyBeaver */;
-			targetProxy = 1FA1CCD9F5EC99D8201E366FF5CD4349 /* PBXContainerItemProxy */;
-		};
-		691AB39655E7B9F16BA8B9C3AA791C7C /* PBXTargetDependency */ = {
+		64A0371A6049097033BEC75AA8047BC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DCCJUser;
-			target = 8580366DC1CE4DEC34102BC89BA74725 /* DCCJUser */;
-			targetProxy = 60C6FA73EAB8D550B07BD72D1812A947 /* PBXContainerItemProxy */;
+			target = 70C1A645656362C941EE115759272ED9 /* DCCJUser */;
+			targetProxy = 0BE3B8B1A4A1CF581502C41799A017C5 /* PBXContainerItemProxy */;
 		};
-		7D593B3DC65480F6A0AD483F7EF6B394 /* PBXTargetDependency */ = {
+		7B1E48E46747F814A0B91617DA6FCF97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyBeaver;
-			target = 58C4790EC04031AD7E849CEB12F45806 /* SwiftyBeaver */;
-			targetProxy = DD7C0F83A100A244FD867850A88150A9 /* PBXContainerItemProxy */;
+			target = 48486D2B033DF7D1BD8F7F8E4BED0971 /* SwiftyBeaver */;
+			targetProxy = D7CEED0A2FCC90062939D20199D6557C /* PBXContainerItemProxy */;
 		};
-		7F832B3AD48BBD00733891EE876A8060 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DCCJCashier;
-			target = 7D135AC8969C10ECC365637CB4BB4D21 /* DCCJCashier */;
-			targetProxy = 7DFCFC880BE82BC47575E9C76950C454 /* PBXContainerItemProxy */;
-		};
-		9A288878711035D760F6667D9DE36FD1 /* PBXTargetDependency */ = {
+		8B90472BAB9565FF6EAD516FCB576555 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DCCJConfig;
-			target = 16398E04D6166D1D711FC7035618464A /* DCCJConfig */;
-			targetProxy = 311B32D8D450F7D05DD074AF6E39200F /* PBXContainerItemProxy */;
+			target = 1104FBC8A289E8A8C683E61D07481FF1 /* DCCJConfig */;
+			targetProxy = 03CED1CC8D92F8ECF1F073751A09A49C /* PBXContainerItemProxy */;
+		};
+		8CBCCAB8473B3713B988EAE05E0B58CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DCCJLogin;
+			target = 428106461FAC0CCD28A0AAEACD0AA02A /* DCCJLogin */;
+			targetProxy = E1CFA5B89D45371F880BF9AAD8505806 /* PBXContainerItemProxy */;
+		};
+		97890BD7D0A533CF6D38F724B537F5E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyBeaver;
+			target = 48486D2B033DF7D1BD8F7F8E4BED0971 /* SwiftyBeaver */;
+			targetProxy = DBDE4A85DEFBB9087D31574C0AE06035 /* PBXContainerItemProxy */;
 		};
 		A185CBA5C0374207546D684A7C3D8243 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DCCJCashier;
-			target = 7D135AC8969C10ECC365637CB4BB4D21 /* DCCJCashier */;
+			target = C028AB5543A544B7CC9AA7039CED7B27 /* DCCJCashier */;
 			targetProxy = 11EC81B907A1371C923E184815345670 /* PBXContainerItemProxy */;
 		};
 		A35F10B4CF9C658D4F3FE4C244571C50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DCCJConfig;
-			target = 16398E04D6166D1D711FC7035618464A /* DCCJConfig */;
+			target = 1104FBC8A289E8A8C683E61D07481FF1 /* DCCJConfig */;
 			targetProxy = DABA8B1E181C29BFB61994CF5FE2336C /* PBXContainerItemProxy */;
+		};
+		A70827D564C610216A4C7047568F689B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyBeaver;
+			target = 48486D2B033DF7D1BD8F7F8E4BED0971 /* SwiftyBeaver */;
+			targetProxy = 32CCF64687715FCCFF8D5348DF9239DF /* PBXContainerItemProxy */;
+		};
+		A7D2D80FB792578A8BB826991AC79FD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DCCJMessageCenter;
+			target = D375F2CADE53C6CD6C328DB780E06FAA /* DCCJMessageCenter */;
+			targetProxy = 713F713C01D16605BA748A074AC46B25 /* PBXContainerItemProxy */;
 		};
 		A8A4DA40AAD7AB7AA2EE5FB221517438 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1445,66 +1475,101 @@
 			target = EEA07A39861AAFA0A8DEE768B3A6CFE5 /* Pods-DCCJMiddleware_Example */;
 			targetProxy = 06F280BB6F9CDBB616B4A93E5293EBFD /* PBXContainerItemProxy */;
 		};
-		AFCEB283CBACD2FE5EBE963DD097291E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyBeaver;
-			target = 58C4790EC04031AD7E849CEB12F45806 /* SwiftyBeaver */;
-			targetProxy = EF7DB5B1B8E44B0B7ADABE11DBFA9B4A /* PBXContainerItemProxy */;
-		};
-		BA1E2659C4E1814116DFAB8E2E125C7F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DCCJConfig;
-			target = 16398E04D6166D1D711FC7035618464A /* DCCJConfig */;
-			targetProxy = FBC465096304BD883A47845212AF90AE /* PBXContainerItemProxy */;
-		};
-		D151DCBDF418EEAA3DCEC937B7C26271 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DCCJConfig;
-			target = 16398E04D6166D1D711FC7035618464A /* DCCJConfig */;
-			targetProxy = 02CBB13285E3180BC2D98B428DE59051 /* PBXContainerItemProxy */;
-		};
-		D431BC759C378F617EA5CFBBD7E493A7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DCCJConfig;
-			target = 16398E04D6166D1D711FC7035618464A /* DCCJConfig */;
-			targetProxy = 2FFD3CE81ED165DC5BF0D742AC0655B0 /* PBXContainerItemProxy */;
-		};
-		DB89AA9DC7C1A92253D3E8A68A417338 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DCCJLogin;
-			target = 428106461FAC0CCD28A0AAEACD0AA02A /* DCCJLogin */;
-			targetProxy = 55BAB729783C2AE0379B9FE9AB12E7A4 /* PBXContainerItemProxy */;
-		};
-		E2143A189439CB4846452E6C4D0EF9BC /* PBXTargetDependency */ = {
+		D5AEBFB00B31742244148D054C141300 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DCCJNetwork;
-			target = 26CCF814C84E4AD98DEC97F6071E3AA4 /* DCCJNetwork */;
-			targetProxy = C1A4B8A2C0129823DB2D6EB476DBBE8F /* PBXContainerItemProxy */;
+			target = 50F1B5066DF6AD377251C1C0C4CD611C /* DCCJNetwork */;
+			targetProxy = A41BDD717CCC71CD18CA960E9EBE1468 /* PBXContainerItemProxy */;
+		};
+		DD58043F0A16646C2B33E92D0EF3BDC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DCCJConfig;
+			target = 1104FBC8A289E8A8C683E61D07481FF1 /* DCCJConfig */;
+			targetProxy = FA8E5CD644C139E419F6DEAEC70ECC1E /* PBXContainerItemProxy */;
 		};
 		F6A584560A69471AA6760DC7190F1F62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DCCJConfig;
-			target = 16398E04D6166D1D711FC7035618464A /* DCCJConfig */;
+			target = 1104FBC8A289E8A8C683E61D07481FF1 /* DCCJConfig */;
 			targetProxy = 434C897B87EE7340A45AB859C1CC86CA /* PBXContainerItemProxy */;
-		};
-		FC0EA7EFE0AB8986734D7BA336E4E2E2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DCCJNetwork;
-			target = 26CCF814C84E4AD98DEC97F6071E3AA4 /* DCCJNetwork */;
-			targetProxy = 12071CF8A3832FE414B2B525997DE0C9 /* PBXContainerItemProxy */;
 		};
 		FC71A53A593D034F2E53E71DE755BAC3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DCCJConfig;
-			target = 16398E04D6166D1D711FC7035618464A /* DCCJConfig */;
+			target = 1104FBC8A289E8A8C683E61D07481FF1 /* DCCJConfig */;
 			targetProxy = 20D71BCF37BA3CAAD6DFAA96D0F4DA99 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		019414F27B64218109236ABC61F9A2D6 /* Release */ = {
+		06FC4021EEE872B7F10A8943375C767A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46AC6641A979D97EA40979C41D1C86D4 /* DCCJCashier.xcconfig */;
+			baseConfigurationReference = 27B82FB46525B4645004F4C1B3DE881E /* SwiftyBeaver.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyBeaver;
+				PRODUCT_NAME = SwiftyBeaver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		083134D359EDC515E7310112DE82F72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 085D21981A60FB8D4CC0CC033E109C66 /* DCCJConfig.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DCCJConfig/DCCJConfig-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCCJConfig/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DCCJConfig/DCCJConfig.modulemap";
+				PRODUCT_MODULE_NAME = DCCJConfig;
+				PRODUCT_NAME = DCCJConfig;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		093CF06202E6CD9763301BB0EF1A963D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED35D2999BFD59BC7A54F929F7F3989F /* DCCJCashier.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1535,41 +1600,9 @@
 			};
 			name = Release;
 		};
-		1270923889AAC1EB57D3E4C91D12C065 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD069D45D097A16A010C7690CC27DF1F /* DCCJConfig.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DCCJConfig/DCCJConfig-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DCCJConfig/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DCCJConfig/DCCJConfig.modulemap";
-				PRODUCT_MODULE_NAME = DCCJConfig;
-				PRODUCT_NAME = DCCJConfig;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1AD8ED1FE67DF5D4B47CDBBCCA325207 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D54ADEFF8D153B145BD168670381D877 /* DCCJLogin.xcconfig */;
+			baseConfigurationReference = 95CA616EE6C6A7759ECC99A6139C0510 /* DCCJLogin.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1633,269 +1666,9 @@
 			};
 			name = Debug;
 		};
-		34A7F41D62A537F2DBB75654863F5069 /* Release */ = {
+		240F438EA21A9ADBE48222FB0BDDE255 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15E2467D9F181F61B1D085832ED90D9F /* DCCJUser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DCCJUser/DCCJUser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DCCJUser/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DCCJUser/DCCJUser.modulemap";
-				PRODUCT_MODULE_NAME = DCCJUser;
-				PRODUCT_NAME = DCCJUser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		34B11BAEC6D91D6E5EB655467B7949A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15E2467D9F181F61B1D085832ED90D9F /* DCCJUser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DCCJUser/DCCJUser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DCCJUser/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DCCJUser/DCCJUser.modulemap";
-				PRODUCT_MODULE_NAME = DCCJUser;
-				PRODUCT_NAME = DCCJUser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5200DD709B3B27D15BB42131771FB6FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F731E71FEEEC46E36BE5F04EF3CA31FF /* SwiftyBeaver.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyBeaver;
-				PRODUCT_NAME = SwiftyBeaver;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		52138DF6389A5E58BB4CFACAF72E7001 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE243326379C23BBB1B5DFD9A900039E /* DCCJNetwork.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DCCJNetwork/DCCJNetwork-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DCCJNetwork/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DCCJNetwork/DCCJNetwork.modulemap";
-				PRODUCT_MODULE_NAME = DCCJNetwork;
-				PRODUCT_NAME = DCCJNetwork;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		570225601E20F739E8EF5B86C0ABB7D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8D601300D1336034EA6BBBF3643B272 /* DCCJMessageCenter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DCCJMessageCenter/DCCJMessageCenter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DCCJMessageCenter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DCCJMessageCenter/DCCJMessageCenter.modulemap";
-				PRODUCT_MODULE_NAME = DCCJMessageCenter;
-				PRODUCT_NAME = DCCJMessageCenter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6213CC10E98D50E34B383126EE4B39A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46AC6641A979D97EA40979C41D1C86D4 /* DCCJCashier.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DCCJCashier/DCCJCashier-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DCCJCashier/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DCCJCashier/DCCJCashier.modulemap";
-				PRODUCT_MODULE_NAME = DCCJCashier;
-				PRODUCT_NAME = DCCJCashier;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		657C198E66EBDADC854C0901474E3E2B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD069D45D097A16A010C7690CC27DF1F /* DCCJConfig.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DCCJConfig/DCCJConfig-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DCCJConfig/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DCCJConfig/DCCJConfig.modulemap";
-				PRODUCT_MODULE_NAME = DCCJConfig;
-				PRODUCT_NAME = DCCJConfig;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		66A0DA0B227967649DD637929E9AD7AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE243326379C23BBB1B5DFD9A900039E /* DCCJNetwork.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DCCJNetwork/DCCJNetwork-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DCCJNetwork/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DCCJNetwork/DCCJNetwork.modulemap";
-				PRODUCT_MODULE_NAME = DCCJNetwork;
-				PRODUCT_NAME = DCCJNetwork;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		66D4E68D3C58D8A4BA7217044E3503B2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7305671C9CD0F5721B2D8681529BB0D6 /* DCCJMiddleware.xcconfig */;
+			baseConfigurationReference = 872A9D0868F30DE8196D49DD7D66BF4C /* DCCJMiddleware.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1925,6 +1698,135 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		30F8F179E03E49B0873405BFF4A1E3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 085D21981A60FB8D4CC0CC033E109C66 /* DCCJConfig.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DCCJConfig/DCCJConfig-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCCJConfig/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DCCJConfig/DCCJConfig.modulemap";
+				PRODUCT_MODULE_NAME = DCCJConfig;
+				PRODUCT_NAME = DCCJConfig;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		313A59447F4272BC2EFEF044665DB63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90FB6DE32395888CAB54692F264F74B /* DCCJUser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DCCJUser/DCCJUser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCCJUser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DCCJUser/DCCJUser.modulemap";
+				PRODUCT_MODULE_NAME = DCCJUser;
+				PRODUCT_NAME = DCCJUser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D3C8F3935FDB5C95F0F4BE173E9FD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E90FB6DE32395888CAB54692F264F74B /* DCCJUser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DCCJUser/DCCJUser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCCJUser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DCCJUser/DCCJUser.modulemap";
+				PRODUCT_MODULE_NAME = DCCJUser;
+				PRODUCT_NAME = DCCJUser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		570225601E20F739E8EF5B86C0ABB7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3150C8F14B070842FCE4BBB9F72515F /* DCCJMessageCenter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DCCJMessageCenter/DCCJMessageCenter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCCJMessageCenter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DCCJMessageCenter/DCCJMessageCenter.modulemap";
+				PRODUCT_MODULE_NAME = DCCJMessageCenter;
+				PRODUCT_NAME = DCCJMessageCenter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		82811CBC606D01DA28E9668BBAC73F6E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2025,7 +1927,7 @@
 		};
 		955224751C0F051D040C132161DACF00 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D54ADEFF8D153B145BD168670381D877 /* DCCJLogin.xcconfig */;
+			baseConfigurationReference = 95CA616EE6C6A7759ECC99A6139C0510 /* DCCJLogin.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2055,9 +1957,9 @@
 			};
 			name = Debug;
 		};
-		99AD3C9B9A87E3571DB8C05E862ADC75 /* Debug */ = {
+		A100080F2F8CDBD27C21C1FF306B123A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7305671C9CD0F5721B2D8681529BB0D6 /* DCCJMiddleware.xcconfig */;
+			baseConfigurationReference = ED35D2999BFD59BC7A54F929F7F3989F /* DCCJCashier.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2068,14 +1970,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DCCJMiddleware/DCCJMiddleware-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DCCJMiddleware/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DCCJCashier/DCCJCashier-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCCJCashier/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DCCJMiddleware/DCCJMiddleware.modulemap";
-				PRODUCT_MODULE_NAME = DCCJMiddleware;
-				PRODUCT_NAME = DCCJMiddleware;
+				MODULEMAP_FILE = "Target Support Files/DCCJCashier/DCCJCashier.modulemap";
+				PRODUCT_MODULE_NAME = DCCJCashier;
+				PRODUCT_NAME = DCCJCashier;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -2146,9 +2048,9 @@
 			};
 			name = Release;
 		};
-		C1C071FA6F0BA7322AF636BFB0903A67 /* Debug */ = {
+		B89B457D4DF5BB30E7344F09C8E6A9F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F731E71FEEEC46E36BE5F04EF3CA31FF /* SwiftyBeaver.xcconfig */;
+			baseConfigurationReference = 1076D376CF2B7BB8ADDD90B2E8FE9EE6 /* DCCJNetwork.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2159,14 +2061,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DCCJNetwork/DCCJNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCCJNetwork/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyBeaver;
-				PRODUCT_NAME = SwiftyBeaver;
+				MODULEMAP_FILE = "Target Support Files/DCCJNetwork/DCCJNetwork.modulemap";
+				PRODUCT_MODULE_NAME = DCCJNetwork;
+				PRODUCT_NAME = DCCJNetwork;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -2248,9 +2150,74 @@
 			};
 			name = Debug;
 		};
+		E4DAE8EEC8CEEE07F30CE33A3B300F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872A9D0868F30DE8196D49DD7D66BF4C /* DCCJMiddleware.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DCCJMiddleware/DCCJMiddleware-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCCJMiddleware/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DCCJMiddleware/DCCJMiddleware.modulemap";
+				PRODUCT_MODULE_NAME = DCCJMiddleware;
+				PRODUCT_NAME = DCCJMiddleware;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E98DFA37B59BCA06EE5EE32B20E2CE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1076D376CF2B7BB8ADDD90B2E8FE9EE6 /* DCCJNetwork.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DCCJNetwork/DCCJNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DCCJNetwork/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DCCJNetwork/DCCJNetwork.modulemap";
+				PRODUCT_MODULE_NAME = DCCJNetwork;
+				PRODUCT_NAME = DCCJNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F88205EB12B079AFF3FE450955D631A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8D601300D1336034EA6BBBF3643B272 /* DCCJMessageCenter.xcconfig */;
+			baseConfigurationReference = E3150C8F14B070842FCE4BBB9F72515F /* DCCJMessageCenter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2281,14 +2248,56 @@
 			};
 			name = Release;
 		};
+		FF8214E3F435925CFD55986F3912E95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27B82FB46525B4645004F4C1B3DE881E /* SwiftyBeaver.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyBeaver;
+				PRODUCT_NAME = SwiftyBeaver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03A6585FDEA3AAB0A50288CC2E4FE267 /* Build configuration list for PBXNativeTarget "DCCJNetwork" */ = {
+		035D271E51FC35676370F0B8F9E76D17 /* Build configuration list for PBXNativeTarget "DCCJNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52138DF6389A5E58BB4CFACAF72E7001 /* Debug */,
-				66A0DA0B227967649DD637929E9AD7AF /* Release */,
+				B89B457D4DF5BB30E7344F09C8E6A9F1 /* Debug */,
+				E98DFA37B59BCA06EE5EE32B20E2CE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B9F5A4942C6D9ED19C4069D0E4AC30F /* Build configuration list for PBXNativeTarget "DCCJCashier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100080F2F8CDBD27C21C1FF306B123A /* Debug */,
+				093CF06202E6CD9763301BB0EF1A963D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2302,11 +2311,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A617118199F0D9C0799FA7762BF956F /* Build configuration list for PBXNativeTarget "DCCJMiddleware" */ = {
+		6337D087A8D39CEE0148DB105698CA8E /* Build configuration list for PBXNativeTarget "DCCJMiddleware" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99AD3C9B9A87E3571DB8C05E862ADC75 /* Debug */,
-				66D4E68D3C58D8A4BA7217044E3503B2 /* Release */,
+				E4DAE8EEC8CEEE07F30CE33A3B300F91 /* Debug */,
+				240F438EA21A9ADBE48222FB0BDDE255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2329,11 +2338,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C9F7C9E4E2628F036B929287228228A /* Build configuration list for PBXNativeTarget "DCCJCashier" */ = {
+		709DE37C6FC39BC6874D208433033BA1 /* Build configuration list for PBXNativeTarget "DCCJUser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6213CC10E98D50E34B383126EE4B39A8 /* Debug */,
-				019414F27B64218109236ABC61F9A2D6 /* Release */,
+				4D3C8F3935FDB5C95F0F4BE173E9FD6E /* Debug */,
+				313A59447F4272BC2EFEF044665DB63C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2347,11 +2356,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C68E13FC61A39B9B941191366E20792A /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */ = {
+		9AA95FE1E976E2DF36B97C221AEFF523 /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1C071FA6F0BA7322AF636BFB0903A67 /* Debug */,
-				5200DD709B3B27D15BB42131771FB6FF /* Release */,
+				06FC4021EEE872B7F10A8943375C767A /* Debug */,
+				FF8214E3F435925CFD55986F3912E95F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14938D9155455A507B5F3E84ED119C9 /* Build configuration list for PBXNativeTarget "DCCJConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F8F179E03E49B0873405BFF4A1E3F5 /* Debug */,
+				083134D359EDC515E7310112DE82F72F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2361,24 +2379,6 @@
 			buildConfigurations = (
 				570225601E20F739E8EF5B86C0ABB7D3 /* Debug */,
 				F88205EB12B079AFF3FE450955D631A3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ED5DF619EA6765862AB3BC2D9F9A9CA0 /* Build configuration list for PBXNativeTarget "DCCJConfig" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1270923889AAC1EB57D3E4C91D12C065 /* Debug */,
-				657C198E66EBDADC854C0901474E3E2B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FEF349F4D5659BEC9F5EBCA890C679CE /* Build configuration list for PBXNativeTarget "DCCJUser" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				34B11BAEC6D91D6E5EB655467B7949A0 /* Debug */,
-				34A7F41D62A537F2DBB75654863F5069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

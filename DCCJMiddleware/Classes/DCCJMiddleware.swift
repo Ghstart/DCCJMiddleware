@@ -14,31 +14,16 @@ import DCCJLogin
 
 public class DCCJMiddleware {
    
-    public lazy var userManager    = DCCJUser()
-    public lazy var cashier        = DCCJCashier()
-    private lazy var network       = DCCJNetwork.shared
-    
-    public init() {
+    public static let shared        = DCCJMiddleware()
+    public lazy var network         = DCCJNetwork()
+    public lazy var userManager     = DCCJUser()
+    public lazy var cashier         = DCCJCashier(net: network)
+    public lazy var messageCenter   = DCCJMessageCenter(net: network)
+    public lazy var login           = DCCJLogin(net: network)
+
+    private init() {
         self.network.delegate = self
         self.network.dataSource = self
-    }
-}
-
-extension DCCJMiddleware: CashierFactory {
-    public func makeCashier() -> DCCJCashier {
-        return self.cashier
-    }
-}
-
-extension DCCJMiddleware: MessageCenterFactory {
-    public func makeMessageCenter() -> DCCJMessageCenter {
-        return DCCJMessageCenter()
-    }
-}
-
-extension DCCJMiddleware: LoginFactory {
-    public func makeLogin() -> DCCJLogin {
-        return DCCJLogin()
     }
 }
 

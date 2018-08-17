@@ -12,9 +12,11 @@ import DCCJConfig
 
 public final class DCCJLogin {
     
-    private let network: DCCJNetwork = DCCJNetwork.shared
+    private let network: DCCJNetwork
     
-    public init() {}
+    public init(net: DCCJNetwork) {
+        self.network = net
+    }
     
     public func request(with r: LoginRequests) -> (data: Future<Data>, task: URLSessionDataTask?) {
         return self.network.request(with: r)
@@ -184,9 +186,8 @@ extension LoginRequests: Request {
         return DCCJUserInfoModel.Type.self as! Codable
     }
     
-    public var host: String {
-
-        return DCCJNetwork.shared.hostMaps[.staging]!
+    public var host: NetworkEnvironment {
+        return .staging
     }
     
     public var path: String {

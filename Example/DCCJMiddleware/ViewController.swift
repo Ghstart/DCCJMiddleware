@@ -17,19 +17,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let middle = DCCJMiddleware()
+        let middle = DCCJMiddleware.shared
         // 1.
-        middle.makeMessageCenter().send(with: MessageCenterRequest.sendMessage(type: .login, phone: "120")).data.observe { (result: Result<MessageCenterResponse>) in
+        middle.messageCenter.send(with: MessageCenterRequest.sendMessage(type: .login, phone: "120")).data.observe { (result: Result<MessageCenterResponse>) in
             
         }
         
         // 2.
-        middle.makeMessageCenter().send(with: MessageCenterRequest.verifyMessage(type: .thirdBind, phone: "110", code: "8899")).data.observe { (result: Result<MessageCenterResponse>) in
+        middle.messageCenter.send(with: MessageCenterRequest.verifyMessage(type: .thirdBind, phone: "110", code: "8899")).data.observe { (result: Result<MessageCenterResponse>) in
             
         }
    
         // Login request
-        middle.makeLogin().request(with: LoginRequests.send(type: .checkPayPWD, data: [String: Any]())).data.observe { (result: Result<DCCJCheckVersionModel>) in
+        middle.login.request(with: LoginRequests.send(type: .checkPayPWD, data: [String: Any]())).data.observe { (result: Result<DCCJCheckVersionModel>) in
             
         }
     }

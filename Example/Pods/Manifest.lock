@@ -1,26 +1,26 @@
 PODS:
-  - DCCJCashier (0.3.8):
+  - DCCJCashier (0.4.0):
+    - DCCJNetwork (~> 0.3.9)
+  - DCCJConfig (0.2.0):
+    - DCCJConfig/DataManagerError (= 0.2.0)
+    - DCCJConfig/Result (= 0.2.0)
+  - DCCJConfig/DataManagerError (0.2.0)
+  - DCCJConfig/Result (0.2.0)
+  - DCCJLogin (0.1.8):
     - DCCJNetwork (~> 0.3.7)
-  - DCCJConfig (0.1.8):
-    - DCCJConfig/DataManagerError (= 0.1.8)
-    - DCCJConfig/Result (= 0.1.8)
-  - DCCJConfig/DataManagerError (0.1.8)
-  - DCCJConfig/Result (0.1.8)
-  - DCCJLogin (0.1.7):
-    - DCCJNetwork (~> 0.3.6)
-  - DCCJMessageCenter (0.1.9):
-    - DCCJNetwork (~> 0.3.6)
-  - DCCJMiddleware (0.3.1):
-    - DCCJCashier (~> 0.3.8)
+  - DCCJMessageCenter (0.2.1):
+    - DCCJNetwork (~> 0.3.9)
+  - DCCJMiddleware (0.3.2):
+    - DCCJCashier (~> 0.4.0)
     - DCCJLogin (~> 0.1.7)
-    - DCCJMessageCenter (~> 0.1.9)
-    - DCCJNetwork (~> 0.3.7)
-    - DCCJUser (~> 0.1.5)
-  - DCCJNetwork (0.3.7):
-    - DCCJConfig (~> 0.1.8)
+    - DCCJMessageCenter (~> 0.2.1)
+    - DCCJNetwork (~> 0.3.9)
+    - DCCJUser (~> 0.1.7)
+  - DCCJNetwork (0.3.9):
+    - DCCJConfig (~> 0.2.0)
     - SwiftyBeaver
-  - DCCJUser (0.1.5):
-    - DCCJConfig (~> 0.1.8)
+  - DCCJUser (0.1.7):
+    - DCCJConfig (~> 0.2.0)
   - SwiftyBeaver (1.6.0)
 
 DEPENDENCIES:
@@ -41,13 +41,13 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DCCJCashier: 631440bec81b8300344ff4aa6aaa8b57b96a58b7
-  DCCJConfig: a3dd6b8edf21e9a79d45bd0bee5287fa9b2473dc
-  DCCJLogin: 88fbefc0a57e1332c6cfa95277a4dd93bf96a0f5
-  DCCJMessageCenter: d02b276f570ebfffa773a00796e5e62448302352
-  DCCJMiddleware: 5df43565965ea66072fc37cb2d7bfffd93aff4ff
-  DCCJNetwork: 1e26928bb34af6709be6f39bc985bdaf7935ce47
-  DCCJUser: a1ad1ac5cbf02c25ad0c5e6d91d05e77e6fd7b93
+  DCCJCashier: 32c32d87f4b4367a46363f2c4c5d6fda6ae30f40
+  DCCJConfig: afc210622d5249ed0a5f0373d72ee12324489435
+  DCCJLogin: 949974aae3d9cbe4af813660872c02f6e1a142f8
+  DCCJMessageCenter: 4e6666f001b06b736a9ea67889b1f6c97bae2f6d
+  DCCJMiddleware: 30473b4c49300d22c2afde1ad29fcb7a76e49d16
+  DCCJNetwork: 9be63a4d8646a672151fba30ae4e8181fcef0a0f
+  DCCJUser: e7634fa978593b3f6c488146cae4ce7a16c1cad2
   SwiftyBeaver: e45759613e50b522b0e6f53b1f0f14389b45ca34
 
 PODFILE CHECKSUM: 6b8ae2714bca679ebac4f09469cd2eb9682159a0
