@@ -44,5 +44,5 @@ Pod::Spec.new do |s|
   s.dependency 'DCCJUser', '~> 0.1.7'
   s.dependency 'DCCJMessageCenter', '~> 0.2.1'
   s.dependency 'DCCJNetwork', '~> 0.3.9'
-  s.dependency 'DCCJLogin', '~> 0.1.7'
+  s.dependency 'DCCJLogin', '~> 0.1.9'
 end
