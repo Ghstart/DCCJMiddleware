@@ -11,6 +11,7 @@ import DCCJCashier
 import DCCJMessageCenter
 import DCCJNetwork
 import DCCJLogin
+import DCCJCycleLoan
 
 public class DCCJMiddleware {
    
@@ -20,6 +21,7 @@ public class DCCJMiddleware {
     public lazy var cashier         = DCCJCashier(net: network)
     public lazy var messageCenter   = DCCJMessageCenter(net: network)
     public lazy var login           = DCCJLogin(net: network)
+    public lazy var cycleLoan       = DCCJCycleLoan(net: network)
 
     private init() {
         self.network.delegate = self

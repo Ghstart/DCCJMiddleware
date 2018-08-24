@@ -297,6 +297,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-DCCJMiddleware_Example/Pods-DCCJMiddleware_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DCCJCashier/DCCJCashier.framework",
 				"${BUILT_PRODUCTS_DIR}/DCCJConfig/DCCJConfig.framework",
+				"${BUILT_PRODUCTS_DIR}/DCCJCycleLoan/DCCJCycleLoan.framework",
 				"${BUILT_PRODUCTS_DIR}/DCCJLogin/DCCJLogin.framework",
 				"${BUILT_PRODUCTS_DIR}/DCCJMessageCenter/DCCJMessageCenter.framework",
 				"${BUILT_PRODUCTS_DIR}/DCCJMiddleware/DCCJMiddleware.framework",
@@ -308,6 +309,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJCashier.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJConfig.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJCycleLoan.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJLogin.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJMessageCenter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DCCJMiddleware.framework",

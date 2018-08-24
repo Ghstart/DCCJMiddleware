@@ -1,0 +1,6 @@
+framework module DCCJCycleLoan {
+  umbrella header "DCCJCycleLoan-umbrella.h"
+
+  export *
+  module * { export * }
+}
