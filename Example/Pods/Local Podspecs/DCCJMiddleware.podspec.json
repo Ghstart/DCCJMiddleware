@@ -1,6 +1,6 @@
 {
   "name": "DCCJMiddleware",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "summary": "A Middleware Modules can decouple individual business components.",
   "description": "A Middleware Modules can decouple individual business components.\nDependent on: Network, Gateway and some base lower modules\nUsed By: Some business components such as Login, cashier...",
   "homepage": "https://github.com/Ghstart/DCCJMiddleware",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Ghstart/DCCJMiddleware.git",
-    "tag": "0.3.6"
+    "tag": "0.3.7"
   },
   "platforms": {
     "ios": "9.0"
@@ -21,7 +21,7 @@
   "source_files": "DCCJMiddleware/Classes/**/*",
   "dependencies": {
     "DCCJCashier": [
-      "~> 0.4.8"
+      "~> 0.4.9"
     ],
     "DCCJUser": [
       "~> 0.1.8"
