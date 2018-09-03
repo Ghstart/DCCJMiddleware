@@ -9,16 +9,16 @@ import UIKit
 import Foundation
 
 public struct DCCJCycleLoanAuthResultInfo: Codable {
-    let result: DCCJCycleLoanIdentifyStatusResponse?
-    let success: Bool
-    let message: String?
+    public let result: DCCJCycleLoanIdentifyStatusResponse?
+    public let success: Bool
+    public let message: String?
 }
 
 public struct DCCJCycleLoanAuthResultInfoResponse: Codable {
-    let cardPhotoFront: String
-    let cardPhotoReverse: String
-    let idCard: String
-    let name: String
-    let orderNo: String
-    let status: Int
+    public let cardPhotoFront: String
+    public let cardPhotoReverse: String
+    public let idCard: String
+    public let name: String
+    public let orderNo: String
+    public let status: Int
 }

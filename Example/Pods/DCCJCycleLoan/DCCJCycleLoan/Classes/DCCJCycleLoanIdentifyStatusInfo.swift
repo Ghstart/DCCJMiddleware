@@ -9,13 +9,13 @@ import UIKit
 import Foundation
 
 public struct DCCJCycleLoanIdentifyStatusInfo: Codable {
-    let result: DCCJCycleLoanIdentifyStatusResponse?
-    let success: Bool
-    let message: String?
+    public let result: DCCJCycleLoanIdentifyStatusResponse?
+    public let success: Bool
+    public let message: String?
 }
 
 public struct DCCJCycleLoanIdentifyStatusResponse: Codable {
-    let baseStatus: Int
-    let contactStatus: Int
+    public let baseStatus: Int
+    public let contactStatus: Int
 
 }

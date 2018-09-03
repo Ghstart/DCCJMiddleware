@@ -9,15 +9,15 @@ import UIKit
 import Foundation
 
 public struct DCCJCycleLoanContactsInfo: Codable {
-    let result: DCCJCycleLoanContactsInfoResponse?
-    let success: Bool
-    let message: String?
+    public let result: DCCJCycleLoanContactsInfoResponse?
+    public let success: Bool
+    public let message: String?
 }
 
 public struct DCCJCycleLoanContactsInfoResponse: Codable {
-    let memberId: String
-    let linealKinPhone: String
-    let linealKinName: String
-    let firendName: Bool
-    let firendPhone: Bool
+    public let memberId: String
+    public let linealKinPhone: String
+    public let linealKinName: String
+    public let firendName: Bool
+    public let firendPhone: Bool
 }

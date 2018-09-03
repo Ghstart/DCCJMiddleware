@@ -8,12 +8,12 @@
 
 import Foundation
 public struct DCCJAdInfoModel: Codable {
-    let result: DCCJGetAdInfoResponse?
-    let success: Bool
-    let message: String?
+    public let result: DCCJGetAdInfoResponse?
+    public let success: Bool
+    public let message: String?
 }
 
 public struct DCCJGetAdInfoResponse: Codable {
-    let AdImageURL: String
-    let AppLinkURL: String
+    public let AdImageURL: String
+    public let AppLinkURL: String
 }

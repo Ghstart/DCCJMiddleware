@@ -9,18 +9,18 @@ import UIKit
 import Foundation
 
 public struct DCCJCycleLoanPersonInfo: Codable {
-    let result: DCCJCycleLoanPersonInfoResponse?
-    let success: Bool
-    let message: String?
+    public let result: DCCJCycleLoanPersonInfoResponse?
+    public let success: Bool
+    public let message: String?
 }
 
 public struct DCCJCycleLoanPersonInfoResponse: Codable {
-    let provinceCode: String
-    let provinceName: String
-    let cityCode: String
-    let cityName: String
-    let rangeCode: String
-    let rangeName: String
-    let district: String
-    let mail: String
+    public let provinceCode: String
+    public let provinceName: String
+    public let cityCode: String
+    public let cityName: String
+    public let rangeCode: String
+    public let rangeName: String
+    public let district: String
+    public let mail: String
 }

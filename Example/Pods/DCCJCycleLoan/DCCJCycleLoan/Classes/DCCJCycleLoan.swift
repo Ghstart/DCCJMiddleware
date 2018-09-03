@@ -47,9 +47,9 @@ public enum CycleLoanRequests {
 }
 
 extension CycleLoanRequests: Request {
-//    var response: Codable {
-////        return DCCJUserInfoModel.Type.self as! Codable
-//    }
+    var response: Codable {
+        return DCCJCycleLoanIdentifyStatusInfo.Type.self as! Codable
+    }
     
     public var host: NetworkEnvironment {
         

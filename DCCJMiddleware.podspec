@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DCCJMiddleware'
-  s.version          = '0.3.7'
+  s.version          = '0.3.8'
   s.summary          = 'A Middleware Modules can decouple individual business components.'
 
 # This description is used to generate tags and improve search results.
@@ -45,5 +45,5 @@ Pod::Spec.new do |s|
   s.dependency 'DCCJMessageCenter', '~> 0.2.6'
   s.dependency 'DCCJNetwork', '~> 0.4.1'
   s.dependency 'DCCJLogin', '~> 0.2.1'
-  s.dependency 'DCCJCycleLoan', '~> 0.1.2'
+  s.dependency 'DCCJCycleLoan', '~> 0.1.4'
 end

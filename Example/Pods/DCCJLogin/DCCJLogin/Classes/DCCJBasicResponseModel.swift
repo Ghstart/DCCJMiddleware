@@ -8,6 +8,6 @@
 
 import Foundation
 public struct DCCJBasicResponseModel: Codable {
-    let success: Bool
-    let message: String?
+    public let success: Bool
+    public let message: String?
 }

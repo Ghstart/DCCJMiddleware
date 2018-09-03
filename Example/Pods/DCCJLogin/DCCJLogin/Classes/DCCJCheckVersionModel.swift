@@ -8,16 +8,16 @@
 
 import Foundation
 public struct DCCJCheckVersionModel: Codable {
-    let result: DCCJGetAdInfoResponse?
-    let success: Bool
-    let message: String?
+    public let result: DCCJGetAdInfoResponse?
+    public let success: Bool
+    public let message: String?
 }
 
 public struct DCCJCheckVersionResponse: Codable {
-    let downloadUrl: String
-    let iosVersion: String
-    let updateDescription: String
-    let updateName: String
-    let forceUpdate: Bool
-    let needUpdate: Bool
+    public let downloadUrl: String
+    public let iosVersion: String
+    public let updateDescription: String
+    public let updateName: String
+    public let forceUpdate: Bool
+    public let needUpdate: Bool
 }

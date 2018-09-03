@@ -14,14 +14,14 @@
 
 import Foundation
 public struct DCCJLoginRegistModel: Codable {
-    let result: DCCJLoginRegistResponse?
-    let success: Bool
-    let message: String?
+    public let result: DCCJLoginRegistResponse?
+    public let success: Bool
+    public let message: String?
 }
 
 public struct DCCJLoginRegistResponse: Codable {
-    let accessToken: String
-    let userInfo: DCCJUserInfoResponse
+    public let accessToken: String
+    public let userInfo: DCCJUserInfoResponse
 }
 
 
