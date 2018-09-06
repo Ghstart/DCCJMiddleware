@@ -53,7 +53,7 @@ extension CycleLoanRequests: Request {
     
     public var host: NetworkEnvironment {
         
-        return .staging
+        return .production
     }
     
     public var path: String {

@@ -15,9 +15,9 @@ public struct DCCJCycleLoanContactsInfo: Codable {
 }
 
 public struct DCCJCycleLoanContactsInfoResponse: Codable {
-    public let memberId: String
-    public let linealKinPhone: String
-    public let linealKinName: String
-    public let firendName: Bool
-    public let firendPhone: Bool
+    public let memberId: String?
+    public let linealKinPhone: String?
+    public let linealKinName: String?
+    public let spouseName: String?
+    public let spousePhone: String?
 }
