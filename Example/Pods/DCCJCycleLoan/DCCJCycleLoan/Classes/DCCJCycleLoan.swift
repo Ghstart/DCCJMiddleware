@@ -40,6 +40,9 @@ public enum ObjcCycleLoanRequests {
     case personalContacts
     case findUserContactInfo
     case insertOCRInfo
+    case scanCode
+    case checkIdCard
+    case findIdentityInfo
 }
 
 public enum CycleLoanRequests {
@@ -82,6 +85,12 @@ extension CycleLoanRequests: Request {
                 return "live/circleCredit/findUserContactsInfo"
             case .insertOCRInfo:
                 return "live/circleCredit/insertBaseInfo"
+            case .scanCode:
+                return "live/financePlan/scanCode"
+            case .checkIdCard:
+                return "live/circleCredit/checkIdCard"
+            case .findIdentityInfo:
+                return "live/circleCredit/findIdentityInfo"
             }
         }
     }
@@ -112,6 +121,12 @@ extension CycleLoanRequests: Request {
                 return .GET
             case .insertOCRInfo:
                 return .POST
+            case .scanCode:
+                return .GET
+            case .checkIdCard:
+                return .GET
+            case .findIdentityInfo:
+                return .GET
             }
         }
     }

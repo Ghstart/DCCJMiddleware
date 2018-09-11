@@ -175,6 +175,7 @@ public enum ObjcLoginRequests {
     case verifyUserIdentify
     case getUserAccount
     case checkVersion
+    case weixinLogin
 }
 
 public enum LoginRequests {
@@ -215,6 +216,8 @@ extension LoginRequests: Request {
                 return "api/app/Cashier/getUserInfo"
             case .checkVersion:
                 return "api/app/Base/getAppVersion"
+            case .weixinLogin:
+                return "/api/app/User/v2/login"
             }
         }
     }
