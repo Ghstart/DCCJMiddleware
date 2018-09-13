@@ -9,7 +9,7 @@ import UIKit
 import Foundation
 
 public struct DCCJCycleLoanAuthResultInfo: Codable {
-    public let result: DCCJCycleLoanIdentifyStatusResponse?
+    public let result: DCCJCycleLoanAuthResultInfoResponse?
     public let success: Bool
     public let message: String?
 }

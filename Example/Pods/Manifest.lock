@@ -1,21 +1,21 @@
 PODS:
-  - DCCJCashier (0.5.2):
+  - DCCJCashier (0.5.3):
     - DCCJNetwork (~> 0.4.1)
   - DCCJConfig (0.2.3):
     - DCCJConfig/DataManagerError (= 0.2.3)
     - DCCJConfig/Result (= 0.2.3)
   - DCCJConfig/DataManagerError (0.2.3)
   - DCCJConfig/Result (0.2.3)
-  - DCCJCycleLoan (0.1.7):
+  - DCCJCycleLoan (0.1.8):
     - DCCJNetwork (~> 0.4.1)
-  - DCCJLogin (0.2.3):
+  - DCCJLogin (0.2.4):
     - DCCJNetwork (~> 0.4.1)
   - DCCJMessageCenter (0.2.8):
     - DCCJNetwork (~> 0.4.1)
-  - DCCJMiddleware (0.4.1):
-    - DCCJCashier (~> 0.5.2)
-    - DCCJCycleLoan (~> 0.1.6)
-    - DCCJLogin (~> 0.2.3)
+  - DCCJMiddleware (0.4.2):
+    - DCCJCashier (~> 0.5.3)
+    - DCCJCycleLoan (~> 0.1.8)
+    - DCCJLogin (~> 0.2.4)
     - DCCJMessageCenter (~> 0.2.8)
     - DCCJNetwork (~> 0.4.1)
     - DCCJUser (~> 0.1.8)
@@ -45,12 +45,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DCCJCashier: 835c8e05072cf310bda3fe39c51422beb455cbe1
+  DCCJCashier: 3156d516e870c02073cfebea5ce4396c1ae5d207
   DCCJConfig: dca67365fabf38b598c321627bc87ece2ed097c8
-  DCCJCycleLoan: e9c4fd62e89818dc7db8ce676b05efdf0b33540a
-  DCCJLogin: 67fb26cbce4ba209bbc664894f7f854c3425e9bc
+  DCCJCycleLoan: da4e3e2819f8e5debe79740f6dbc837887ac0201
+  DCCJLogin: 8aea6bcdca2e6ee8ae60c185694ebc1c045952ba
   DCCJMessageCenter: 7509cbee13eace2aaa3853e0e6436de18dfc6c28
-  DCCJMiddleware: 90c46d0db1f043de989ff29a80e8a67c7e8bc41a
+  DCCJMiddleware: eddfb30f3f3d16b9d662e516c8495cda838860ed
   DCCJNetwork: 247ce77f46efb0d21ea864bc1166a076aab64382
   DCCJUser: 56c800db1c4ca94418746a1177e4a269caa43d58
   SwiftyBeaver: e45759613e50b522b0e6f53b1f0f14389b45ca34
