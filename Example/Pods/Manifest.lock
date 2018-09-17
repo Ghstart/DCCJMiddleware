@@ -12,17 +12,17 @@ PODS:
     - DCCJNetwork (~> 0.4.1)
   - DCCJMessageCenter (0.2.8):
     - DCCJNetwork (~> 0.4.1)
-  - DCCJMiddleware (0.4.2):
+  - DCCJMiddleware (0.4.3):
     - DCCJCashier (~> 0.5.3)
     - DCCJCycleLoan (~> 0.1.8)
     - DCCJLogin (~> 0.2.4)
     - DCCJMessageCenter (~> 0.2.8)
     - DCCJNetwork (~> 0.4.1)
-    - DCCJUser (~> 0.1.8)
+    - DCCJUser (~> 0.1.9)
   - DCCJNetwork (0.4.1):
     - DCCJConfig (~> 0.2.3)
     - SwiftyBeaver
-  - DCCJUser (0.1.8):
+  - DCCJUser (0.1.9):
     - DCCJConfig (~> 0.2.0)
   - SwiftyBeaver (1.6.0)
 
@@ -50,9 +50,9 @@ SPEC CHECKSUMS:
   DCCJCycleLoan: da4e3e2819f8e5debe79740f6dbc837887ac0201
   DCCJLogin: 8aea6bcdca2e6ee8ae60c185694ebc1c045952ba
   DCCJMessageCenter: 7509cbee13eace2aaa3853e0e6436de18dfc6c28
-  DCCJMiddleware: eddfb30f3f3d16b9d662e516c8495cda838860ed
+  DCCJMiddleware: 392b0761f10afc54f2c6904e93280c56bd2b19c4
   DCCJNetwork: 247ce77f46efb0d21ea864bc1166a076aab64382
-  DCCJUser: 56c800db1c4ca94418746a1177e4a269caa43d58
+  DCCJUser: 9aecc5a3a37594cfde036356fba5572963a39720
   SwiftyBeaver: e45759613e50b522b0e6f53b1f0f14389b45ca34
 
 PODFILE CHECKSUM: 6b8ae2714bca679ebac4f09469cd2eb9682159a0
